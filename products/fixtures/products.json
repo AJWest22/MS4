@@ -588,7 +588,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5004230059",
-        "name": "Assassin's Creed Unity",
+        "name": "Assassin's Creed Unity (Xbox One)",
         "description": "Set during the French Revolution in 1789, play as Arno as he embarks on a dangerous journey to expose the true powers and secrets behind the Revolution.",
         "price": 18.99,
         "category": 6,
@@ -601,7 +601,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5004310089",
-        "name": "Assassin's Creed Syndicate",
+        "name": "Assassin's Creed Syndicate (Xbox One)",
         "description": "Set during the Inductrial Revolution in 1868, join the twins Jacob and Evie Frye as they fight to rally and lead the underworld to break the corrupton of London",
         "price": 18.99,
         "category": 6,
@@ -614,7 +614,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5004610254",
-        "name": "Assassin's Creed Origins",
+        "name": "Assassin's Creed Origins (Xbox One)",
         "description": "Set in Ancient Egypt, the assassin Bayek's personal sotry is revealed, as he creates what becomes known as the Assassin Brotherhood.",
         "price": 18.99,
         "category": 6,
@@ -627,7 +627,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5004650050",
-        "name": "Assassin's Creed Valhalla",
+        "name": "Assassin's Creed Valhalla (Xbox One)",
         "description": "Play as a legendary Norse berserker, as you write you own story, on your quest for revenge. Assassin's Creed Valhalla, includes enhanced gameplay, and improved graphics.",
         "price": 18.99,
         "category": 6,
@@ -640,7 +640,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5004821375",
-        "name": "Assassin's Creed Odyssey",
+        "name": "Assassin's Creed Odyssey (Xbox One)",
         "description": "For the first time ever in Assassin's Creed, choose your character, and become an Ancient Greek hero. Assassin's Creed Odyssey gives the player complete control over not only their character, but also their journey, as their decisions shape the world around them.",
         "price": 18.99,
         "category": 6,
@@ -653,7 +653,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5004900522",
-        "name": "Grand Theft Auto V",
+        "name": "Grand Theft Auto V (Xbox One)",
         "description": "This complete Grand Theft Auto story, takes you deeper in the Grand Theft Auto experience, with new features like the Criminal Enterprize Starter pack, and a fleet of new clothes, tattoos and cars.",
         "price": 16.99,
         "category": 6,
@@ -666,7 +666,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5004910158",
-        "name": "FIFA 15",
+        "name": "FIFA 15 (Xbox One)",
         "description": "FIFA 15 adds more emotional expression to all 22 player's on the pitch, as they react to ingame events. Teams now also have contextual awareness, and can adjust their tactics mid game, revolutionising the beautiful game.",
         "price": 14.99,
         "category": 6,
@@ -679,7 +679,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5004910477",
-        "name": "FIFA 16",
+        "name": "FIFA 16 (Xbox One)",
         "description": "FIFA 16 includes a host of improved gameplay and graphics, to create a balanced and authentic football experience. For the first time ever compete with 12 top-ranked Women's National Teams, and enjoy playing either on or offline.",
         "price": 19.99,
         "category": 6,
@@ -692,7 +692,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5004940703",
-        "name": "FIFA 17",
+        "name": "FIFA 17 (Xbox One)",
         "description": "FIFA returns with a host of new environments like: manager's office, tunnels and locker rooms, using FrostBite to create these extra details. Play as Alex Hunter, a Premier League footballer, and live the emotional highs and lows of the beautiful game.",
         "price": 16.99,
         "category": 6,
@@ -705,7 +705,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5004991006",
-        "name": "FallOut 4",
+        "name": "FallOut 4 (Xbox One)",
         "description": "Fallout 4 is an open world game that gives you complete freedom. The sole survivor of Vault 111, you must navigate a world destroyed by nuclear war. The choices you make affect your in-game environment, in this open-world survival game. ",
         "price": 11.99,
         "category": 6,
@@ -718,7 +718,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5004991162",
-        "name": "Destiny",
+        "name": "Destiny (Xbox One)",
         "description": "Explore the ruins of the solar system, as you unravel the mysteries of the universe. Wield incredible power as you seek to reclaim what you lost at the fall of the Golden Age, as a guardian to the last city on Earth, as you defeat the planet's enemies.",
         "price": 12.99,
         "category": 6,
@@ -731,7 +731,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005000046",
-        "name": "Call of Duty: Vanguard",
+        "name": "Call of Duty: Vanguard (Xbox One)",
         "description": "Experience battles of WWII and witness the birth of the Special Forces across 4 different nations. Enjoy beautiful graphics, and enhanced gameplay in this next installment of the COD franchise.",
         "price": 25.99,
         "category": 6,
@@ -744,7 +744,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005070254",
-        "name": "Star Wars Battlefront",
+        "name": "Star Wars Battlefront (Xbox One)",
         "description": "Star Wars Battlefront introduces you to a whole cast of characters, and ground based combat. Explore iconic planets, as you rise through the ranks as either a heroic Rebel, or evil Empire soldier.",
         "price": 15.99,
         "category": 6,
@@ -773,7 +773,7 @@
         "name": "Forza Bundle",
         "description": "This bundle takes all Forza games ever released for both Xbox 360, and for Xbox One and combines them into one place. Race round your favourite tracks, try out different vehicles, as you bid to try and become champion.",
         "price": 45.99,
-        "category": 6,
+        "category": 3,
         "rating": 4.3,
         "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0224201517023517M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
         "image": "forza.jpg"
@@ -783,7 +783,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005200166",
-        "name": "Assassin's Creed Unity",
+        "name": "Assassin's Creed Unity (PS4)",
         "description": "Set during the French Revolution in 1789, play as Arno as he embarks on a dangerous journey to expose the true powers and secrets behind the Revolution.",
         "price": 18.99,
         "category": 8,
