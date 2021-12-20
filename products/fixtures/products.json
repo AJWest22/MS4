@@ -198,7 +198,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003050248",
-        "name": "Assassin's Creed 1",
+        "name": "Assassin's Creed 1 (Xbox 360)",
         "description": "Set in 1191 AD during the Third Crusade and the Holy Land is being torn apart, the Assassin's intend to stop hostilities by suppressing both sides of the conflict. Play as Altair, the legendary assassin, who has the power to alter the course of history.",
         "price": 16.99,
         "category": 2,
@@ -211,7 +211,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003070787",
-        "name": "Assassin's Creed II",
+        "name": "Assassin's Creed II (Xbox 360)",
         "description": "Set in Italy during the renaissance Assassin's Creed returns with a new character, Ezio Auditore da Firenze, seeking vengeance for the death of his family. The game returns with improved parkour, a completely redesigned combat system, while still retaining the same freedoms of the original.",
         "price": 16.99,
         "category": 2,
@@ -224,7 +224,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003090182",
-        "name": "Assassin's Creed Brotherhood",
+        "name": "Assassin's Creed Brotherhood (Xbox 360)",
         "description": "Ezio, the master assassin, returns in this third installment in the Assassin's Creed franchise, as his enduring struggle against the Templars continues.",
         "price": 16.99,
         "category": 2,
@@ -237,7 +237,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003090186",
-        "name": "Assassin's Creed Revelations",
+        "name": "Assassin's Creed Revelations (Xbox 360)",
         "description": "In this final chapter in the stoy of Ezio Auditore da Firenze, he leaves his old life behind, and begins a search for answers, following in the legendary mentor of assassins: Altair.",
         "price": 16.99,
         "category": 2,
@@ -250,7 +250,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003161326",
-        "name": "Assassin's Creed III",
+        "name": "Assassin's Creed III (Xbox 360)",
         "description": "In this installment of the hit videogame franchise Assassin's Creed, play as Connor, as he hunts for remnants of the ancient Templar Order. Set in 1755 in America, the colonies are preparing for revolution, and you will not only witness history, you will also make it.",
         "price": 16.99,
         "category": 2,
@@ -263,7 +263,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003230723",
-        "name": "Assassin's Creed IV: Black Flag",
+        "name": "Assassin's Creed IV: Black Flag (Xbox 360)",
         "description": "Play as the legendary pirate assassin Edward Kenway, as you explore new lands, engage in naval combat, and fight against the Templar's ever growing threat towards you and everything you've built.",
         "price": 16.99,
         "category": 2,
@@ -276,7 +276,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003270936",
-        "name": "Assassin's Creed Rogue",
+        "name": "Assassin's Creed Rogue (Xbox 360)",
         "description": "Play as Shay Cormac, as he turns from Assassin to Templar, and witness the slow evolution of North America. Explore the North Atlantic, 18th century New York, engage in improved naval combat, and more.",
         "price": 16.99,
         "category": 2,
@@ -289,7 +289,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003360384",
-        "name": "Lego: Lord of the Rings",
+        "name": "Lego: Lord of the Rings (Xbox 360)",
         "description": "Explore Middle-Earth and engage in legendary battles with enemies of Middle-Earth such as: Orc, goblins, Fell Beasts and more. The characters of The Lord of the Rings come to live in this video game adaption of the films.",
         "price": 12.99,
         "category": 2,
@@ -302,7 +302,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003440111",
-        "name": "Lego Harry Potter Years 1-4",
+        "name": "Lego Harry Potter Years 1-4 (Xbox 360)",
         "description": "The first in this 2 part video game adaption of the world of Harry Potter. Cast spells, defeat enemies, as you play through the world of Harry Potter and explore the universe from a entirely new perspective. ",
         "price": 11.99,
         "category": 2,
@@ -315,7 +315,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003540313",
-        "name": "Lego Harry Potter Years 5-7",
+        "name": "Lego Harry Potter Years 5-7 (Xbox 360)",
         "description": "In this second installment of the Harry Potter video game series, explore all new locations including: The Ministry of Magic, and Grimauld Place, meet new characters, and learn new spells, before finally facing off against Lord Voldemort himself.",
         "price": 11.99,
         "category": 2,
@@ -328,7 +328,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003560513",
-        "name": "Lego The Hobbit",
+        "name": "Lego The Hobbit (Xbox 360)",
         "description": "In this video game adaption of The Hobbit movies, play as your favourite character, as you explore Middle Earth and do battle with some of its most notorious enemies. Forge items in the Blacksmith Shop using Mithril, and weild the power of the One Ring.",
         "price": 12.99,
         "category": 2,
@@ -341,7 +341,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003560948",
-        "name": "FIFA 11",
+        "name": "FIFA 11 (Xbox 360)",
         "description": "In this next installment of the hit football game, enjoy improved: graphics, gameplay, and features, as demanded by fans.",
         "price": 14.99,
         "category": 2,
@@ -354,7 +354,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003570628",
-        "name": "Fifa 12",
+        "name": "Fifa 12 (Xbox 360)",
         "description": "FIFA 12 brings the game changing Player Impact Engine, specially built to deliver real world physicallity to the game. With improved gameplay and graphics FIFA 12, is one of the strongest installments of the FIFA franchise.",
         "price": 12.99,
         "category": 2,
@@ -367,7 +367,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003620308",
-        "name": "FIFA World Cup: South Africa",
+        "name": "FIFA World Cup: South Africa (Xbox 360)",
         "description": "Compete from one of 199 teams, all the way from qualification to World Cup Glory. Choose from any of the 10 stadiums, and play in the first World Cup Online Tournament.",
         "price": 14.99,
         "category": 2,
@@ -380,7 +380,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003690115",
-        "name": "Halo Bundle",
+        "name": "Halo Bundle (Xbox 360)",
         "description": "This game bundle combines all the Halo games made for Xbox and the Xbox 360 into one place. Play all the games right from the first installment, and relive the adventure in one of the most iconic game series of all time.",
         "price": 34.99,
         "category": 3,
