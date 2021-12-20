@@ -165,7 +165,7 @@
         "category": 1,
         "rating": 4.2,
         "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0430201405053680M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-        "image": "maio-and-sonic.jpg"
+        "image": "mario-and-sonic.jpg"
     }
 }, {
     "pk": 14,
@@ -367,13 +367,13 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003620308",
-        "name": "FIA World Cup: South Africa",
+        "name": "FIFA World Cup: South Africa",
         "description": "Compete from one of 199 teams, all the way from qualification to World Cup Glory. Choose from any of the 10 stadiums, and play in the first World Cup Online Tournament.",
         "price": 14.99,
         "category": 2,
         "rating": 4.6,
         "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0422201517022488M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-        "image": "DP0422201517022488M.jpg"
+        "image": "fifa-sa"
     }
 }, {
     "pk": 30,
@@ -562,7 +562,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003990746",
-        "name": "FIA World Cup: South Africa",
+        "name": "FIFA World Cup: South Africa",
         "description": "Compete from one of 199 teams, all the way from qualification to World Cup Glory. Choose from any of the 10 stadiums, and play in the first World Cup Online Tournament.",
         "price": 14.99,
         "category": 5,
@@ -698,7 +698,7 @@
         "category": 6,
         "rating": 4.7,
         "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1220201417020921M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-        "image": "xvii.jpg"
+        "image": "fifa-xvii.jpg"
     }
 }, {
     "pk": 54,
@@ -952,13 +952,13 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005630637",
-        "name": "StarWars Battlefront",
-        "description": "StarWars Battlefront introduces you to a whole cast of characters, and ground based combat. Explore iconic planets, as you rise through the ranks as either a heroic Rebel, or evil Empire soldier.",
+        "name": "Star Wars Battlefront",
+        "description": "Star Wars Battlefront introduces you to a whole cast of characters, and ground based combat. Explore iconic planets, as you rise through the ranks as either a heroic Rebel, or evil Empire soldier.",
         "price": 15.99,
         "category": 8,
         "rating": 4.2,
         "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0608201517035747M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-        "image": "DP0608201517035747M.jpg"
+        "image": "star-wars-battlefront.jpg"
     }
 }, {
     "pk": 74,
