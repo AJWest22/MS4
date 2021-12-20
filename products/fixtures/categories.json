@@ -16,22 +16,22 @@
     "pk": 3,
     "model": "products.category",
     "fields": {
-        "name": "clearance",
-        "friendly_name": "Clearance"
+        "name": "speacial-offers",
+        "friendly_name": "Special Offers"
     }
 }, {
     "pk": 4,
     "model": "products.category",
     "fields": {
-        "name": "deals",
-        "friendly_name": "Deals"
+        "name": "ps3",
+        "friendly_name": "PS3"
     }
 }, {
     "pk": 5,
     "model": "products.category",
     "fields": {
-        "name": "ps3",
-        "friendly_name": "PS3"
+        "name": "ps4",
+        "friendly_name": "PS4"
     }
 }, {
     "pk": 6,
@@ -40,18 +40,5 @@
         "name": "xboxone",
         "friendly_name": "Xbox One"
     }
-}, {
-    "pk": 7,
-    "model": "products.category",
-    "fields": {
-        "name": "ps4",
-        "friendly_name": "PS4"
-    }
-}, {
-    "pk": 8,
-    "model": "products.category",
-    "fields": {
-        "name": "new_arrivals",
-        "friendly_name": "New Arrivals"
-    }
-}]
+}
+]
