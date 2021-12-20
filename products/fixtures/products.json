@@ -796,7 +796,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005210241",
-        "name": "Assassin's Creed Syndicate",
+        "name": "Assassin's Creed Syndicate (PS4)",
         "description": "Set during the Inductrial Revolution in 1868, join the twins Jacob and Evie Frye as they fight to rally and lead the underworld to break the corrupton of London",
         "price": 18.99,
         "category": 8,
@@ -809,7 +809,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005280104",
-        "name": "Assassin's Creed Origins",
+        "name": "Assassin's Creed Origins (PS4)",
         "description": "Set in Ancient Egypt, the assassin Bayek's personal sotry is revealed, as he creates what becomes known as the Assassin Brotherhood.",
         "price": 18.99,
         "category": 8,
@@ -822,7 +822,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005310360",
-        "name": "Assassin's Creed Valhalla",
+        "name": "Assassin's Creed Valhalla (PS4)",
         "description": "Play as a legendary Norse berserker, as you write you own story, on your quest for revenge. Assassin's Creed Valhalla, includes enhanced gameplay, and improved graphics.",
         "price": 18.99,
         "category": 8,
@@ -835,7 +835,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005330595",
-        "name": "Assassin's Creed Odyssey",
+        "name": "Assassin's Creed Odyssey (PS4)",
         "description": "For the first time ever in Assassin's Creed, choose your character, and become an Ancient Greek hero. Assassin's Creed Odyssey gives the player complete control over not only their character, but also their journey, as their decisions shape the world around them.",
         "price": 18.99,
         "category": 8,
@@ -848,7 +848,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005330596",
-        "name": "Grand Theft Auto V",
+        "name": "Grand Theft Auto V (PS4)",
         "description": "This complete Grand Theft Auto story, takes you deeper in the Grand Theft Auto experience, with new features like the Criminal Enterprize Starter pack, and a fleet of new clothes, tattoos and cars.",
         "price": 16.99,
         "category": 8,
@@ -861,7 +861,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005430914",
-        "name": "FIFA 15",
+        "name": "FIFA 15 (PS4)",
         "description": "FIFA 15 adds more emotional expression to all 22 player's on the pitch, as they react to ingame events. Teams now also have contextual awareness, and can adjust their tactics mid game, revolutionising the beautiful game.",
         "price": 14.99,
         "category": 8,
@@ -874,7 +874,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005430944",
-        "name": "FIFA 16",
+        "name": "FIFA 16 (PS4)",
         "description": "FIFA 16 includes a host of improved gameplay and graphics, to create a balanced and authentic football experience. For the first time ever compete with 12 top-ranked Women's National Teams, and enjoy playing either on or offline.",
         "price": 19.99,
         "category": 8,
@@ -887,7 +887,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005510265",
-        "name": "FIFA 17",
+        "name": "FIFA 17 (PS4)",
         "description": "FIFA returns with a host of new environments like: manager's office, tunnels and locker rooms, using FrostBite to create these extra details. Play as Alex Hunter, a Premier League footballer, and live the emotional highs and lows of the beautiful game.",
         "price": 16.99,
         "category": 8,
@@ -900,7 +900,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005520201",
-        "name": "FallOut 4",
+        "name": "FallOut 4 (PS4)",
         "description": "Fallout 4 is an open world game that gives you complete freedom. The sole survivor of Vault 111, you must navigate a world destroyed by nuclear war. The choices you make affect your in-game environment, in this open-world survival game. ",
         "price": 11.99,
         "category": 4,
@@ -913,7 +913,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005520205",
-        "name": "Destiny",
+        "name": "Destiny (PS4)",
         "description": "Explore the ruins of the solar system, as you unravel the mysteries of the universe. Wield incredible power as you seek to reclaim what you lost at the fall of the Golden Age, as a guardian to the last city on Earth, as you defeat the planet's enemies.",
         "price": 12.99,
         "category": 8,
@@ -926,7 +926,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005630545",
-        "name": "Call of Duty: Vanguard",
+        "name": "Call of Duty: Vanguard (PS4)",
         "description": "Experience battles of WWII and witness the birth of the Special Forces across 4 different nations. Enjoy beautiful graphics, and enhanced gameplay in this next installment of the COD franchise.",
         "price": 25.99,
         "category": 8,
@@ -939,7 +939,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005630605",
-        "name": "StarWars Battlefront",
+        "name": "StarWars Battlefront (PS4)",
         "description": "StarWars Battlefront introduces you to a whole cast of characters, and ground based combat. Explore iconic planets, as you rise through the ranks as either a heroic Rebel, or evil Empire soldier.",
         "price": 15.99,
         "category": 8,
@@ -965,7 +965,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005650677",
-        "name": "The Last of Us Bundle",
+        "name": "The Last of Us Bundle (PS4)",
         "description": "The hit videogame franchise is combined in this special edition. Featuring both The Last of Us games, in this bundle for the first time. Featuring improved graphics and gameplay, relive this emotional story.",
         "price": 49.99,
         "category": 3,
