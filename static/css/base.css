@@ -85,6 +85,10 @@ body {
     box-shadow: 2px 1px black;
 }
 
+.btt-link {
+    cursor: pointer;
+}
+
 /* --------------------------------- Media queries */
 
 /* Slightly larger container on xl screens */
