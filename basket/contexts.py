@@ -6,6 +6,7 @@ def basket_contents(request):
     basket_items = []
     total = 0
     product_count = 0
+    basket = request.session.get('basket', {})
 
     if total < settings.FREE_DELIVERY_THRESHOLD:
         delivery = total * Decimal(settings.STANDARD_DELIVERY_PERCENTAGE / 100)
