@@ -428,10 +428,10 @@
         "image": "ac-brotherhood.jpg"
     }
 }, {
-    "pk": 19,
+    "pk": 76,
     "model": "products.product",
     "fields": {
-        "sku": "pp5003090186",
+        "sku": "pp5005700140",
         "name": "Assassin's Creed Revelations (PS3)",
         "description": "In this final chapter in the stoy of Ezio Auditore da Firenze, he leaves his old life behind, and begins a search for answers, following in the legendary mentor of assassins: Altair.",
         "price": 16.99,
