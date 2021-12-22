@@ -8,4 +8,11 @@ function handleEnableDisable(itemId) {
         $(`#decrement-qty_${itemId}`).prop('disabled', minusDisabled);
         $(`#increment-qty_${itemId}`).prop('disabled', plusDisabled);
     }
+
+    var allQtyInputs = $('.qty_input');
+    for(var i = 0; i < allQtyInputs.length; i++){
+        var itemId = $(allQtyInputs[i]).data('item_id');
+        handleEnableDisable(itemId);
+    }
+
 </script>
