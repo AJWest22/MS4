@@ -15,4 +15,9 @@ function handleEnableDisable(itemId) {
         handleEnableDisable(itemId);
     }
 
+    //Checks whether a product has been added or removed everytime the input changes
+    $('.qty_input').change(function() {
+        var itemId = $(this).data('item_id');
+        handleEnableDisable(itemId);
+    });
 </script>
