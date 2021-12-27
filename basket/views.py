@@ -2,10 +2,12 @@ from django.shortcuts import render, redirect, reverse
 
 # Create your views here.
 
+
 def view_basket(request):
     """ A view that renders the basket's contents page """
 
     return render(request, 'basket/basket.html')
+
 
 def add_to_basket(request, item_id):
     """ Add a quantity of the specified product to the shopping basket"""
@@ -22,4 +24,22 @@ def add_to_basket(request, item_id):
 
     request.session['basket'] = basket
     return redirect(redirect_url)
-    
+
+
+def adjust_basket(request, item_id):
+    """Adjusts the quantity of a product to a new amount"""
+
+    quantity = int(request.POST.get('quantity'))
+    basket = request.session.get('basket', {})
+
+    if quantity:
+        if quantity > 0:
+            basket[item_id] = quantity
+    else:
+        if quantity > 0:
+            basket[item_id] = quantity
+        else:
+            basket.pop(item_id)
+
+    request.session['basket'] = basket
+    return redirect(reverse('view_basket'))
