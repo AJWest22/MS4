@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect, reverse
+from django.shortcuts import render, redirect, reverse, HttpResponse
 
 # Create your views here.
 
@@ -46,12 +46,17 @@ def adjust_basket(request, item_id):
 
 
 def remove_from_basket(request, item_id):
-    """Removes an item from the basket"""
+    """Remove the item from the shopping bag"""
 
     try:
+        quantity = None
+        if 'product_quantity' in request.POST:
+            quantity = request.POST['product_quantity']
+        basket = request.session.get('basket', {})
+
         if quantity:
-            del basket[item_id]
-            if not basket[item_id]:
+            del basket[item_id]['items_by_quantity'][quantity]
+            if not basket[item_id]['items_by_quantity']:
                 basket.pop(item_id)
         else:
             basket.pop(item_id)
