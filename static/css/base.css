@@ -98,9 +98,12 @@ body {
     box-shadow: 2px 1px black;
 }
 
-.btt-link {
+.btt-link,
+.update-link,
+.remove-item {
     cursor: pointer;
 }
+
 
 /* --------------------------------- Media queries */
 
