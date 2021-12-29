@@ -93,7 +93,7 @@ def checkout(request):
     return render(request, template, context)
 
 
-def checkout_success(request, order_number):
+def checkout_complete(request, order_number):
     """
     Handle successful checkouts
     """
@@ -106,10 +106,9 @@ def checkout_success(request, order_number):
     if 'basket' in request.session:
         del request.session['basket']
 
-    template = 'checkouts/checkout_success.html'
+    template = 'checkouts/checkout_complete.html'
     context = {
         'order': order,
     }
 
     return render(request, template, context)
-    
