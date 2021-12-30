@@ -36,6 +36,16 @@
     color: #aab7c4;
 }
 
+select,
+select option {
+    color: #000000;
+}
+
+select:invalid,
+select option[value=""] {
+    color: #aab7c4 !important;
+}
+
 /* CSS from CI Boutique Ado Project */
 #loading-overlay {
 	display: none;
