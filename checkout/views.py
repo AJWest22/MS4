@@ -126,6 +126,11 @@ def checkout_complete(request, order_number):
     messages.success(request, f'Order successfully placed! \
         Your order number is {order_number}. A confirmation \
         email will be sent to {order.email}.')
+    
+    profile = UserProfile.objects.get(user=request.user)
+    # Attaches a user's profile to the order
+    order.user_profile = profile
+    order.save()
 
     if 'basket' in request.session:
         del request.session['basket']
