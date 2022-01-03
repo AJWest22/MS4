@@ -4,12 +4,13 @@ from django.contrib import messages
 from .models import UserProfile
 from .forms import UserProfileForm
 
+from checkout.models import Order
+
 
 
 def profile(request):
     """ Displays a user's profile. """
     profile = get_object_or_404(UserProfile, user=request.user)
-
 
     if request.method == 'POST':
         form = UserProfileForm(request.POST, instance=profile)
@@ -17,7 +18,7 @@ def profile(request):
             form.save()
             messages.success(request, 'Profile updated successfully')
 
-    form = UserProfileForm(instance=profile)
+    form = UserProfileForm(request.POST, instance=profile)
     orders = profile.orders.all()
 
     template = 'profiles/profile.html'

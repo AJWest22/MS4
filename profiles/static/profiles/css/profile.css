@@ -1,4 +1,8 @@
 /* All css from CI Boutique Ado */
+.order-history {
+    max-height: 416px; /* height of profile form + submit button */
+    overflow-y: auto;
+}
 
 #profile-update-form .form-control {
     color: #000;
