@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
-from .models import Product
+from django.contrib import messages
 from django.db.models import Q
 from django.db.models.functions import Lower
 
@@ -89,4 +89,3 @@ def add_product(request):
     }
 
     return render(request, template, context)
-    
