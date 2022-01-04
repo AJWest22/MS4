@@ -105,6 +105,7 @@ def checkout(request):
             currency=settings.STRIPE_CURRENCY,
         )
 
+        # Form should be pre-filled data from the user's profile
         if request.user.is_authenticated:
             try:
                 profile = UserProfile.objects.get(user=request.user)
