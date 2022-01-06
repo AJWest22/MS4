@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-(5vaj)pu*7+d%-w+=2y^kfj7_sy=skhlhgkn_(mr6(9m!d_0h%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['easygaming_admin-easygaming.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['easygaming.herokuapp.com', 'localhost']
 
 
 # Application definition
