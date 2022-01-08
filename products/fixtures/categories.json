@@ -16,7 +16,7 @@
     "pk": 3,
     "model": "products.category",
     "fields": {
-        "name": "speacial-offers",
+        "name": "special-offers",
         "friendly_name": "Special Offers"
     }
 }, {
