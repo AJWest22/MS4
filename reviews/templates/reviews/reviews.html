@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="overlay"></div>
+    <div class="container-fluid products-background">
+        <div class="row">
+            <div class="col text-center mt-3">
+                <h2 class="oswald-font text-white">Reviews</h2>
+                <hr class="w-50 mb-1">
+                {% if reviews %}
+                Number of reviews: {{ reviews|length }}
+                {% else %}
+                No reviews yet.
+                {% endif %}
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="product-container col-10 offset-1">
+                <div class="row mt-1 mb-2">
+                    {% for review in reviews %}
+                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                        <div class="card h-100 border-0">
+                            {% if review.product.image %}
+                            <a href="{% url 'product_detail' product.id %}">
+                                <img class="card-img-top img-fluid" src="{{ review.product.image.url }}" alt="{{ review.product.name }}">
+                            </a>
+                            {% else %}
+                            <a href="{% url 'product_detail' product.id %}">
+                                <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                            </a>
+                            {% endif %}
+                            <div class="card-body pb-0">
+                                <p class="mb-0">{{ review.title }}</p>
+                            </div>
+                            <div class="card-body pb-0">
+                                <p class="mb-0">Posted: {{ review.created }}</p>
+                            </div>
+                            <div class="card-body pb-0">
+                                <p class="mb-0">Updated: {{ review.updated}}</p>
+                            </div>
+                            <div class="card-footer pt-0 border-0 text-left">
+                                <div class="row">
+                                    <div class="card-body pb-0">
+                                        <p class="mb-0">Reviewed by: {{ review.username }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {% if request.user.is_superuser %}
+                            <div class="row">
+                                <div class="col">
+                                    <a href="{% url 'edit_reviews' review.id %}"
+                                        class="btn btn-outline-success rounded-0 ml-5 text-center">Edit</a>
+
+                                    <a href="{% url 'delete_review' review.id %}"
+                                        class="btn btn-outline-danger rounded-0 ml-5 text-center">Delete</a>
+                                </div>
+                            </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
