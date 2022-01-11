@@ -28,7 +28,6 @@ class Review(models.Model):
     updated = models.DateField(auto_now=True)
     title = models.CharField(max_length=255)
     review = models.TextField(max_length=500)
-    category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
 
     def __str__(self):
         return str(self.title)
