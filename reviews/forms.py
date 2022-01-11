@@ -5,7 +5,8 @@ from .models import Review, Category
 class ReviewForm(forms.ModelForm):
     class Meta:
         model = Review
-        fields = ('title',
+        fields = ('category',
+                  'title',
                   'review')
 
     def __init__(self, *args, **kwargs):
