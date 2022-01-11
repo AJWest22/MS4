@@ -19,3 +19,27 @@ def reviews(request):
     }
 
     return render(request, template, context)
+
+@login_required
+def add_review(request):
+    """ Adds reviews """
+
+    if request.method == 'POST' and request.user.is_authenticated:
+        form = ReviewForm(request.POST)
+        if form.is_valid():
+            review = form.save(commit=False)
+            review.user = request.user
+            review.save()
+            messages.success(request, "Your review has" +
+                             "been submitted for this game")
+        else:
+            messages.error(request, 'Sorry, we could not' +
+                           'submit you review right now')
+    else:
+        form = ReviewForm()
+
+    template = 'reviews/add_review.html'
+    context = {
+        'form': form,
+    }
+    return render(request, template, context)
