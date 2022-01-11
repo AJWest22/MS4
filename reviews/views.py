@@ -11,8 +11,6 @@ from .forms import ReviewForm
 def reviews(request):
 
     reviews = Review.objects.all()
-    sort = None
-    direction = None
 
     template = 'reviews/reviews.html'
 
