@@ -6,8 +6,10 @@ from django.db.models.functions import Lower
 from .models import Review
 from .forms import ReviewForm
 
+
 """ Gets all reviews """
 def reviews(request):
+
     reviews = Review.objects.all()
     sort = None
     direction = None
