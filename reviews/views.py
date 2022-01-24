@@ -38,11 +38,6 @@ def add_review(request, product_id=None):
         else:
             messages.error(request, 'Sorry, we couldn''t' +
                            'submit you review right now')
-        if search_term != None:
-        else:
-            return redirect(reverse('reviews'))
-    else:
-        form = ReviewForm()
 
     template = 'reviews/add_review.html'
     context = {

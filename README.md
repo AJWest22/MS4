@@ -44,3 +44,20 @@
      3. [CSS Framework](#css-framework)
      4. [JQuery Framework](#jquery-framework)
 
+
+## **Overview**
+ - This site was created for MS4 submission for Code Institute.
+ - The site's name is Easy Gaming.
+ - The source code can be found on GitHub
+ - The site is deployed using Heroku
+
+ - The purpose of this site is to help people find games they might like to play over a selection of consoles, from the 7th and 8th generations of game consoles.
+
+
+ - There is currently one account made at the moment:
+
+     **Username**: easygaming_admin **Password**: E45yG4m1ng
+
+This account is the main admin account of the site, and has also been used to test site functionality, for example: to check order history, add products and reviews etc.
+
+View site [here]https://easygaming.herokuapp.com/)
