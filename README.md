@@ -25,19 +25,22 @@
 
 6. [Code Features](#code-features)
 
-7. [Features to be Added](#features-to-be-added)
+7. [Bugs](#bugs)
 
-8. [Testing](#testing)
+8. [Features to be Added](#features-to-be-added)
+
+9. [Testing](#testing)
     1. [HTML Validation](#html-validation)
     2. [CSS Validation](#css-validation)
     3. [JQuery Validation](#jquery-validation)
     4. [Browser Compatibility](#browser-compatibility)
     5. [Devices Tested On](#devices-tested-on)
 
-9. [Deployment](#deployment)
+10. [Deployment](#deployment)
 
-10. [Credits](#credits)
+11. [Credits](#credits)
      1. [Icons](#icons)
      2. [Imagery](#imagery)
      3. [CSS Framework](#css-framework)
      4. [JQuery Framework](#jquery-framework)
+
