@@ -34,9 +34,9 @@
     4. [Browser Compatibility](#browser-compatibility)
     5. [Devices Tested On](#devices-tested-on)
 
-10. [Deployment](#deployment)
+9. [Deployment](#deployment)
 
-11. [Credits](#credits)
+10. [Credits](#credits)
      1. [Icons](#icons)
      2. [Imagery](#imagery)
      3. [CSS Framework](#css-framework)
