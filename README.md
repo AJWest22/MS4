@@ -99,3 +99,29 @@ View site [here](https://easygaming.herokuapp.com/)
  - As a user I want my previous information such as address stored so I don't need to keep adding it
 
  - As a user I want to know my payments were successfull or not
+
+
+ ### **Siteowner Stories**
+
+ - As the owner of this site, I want to create a easy to use site that serves a purpose.
+
+ -  As the owner of this site, I want users to know their reviews have been submitted to the database
+
+ -  As the owner of this site, I want users to come back to this site.
+
+ - As the owner of this site, I want users to be able to have control over their reviews, so edit and delete them as well as the ability to create them. 
+
+ - As the owner of this site I want users login details to be stored safely and securely by encrypting the password on the server.
+
+ - As the owner of this site I want users to know their data is secure. 
+
+ - As the owner of this site I want users to know their payment has gone through and it is a secure transaction
+
+ - As the owner of this site I want users to have their previous information stored so they don't have to re-enter things, like their address over again. 
+
+ - As the owner of this site, I want superusers to have the abiity to create, edit, update and read the blog posts they have made. 
+
+ - As the owner, I want all blogposts to be relevent to the site
+
+ 
+
