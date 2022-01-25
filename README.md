@@ -69,3 +69,13 @@ View site [here]https://easygaming.herokuapp.com/)
  - Users can find games, either to play or as game recommendations.
 
  - Users also have the ability to create, edit update and read (CRUD) reviews on products.
+
+ ### **Siteowners Goals**
+
+ - Provide a service that enabes people to easily find games over a variety of consoles.
+
+ - Ensure the database continues to accept new data, such as: reviews and added products
+
+ - Ensure games added to the database by siteowner's are stored in right menu
+
+ 
