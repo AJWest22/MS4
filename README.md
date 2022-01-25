@@ -60,7 +60,7 @@
 
 This account is the main admin account of the site, and has also been used to test site functionality, for example: to check order history, add products and reviews etc.
 
-View site [here]https://easygaming.herokuapp.com/)
+View site [here](https://easygaming.herokuapp.com/)
 
 ## **Site Goals**
 
@@ -70,7 +70,7 @@ View site [here]https://easygaming.herokuapp.com/)
 
  - Users also have the ability to create, edit update and read (CRUD) reviews on products.
 
- ### **Siteowners Goals**
+### **Siteowners Goals**
 
  - Provide a service that enabes people to easily find games over a variety of consoles.
 
@@ -78,4 +78,14 @@ View site [here]https://easygaming.herokuapp.com/)
 
  - Ensure games added to the database by siteowner's are stored in right menu
 
- 
+### **User Stories**
+
+ - As a user of this site I want to find a good book from a variety of genres
+
+ - As a user I want to know my feedback on the site has been submitted.
+
+ - As a user i want to know if my login was successful or not.
+
+ - As a user I want a easy to use, simple site.
+
+ - As a user I want the ability to edit or delete any of my recommendations
