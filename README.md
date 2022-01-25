@@ -135,3 +135,15 @@ View site [here](https://easygaming.herokuapp.com/)
 ### **Target Audience**
  - The site is primarily aimed and adults/young adults who enjoy games and want to find their next game to play.
 
+
+
+## **Code Used**
+
+ The site is build using:
+ - *HTML* to provide the site's structure and features, for example the contact form.
+
+ - *CSS* to add style to the site, for example the font of the typography.
+
+ - *PYTHON* to add the backend functionality to the site, for example allowing views to be shown on the fontend, and urls to work.
+
+ - *JQUERY* to offer interactivity to the site, for example payment information.
