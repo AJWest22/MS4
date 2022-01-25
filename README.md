@@ -77,15 +77,3 @@ View site [here](https://easygaming.herokuapp.com/)
  - Ensure the database continues to accept new data, such as: reviews and added products
 
  - Ensure games added to the database by siteowner's are stored in right menu
-
-### **User Stories**
-
- - As a user of this site I want to find a good book from a variety of genres
-
- - As a user I want to know my feedback on the site has been submitted.
-
- - As a user i want to know if my login was successful or not.
-
- - As a user I want a easy to use, simple site.
-
- - As a user I want the ability to edit or delete any of my recommendations
