@@ -77,3 +77,25 @@ View site [here](https://easygaming.herokuapp.com/)
  - Ensure the database continues to accept new data, such as: reviews and added products
 
  - Ensure games added to the database by siteowner's are stored in right menu
+
+ - Ensure blog posts are relevent to the site's purpose
+
+ ### **User Stories**
+
+ - As a user of this site I want to find a good game from a variety of genres
+
+ - As a user of this site I want to be abe to find games from a variety of consoles and different generations
+
+ - As a user i want to know if my login was successful or not.
+
+ - As a user I want a easy to use, simple site.
+
+ - As a user I want the ability to add reviews to products
+
+ - As a user I want the ability to edit and delete my reviews
+
+ - As a user I want the ability to see my order history
+
+ - As a user I want my previous information such as address stored so I don't need to keep adding it
+
+ - As a user I want to know my payments were successfull or not
