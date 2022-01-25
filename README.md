@@ -123,5 +123,15 @@ View site [here](https://easygaming.herokuapp.com/)
 
  - As the owner, I want all blogposts to be relevent to the site
 
+
+
+## **About The Site**
+
+ - The site currently has a total of 14 pages. Some are only visible to users who are logged in (profile page for example).
+ - Users who are logged in have the option to buy games, while those who aren't logged in cannot.
+ - User not logged in can only browse the games. 
+ - The site's purpose is to help people find second hand games they'd like to play from a variety of consoles.
  
+### **Target Audience**
+ - The site is primarily aimed and adults/young adults who enjoy games and want to find their next game to play.
 
