@@ -61,3 +61,11 @@
 This account is the main admin account of the site, and has also been used to test site functionality, for example: to check order history, add products and reviews etc.
 
 View site [here]https://easygaming.herokuapp.com/)
+
+## **Site Goals**
+
+### **UX Goals**
+
+ - Users can find games, either to play or as game recommendations.
+
+ - Users also have the ability to create, edit update and read (CRUD) reviews on products.
