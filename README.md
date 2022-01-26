@@ -58,7 +58,7 @@
 
      **Username**: easygaming_admin **Password**: E45yG4m1ng
 
-This account is the main admin account of the site, and has also been used to test site functionality, for example: to check order history, add products and reviews etc.
+This account is the main admin account of the site, and has also been used to test site functionality, for example: to check order history, add products and reviews etc. All address, payment and order history and data on this account is FAKE. 
 
 View site [here](https://easygaming.herokuapp.com/)
 
@@ -153,3 +153,47 @@ View site [here](https://easygaming.herokuapp.com/)
  - *BootStrap 4* is used to help style the site, and add responsve features to the site. The code used by BootStrap is used to add some style to the site, for example the button classes, in the html templates. It is also used to make the site responsive using columns and rows, for example the <div class="col-12 col-md-6"> in the add_product.html template. 
 
  - *DJANGO* is a python framework, and is used in this site to help provide backend functionality. It incudes a in-built database and this is used to store games, reviews, order histories and users amongst other things in this project. 
+
+
+ ### **Files Made**
+
+ - There were 13 HTML files made in this project, 56 python files, 2 JavaScript files, 2 CSS files, a Procfile for Heroku deployment and a requirements.txt file. 
+
+ - Most can be viewed on GitHUb, however an env.py file was created, to connect variables together in the setting.py file in the main app, which contains sensitve information, and has not been pushed to GitHub.
+
+ - The HTML files are stored in the templates folder, as they form the basis of the site, and it helps structure and organise 
+   the code. 
+
+ - The static folders contains the JavaScript and CSS files, and is used to help structure the code files, and keep things orderly.
+
+ - The app.py file provides the backend code that handles the data of the site. It is used for submitting data to the database and pulling information from the database. 
+
+ - urls.py contains urls for the site
+
+ - views.py contains the views for the site, which are then add to the urls.py so the views can be reflected onto the frontend of the site
+
+ - forms.py contains form data and deals with the backend of the forms, pushing them to the database
+
+ - The env.py file that was created contains information regarding the database and has not been pushed to GitHub.
+
+ ### **Apps Made**
+
+ - There are currently 10 apps made for this project. Each app, except the main app, contains a templates folder with at least one html file inside. 
+
+ - The main app is called EasyGaming and contains the main settings.py file, the env.py file, and the standard asgi.py, wsgi.py, and __init__.py files. It contains no html files.
+
+ - A checkout app was made so users had the ability to buy games, this contains a forms.py file to handle the backend information of the sites forms, and the standard py files that ar added by default to a django app. It contains 2 html files, one for the checkout page, and one for a complete checkout page, that is only displayed if the payment is successfull. A static css file is used to style this app.
+
+ - A basket app is used to add items from the store too. This app contains the standard django files, and a contexts.py file to track whats in the basket. It contains one html file, that is used to display either a message saying there are no itmes in the basket, and a button encouraging users to keep shopping, or the users items that they have added to the basket.
+
+ - The home app contains the standard apps for django and a html file in the templates folder that is used to display the home page for the store.
+
+ - Media app is used to store images for the site. All images are stored in AWS
+
+ - The products app contains information on the products, and gives superusers the ability to add, edit and delete products from the database. The app contains the standard py files for a django app, as well a fixtures file which contains the products and categories of the store, and 4 html files for displaying products, and giving details on each product when clicked on, and for adding and editing a product.
+
+ - The profiles app contains information on users profiles, and their details such as address and order history. It contains 1 html file used to create the base of a profile page, the standard apps found in a django application, and a forms.py file used my a user to update their profile page. A static css file is used to style it.
+
+ - The reviews app is used to add reviews to the site, this app is in development. A static css file is used to style this app.
+
+ 
