@@ -224,3 +224,12 @@ The homepage image of the ps4 controller on this site comes from pixabay. Its us
 The video game images are screenshots of the games on Amazon, then cropped so that only the game is shown. The images are of the official covers of the games. 
 
 The images are stored on AWS, except the homepage image which couldn't be added for some reason. 
+
+
+## **The DataBase**
+
+The DataBase is a in-built function of DJango, and has been structured so there is a section for: categories, products, users, orders etc. 
+
+<details><summary>The layout of the DataBase:</summary>
+  <img src="=media/database.png">
+  </details>
