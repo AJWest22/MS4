@@ -23,7 +23,7 @@
     2. [Colors](#colors)
     3. [Images](#images)
 
-6. [The DataBase](#database)
+6. [The DataBase](#the-database)
 
 7. [AWS](#aws)
 
