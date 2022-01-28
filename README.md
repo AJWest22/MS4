@@ -23,22 +23,26 @@
     2. [Colors](#colors)
     3. [Images](#images)
 
-6. [Code Features](#code-features)
+6. [The DataBase](#database)
 
-7. [Bugs](#bugs)
+7. [AWS](#aws)
 
-8. [Features to be Added](#features-to-be-added)
+8. [Code Features](#code-features)
 
-9. [Testing](#testing)
+9. [Bugs](#bugs)
+
+10. [Features to be Added](#features-to-be-added)
+
+11. [Testing](#testing)
     1. [HTML Validation](#html-validation)
     2. [CSS Validation](#css-validation)
     3. [JQuery Validation](#jquery-validation)
     4. [Browser Compatibility](#browser-compatibility)
     5. [Devices Tested On](#devices-tested-on)
 
-10. [Deployment](#deployment)
+12. [Deployment](#deployment)
 
-11. [Credits](#credits)
+13. [Credits](#credits)
      1. [Icons](#icons)
      2. [Imagery](#imagery)
      3. [CSS Framework](#css-framework)
