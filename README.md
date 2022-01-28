@@ -244,7 +244,7 @@ The DataBase is a in-built function of DJango, and has been structured so there 
 
 
 
-### **AWS***
+## **AWS***
 
 The images of this site are stored on AWS, hwever the homepage image wasn't accepted for some reason, hence why it isn't showing on the deployed site, but can be seen on the un-deployed site [here](https://8000-pink-swift-q4x485ok.ws-eu29.gitpod.io/)
 
@@ -265,3 +265,78 @@ The images that are stored on AWS are the videogame images that are used to adve
 <details><summary>Example of image stored on AWS:</summary>
   <img src="/media/ac.jpg">
 </details>
+
+
+## **Code Features**
+
+There are several code features used to give the site functionality, these include: a navbar, forms, dropdown menus, the ability to edit the number of items in the basket, and json files. 
+
+### **NavBar**
+
+- Is used to offer a way of navigating the site. 
+
+- Is a global element, as it appears on all pages.
+
+- Uses if statements to hide certain pages from users that aren't logged in. For example the add review page is hidden from uses that aren't logged into the site. 
+
+### **Forms**
+
+- There are several forms on this site: A login form, a signup form, a contact form, a add review form, and a edit review form. 
+
+  - The Login Form:
+
+      <details><summary>Login Form:</summary>
+        <img src="/media/login-form.png">
+      </details>
+
+     - Appears on the login page.
+
+     - Contains fields called: Username and Password.
+
+     - Has a login button to log the user in, the information provided is then checked in the database, if it checks out, the user will log in successfully, if it doesn't the user will not be logged in.
+
+     - The home button uses hover effect to add a bit of flash to the site.
+
+     - Has a remember me option for returning users so they don't have to re-enter their login details.
+
+     - All fields are required.
+
+
+  - The Registration Form:
+
+      <details><summary>Signup Form:</summary>
+        <img src="/media/signup-form.png">
+      </details>
+
+     - Appears on the register page.
+
+     - Contains fields: email address, email address confirmation, username, password, and password confirmation.
+ 
+     - Has a link at the top asking if a user already has an account, if they already do, they can click there and be re-directed to the login page, where they will be asked to provide ther account details.
+
+     - Has a sign up button that submits their data to the database, where it will be added.
+
+     - All fields are required.
+
+
+  - Checkout Form:
+
+    <details><summary>Checkout Form:</summary>
+      <img src="/media/checkout-form.png">
+    </details>
+
+     - Appears on the checkout page.
+
+     - Users can submit their order to the database.
+
+     - Users must have an account or login to use it.
+
+     - Users must already have added something to the basket, otherwise when they click on the basket they will get a message    prompting them to add something.
+ 
+     - Contains fields asking for a full name, an email, phone number, address, and a card number. The phone number and email are required so a user can be contacted directly. This also adds to creating a feeling of trustworthiness between the user and siteowner.
+
+     - Offers a means of direct commnication between the siteowner and users.
+
+     - All fields are required.
+
+     - Icons are used to add a bit of decoration, and come from fontawesome.
