@@ -259,3 +259,9 @@ In contrast this is the homepage on the deployed site:
 <details><summary>Homepage on deployed site:</summary>
   <img src="/media/homepage-deployed.png">
 </details>
+
+The images that are stored on AWS are the videogame images that are used to advertise the products of the store. An example of one of those images stored on AWS can be seen below.
+
+<details><summary>Example of image stored on AWS:</summary>
+  <img src="/media/ac.jpg">
+</details>
