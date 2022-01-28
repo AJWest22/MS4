@@ -233,3 +233,11 @@ The DataBase is a in-built function of DJango, and has been structured so there 
 <details><summary>The layout of the DataBase:</summary>
   <img src="/media/database.png">
   </details>
+
+<details><summary>Example of how the products are stored in the Database</summary>
+  <img src="/media/database1.png">
+  </details>
+
+<details><summary>How orders are stored in the DataBase</summary>
+  <img src="/media/database2.png">
+  </details>
