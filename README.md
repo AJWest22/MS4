@@ -232,12 +232,30 @@ The DataBase is a in-built function of DJango, and has been structured so there 
 
 <details><summary>The layout of the DataBase:</summary>
   <img src="/media/database.png">
-  </details>
+</details>
 
-<details><summary>Example of how the products are stored in the Database</summary>
+<details><summary>Example of how the products are stored in the Database:</summary>
   <img src="/media/database1.png">
-  </details>
+</details>
 
-<details><summary>How orders are stored in the DataBase</summary>
+<details><summary>How orders are stored in the DataBase:</summary>
   <img src="/media/database2.png">
-  </details>
+</details>
+
+
+
+### **AWS***
+
+The images of this site are stored on AWS, hwever the homepage image wasn't accepted for some reason, hence why it isn't showing on the deployed site, but can be seen on the un-deployed site [here](https://8000-pink-swift-q4x485ok.ws-eu29.gitpod.io/)
+
+An Image of the homepage as seen on the un-deployed site can be seen below:
+
+<details><summary>Homepage on un-deployed site:</summary>
+  <img src="/media/homepage.png">
+</details>
+
+In contrast this is the homepage on the deployed site:
+
+<details><summary>Homepage on deployed site:</summary>
+  <img src="/media/homepage-deployed.png">
+</details>
