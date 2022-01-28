@@ -196,4 +196,27 @@ View site [here](https://easygaming.herokuapp.com/)
 
  - The reviews app is used to add reviews to the site, this app is in development. A static css file is used to style this app.
 
- 
+
+## **The Design**
+
+The site was designed to have a more relaxed feel to it, and easy to use. The site uses simpe coloring, fonts and imagery to create and achieve this effect.
+
+
+### **Typography**
+
+The site uses the font Lato to create a relaxed feel and a modern look for the site. It is used on the paragraph text.
+
+The Oswald font is used as the Header font, and is used with some letter-spacing to create a bold look, which is attention grabbing, while maintaining the modern look of the site.
+
+
+### **Colors**
+
+The site uses a black and white coloring to ceate the modern look. The cdesign style comes from CI's Boutique Ado project. Originaly I was going to add some custom CSS, but ran out of time to add some.
+
+### **Images** 
+
+The homepage image of the ps4 controller on this site comes from pixabay. Its used to create a striking, eye catching effect, while setting out immediately the purpose of the site, (a videogame site). A PS5 controller image wasn't available, but would have been preferred as it would have made the site look and feel more modern. 
+
+The video game images are screenshots of the games on Amazon, then cropped so that only the game is shown. The images are of the official covers of the games. 
+
+The images are stored on AWS, except the homepage image which couldn't be added for some reason. 
