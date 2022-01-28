@@ -231,5 +231,5 @@ The images are stored on AWS, except the homepage image which couldn't be added 
 The DataBase is a in-built function of DJango, and has been structured so there is a section for: categories, products, users, orders etc. 
 
 <details><summary>The layout of the DataBase:</summary>
-  <img src="=media/database.png">
+  <img src="database.png">
   </details>
