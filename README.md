@@ -281,7 +281,7 @@ There are several code features used to give the site functionality, these inclu
 
 ### **Forms**
 
-- There are several forms on this site: A login form, a signup form, a contact form, a profile form, a add review form, and a edit review form. 
+- There are several forms on this site: A login form, a signup form, a contact form, editing and updating a product, and a      profile form.
 
   - The Login Form:
 
@@ -344,7 +344,7 @@ There are several code features used to give the site functionality, these inclu
 
   - Profile Form
 
-      <details><summary>Checkout Form:</summary>
+      <details><summary>Profile Form:</summary>
         <img src="/media/profile-form.png">
       </details>
 
@@ -353,6 +353,36 @@ There are several code features used to give the site functionality, these inclu
       - Can only be accessed when a user has logged into their account
 
       - All fields are required
+
+
+  - Edit Products Form
+
+      <details><summary>Edit Product Form:</summary>
+        <img src="/media/edit-product.png">
+      </details>
+
+      - Contains current information on that product
+
+      - Can only be accessed when a superuser has logged into their account
+
+      - All fields are required
+
+      - The superuser has the ability to edit and change the image of the game
+
+      - Contains a dropdown menu of the consoles to change the category if required
+
+      - Gives superusers the ability to change the price and rating of the game using arrow buttons
+
+
+
+
+
+
+
+
+
+
+
 
 
 
