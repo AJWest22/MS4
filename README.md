@@ -417,7 +417,20 @@ There are several code features used to give the site functionality, these inclu
     
 ## JSON Files
 
-The JSON Files are used to store information on the products and their categories. Information on the products in the JSONS Files includes: SKU number to 
+The JSON Files are used to store information on the products and their categories. Information on the products in the JSONS Files includes: SKU number, product name, a description of the item, a price tag, the categoy where it is to be store (each number represents a game console category), a rating, and an image. 
+
+ "pk": 1,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001340155",
+        "name": "Mario Kart Wii",
+        "description": "Originally released in 2008, Mario Kart Wii has become a classic amongst racing games and Nintendo.",
+        "price": 14.99,
+        "category": 1,
+        "rating": 4.5,
+        "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+        "image": "mario-kart.jpg"
+    }
 
 
 
