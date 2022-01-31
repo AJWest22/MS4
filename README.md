@@ -374,7 +374,21 @@ There are several code features used to give the site functionality, these inclu
       - Gives superusers the ability to change the price and rating of the game using arrow buttons
 
 
+  - Add Products Form
 
+      <details><summary>Edit Product Form:</summary>
+        <img src="/media/add-product.png">
+      </details>   
+
+    - Can only be accessed by a superuser logged in
+
+    - Is used to add a new product to the store
+
+    - Contains a dropdown menu to select the console whee the product wil be added to
+
+    - Wii is the default
+
+    - All fields are required
 
 
 
