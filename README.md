@@ -29,20 +29,22 @@
 
 8. [Code Features](#code-features)
 
-9. [Bugs](#bugs)
+9. [JSON Files](#json-files)
 
-10. [Features to be Added](#features-to-be-added)
+10. [Bugs](#bugs)
 
-11. [Testing](#testing)
+11. [Features to be Added](#features-to-be-added)
+
+12. [Testing](#testing)
     1. [HTML Validation](#html-validation)
     2. [CSS Validation](#css-validation)
     3. [JQuery Validation](#jquery-validation)
     4. [Browser Compatibility](#browser-compatibility)
     5. [Devices Tested On](#devices-tested-on)
 
-12. [Deployment](#deployment)
+13. [Deployment](#deployment)
 
-13. [Credits](#credits)
+14. [Credits](#credits)
      1. [Icons](#icons)
      2. [Imagery](#imagery)
      3. [CSS Framework](#css-framework)
@@ -269,8 +271,7 @@ The images that are stored on AWS are the videogame images that are used to adve
 
 ## **Code Features**
 
-There are several code features used to give the site functionality, these include: a navbar, forms, dropdown menus, the ability to edit the number of items in the basket, and json files. 
-
+There are several code features used to give the site functionality, these include: a navbar, forms, and dropdown menus.
 ### **NavBar**
 
 - Is used to offer a way of navigating the site. 
@@ -413,8 +414,7 @@ There are several code features used to give the site functionality, these inclu
     - Wii is set to default (not sure why this is)
 
     
-
-
+## JSON Files
 
 
 
