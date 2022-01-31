@@ -281,7 +281,7 @@ There are several code features used to give the site functionality, these inclu
 
 ### **Forms**
 
-- There are several forms on this site: A login form, a signup form, a contact form, editing and updating a product, and a      profile form.
+- There are several forms on this site: A login form, a signup form, editing and updating a product, and a      profile form.
 
   - The Login Form:
 
@@ -389,6 +389,30 @@ There are several code features used to give the site functionality, these inclu
     - Wii is the default
 
     - All fields are required
+
+
+### **Dropdown Menus**
+
+ Dropdown menus are used around the site to increase site functionalit, and make it easier for users and siteowners to perform actions. 
+
+ - Navbar dopdowns 
+
+   - Are found in the navbar menu of the site
+
+   - Are used to present the categories in a user-friendly way
+
+   - Make it easier for users to navigate the different categories of the site
+
+  
+  - Form dropdowns
+
+    - Found in the add product and edit product forms
+
+    - Make it easier to select the right category when adding or editing a product
+
+    - Wii is set to default (not sure why this is)
+
+    
 
 
 
