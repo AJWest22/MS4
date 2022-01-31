@@ -51,6 +51,7 @@
      4. [JQuery Framework](#jquery-framework)
 
 
+
 ## **Overview**
  - This site was created for MS4 submission for Code Institute.
  - The site's name is Easy Gaming.
@@ -416,6 +417,7 @@ There are several code features used to give the site functionality, these inclu
     
 ## JSON Files
 
+The JSON Files are used to store information on the products and their categories. Information on the products in the JSONS Files includes: SKU number to 
 
 
 
