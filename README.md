@@ -428,7 +428,6 @@ The JSON Files are used to store information on the products and their categorie
         "price": 14.99,
         "category": 1,
         "rating": 4.5,
-        "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
         "image": "mario-kart.jpg"
     }
 
