@@ -450,4 +450,32 @@ There are several bugs to mention:
 This project has several features I would like to add: A blog model which would allow superusers to make blogposts on new products coming to the store (such as games or consoles), trends in the gaming industry, new games to be released, etc. I would aso like to finish the review model so that users can add and edit, and delete reviews on products. Due to time constraints and bugs with the reviews model, this wasn't possible to be added in time.
 
 
+## **Testing**
+
+### HTML Validation
+   - The code was validated using NU HTML Validator and displayed some errors about the default html5 document layout, and a few missing attributes.
+
+    <details><summary>HTML Validation</summary>
+      <img src="/media/html-validator1.png">
+    </details>
+
+    <details><summary>HTML Validation</summary>
+      <img src="/media/html-validator2.png">
+    </details>
+
+    <details><summary>HTML Validation</summary>
+      <img src="/media/html-validator3.png">
+    </details>
+  
+
+### CSS Validation
+  - The code was tested using The W3C Jigsaw CSS Validation Service and encountered 4 errors:
+
+  <details><summary>HTML Validation</summary>
+      <img src="/media/css-validator.jpg">
+    </details>
+  
+
+### Python Validation
+- The code was validated using PEP8 online check, and had several errors to do with whitespace, however when i have debugged these, I have encountered more errors. For example in the PEP8 validator it asks for a new line at the end of file, when I add one in, I get an error saying trailing whitespace. For some reason I cannot upload a media file in here of the code, as I get an error saying media type unrecognised, its a jpg format same as css.
 
