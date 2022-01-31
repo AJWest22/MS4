@@ -281,7 +281,7 @@ There are several code features used to give the site functionality, these inclu
 
 ### **Forms**
 
-- There are several forms on this site: A login form, a signup form, a contact form, a add review form, and a edit review form. 
+- There are several forms on this site: A login form, a signup form, a contact form, a profile form, a add review form, and a edit review form. 
 
   - The Login Form:
 
@@ -340,3 +340,20 @@ There are several code features used to give the site functionality, these inclu
      - All fields are required.
 
      - Icons are used to add a bit of decoration, and come from fontawesome.
+
+
+  - Profile Form
+
+      <details><summary>Checkout Form:</summary>
+        <img src="/media/profile-form.png">
+      </details>
+
+      - Contains information on the user's delivery address
+
+      - Can only be accessed when a user has logged into their account
+
+      - All fields are required
+
+
+
+
