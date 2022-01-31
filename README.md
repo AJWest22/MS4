@@ -445,5 +445,9 @@ There are several bugs to mention:
   3. For some reason the default of every dropdown menu when adding or editing a product is "Wii" a placeholder text saying: "category" or "console" would have been preferred. Placeholder text was added, but wasn't showing on the site for some reason.
 
 
+## **Features to be Added**
+
+This project has several features I would like to add: A blog model which would allow superusers to make blogposts on new products coming to the store (such as games or consoles), trends in the gaming industry, new games to be released, etc. I would aso like to finish the review model so that users can add and edit, and delete reviews on products. Due to time constraints and bugs with the reviews model, this wasn't possible to be added in time.
+
 
 
