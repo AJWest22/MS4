@@ -38,9 +38,10 @@
 12. [Testing](#testing)
     1. [HTML Validation](#html-validation)
     2. [CSS Validation](#css-validation)
-    3. [JQuery Validation](#jquery-validation)
-    4. [Browser Compatibility](#browser-compatibility)
-    5. [Devices Tested On](#devices-tested-on)
+    3. [Python Validation](#python-validation)
+    4. [JQuery Validation](#jquery-validation)
+    5. [Browser Compatibility](#browser-compatibility)
+    6. [Devices Tested On](#devices-tested-on)
 
 13. [Deployment](#deployment)
 
