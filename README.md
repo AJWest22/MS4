@@ -455,17 +455,17 @@ This project has several features I would like to add: A blog model which would 
 ### HTML Validation
    - The code was validated using NU HTML Validator and displayed some errors about the default html5 document layout, and a few missing attributes.
 
-    <details><summary>HTML Validation</summary>
-      <img src="/media/html-validatior1.png">
-    </details>
+      <details><summary>HTML Validation</summary>
+        <img src="/media/html-validatior1.png">
+      </details>
 
-    <details><summary>HTML Validation</summary>
-      <img src="/media/html-validator2.png">
-    </details>
+      <details><summary>HTML Validation</summary>
+        <img src="/media/html-validator2.png">
+      </details>
 
-    <details><summary>HTML Validation</summary>
-      <img src="/media/html-validator3.png">
-    </details>
+      <details><summary>HTML Validation</summary>
+        <img src="/media/html-validator3.png">
+      </details>
   
 
 ### CSS Validation
