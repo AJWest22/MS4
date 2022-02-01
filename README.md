@@ -456,7 +456,7 @@ This project has several features I would like to add: A blog model which would 
    - The code was validated using NU HTML Validator and displayed some errors about the default html5 document layout, and a few missing attributes.
 
     <details><summary>HTML Validation</summary>
-      <img src="/media/html-validator1.png">
+      <img src="/media/html-validatior1.png">
     </details>
 
     <details><summary>HTML Validation</summary>
@@ -471,7 +471,7 @@ This project has several features I would like to add: A blog model which would 
 ### CSS Validation
   - The code was tested using The W3C Jigsaw CSS Validation Service and encountered 4 errors:
 
-  <details><summary>HTML Validation</summary>
+  <details><summary>Css Validation</summary>
       <img src="/media/css-validator.jpg">
     </details>
   
