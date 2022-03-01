@@ -47,8 +47,7 @@
 14. [Credits](#credits)
      1. [Icons](#icons)
      2. [Imagery](#imagery)
-     3. [CSS Framework](#css-framework)
-     4. [JQuery Framework](#jquery-framework)
+     3. [JQuery Framework](#jquery-framework)
 
 
 
@@ -527,7 +526,9 @@ This project has several features I would like to add: A blog model which would 
  - The homepage image can be found on [Pixabay](https://pixabay.com/) [here](https://pixabay.com/photos/game-console-sony-video-games-6603120/)
 
 
+### JQuery Framework
 
+- Jquery is used for the form submitting, and can be found at the bottom of most of the templates folder to submit the Crispy Forms used. Example Checkout.html.
 
 
  
