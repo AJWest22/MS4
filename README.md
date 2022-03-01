@@ -509,7 +509,7 @@ This project has several features I would like to add: A blog model which would 
 
     - Select the branch to enable automatic deploys, (as was done with this project). Alternatively you can set it to deploy manually.
 
-    - Set key/value pairs for the following keys:IP, MONGO_DBNAME, MONGO_URI, PORT, SECRET_KEY
+    - Set key/value pairs for the following keys:IP, PORT, SECRET_KEY
 
     - Return to your dashboard and click deploy.
 
