@@ -39,9 +39,8 @@
     1. [HTML Validation](#html-validation)
     2. [CSS Validation](#css-validation)
     3. [Python Validation](#python-validation)
-    4. [JQuery Validation](#jquery-validation)
-    5. [Browser Compatibility](#browser-compatibility)
-    6. [Devices Tested On](#devices-tested-on)
+    4. [Browser Compatibility](#browser-compatibility)
+    5. [Devices Tested On](#devices-tested-on)
 
 13. [Deployment](#deployment)
 
@@ -439,16 +438,16 @@ The JSON Files are used to store information on the products and their categorie
 
 There are several bugs to mention:
 
-  1. When updating on GitPod and then pushing to GitHub, sometimes the code added wouldn't be in GitPod, and another push was needed to update on GitHub, this is why sometimes there are commits saying something has been added/removed but there is no visible adding or removing of voce, until the next commit. 
+  1. When updating on GitPod and then pushing to GitHub, sometimes the code added wouldn't be in GitHub, and another push was needed to update it, this is why sometimes there are commits saying something has been added/removed but there is no visible adding or removing of anything, until the next commit. 
 
-  2. When making the reviews model, a piece of code was added that enabled the user to add a review, however there was a bug where it said "view not found", however the view was in the code, and was written correctly. It was impacting the site to the point where when a user logged in, they weren't on the homepage of the site, they just got the error "view not found", and weren't able to access the site logged in. Due to this impact on the UX, the decision was taken to remove this piece of code, and is one of the reasons why you cannot add a review to the site. I conctacted the tutors at Code Institute about this, but they couldn't figure it out.
+  2. When making the reviews model, a piece of code was added that enabled the user to add a review, however there was a bug where it said "view not found", however the view was in the code, and was written correctly. It was impacting the site to the point where when a user logged in, they weren't on the homepage of the site, and couldn't access their account page, they just got the error "view not found", and weren't able to access the site logged in. Due to this impact on the UX, the decision was taken to remove this piece of code, and is one of the reasons why you cannot add a review to the site.
 
   3. For some reason the default of every dropdown menu when adding or editing a product is "Wii" a placeholder text saying: "category" or "console" would have been preferred. Placeholder text was added, but wasn't showing on the site for some reason.
 
 
 ## **Features to be Added**
 
-This project has several features I would like to add: A blog model which would allow superusers to make blogposts on new products coming to the store (such as games or consoles), trends in the gaming industry, new games to be released, etc. I would aso like to finish the review model so that users can add and edit, and delete reviews on products. Due to time constraints and bugs with the reviews model, this wasn't possible to be added in time.
+This project has several features I would like to add: A blog model which would allow superusers to make blogposts on new products coming to the store (such as games or consoles), trends in the gaming industry, new games to be released, etc. I would aso like to finish the review model so that users can add and edit, and delete reviews on products. Due to time constraints and not enough tutor support, working models weren't possible to be added in time.
 
 
 ## **Testing**
@@ -478,5 +477,8 @@ This project has several features I would like to add: A blog model which would 
   
 
 ### Python Validation
-- The code was validated using PEP8 online check, and had several errors to do with whitespace, however when i have debugged these, I have encountered more errors. For example in the PEP8 validator it asks for a new line at the end of file, when I add one in, I get an error saying trailing whitespace. For some reason I cannot upload a media file in here of the code, as I get an error saying media type unrecognised, its a jpg format same as css.
 
+- The code was validated using PEP8 online check, and had several errors to do with whitespace, however when i have debugged these, I have encountered more errors. For example in the PEP8 validator it asks for a new line at the end of file, when I add one in, I get an error saying trailing whitespace, and I'm unsure why this is. For some reason I cannot upload a media file in here of the code, as I get an error saying media type unrecognised, which is unusual as its saved as a jpg format same as css.
+
+
+ 
