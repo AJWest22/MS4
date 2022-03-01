@@ -503,11 +503,11 @@ This project has several features I would like to add: A blog model which would 
 
     - Create an account on heroku.com
 
-    -Create a new application and give it a name. NOTE: This name must be new, and one not already in use.
+    - Create a new application and give it a name. NOTE: This name must be new, and one not already in use.
 
     - In the application dashboard, go to the deploy section and connect your application to your chosen GitHub repo, by      selecting your repo's name.
 
-    -Select the branch to enable automatic deploys, (as was done with this project). Alternatively you can set it to deploy manually.
+    - Select the branch to enable automatic deploys, (as was done with this project). Alternatively you can set it to deploy manually.
 
     - Set key/value pairs for the following keys:IP, MONGO_DBNAME, MONGO_URI, PORT, SECRET_KEY
 
