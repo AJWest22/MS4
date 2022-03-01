@@ -481,4 +481,42 @@ This project has several features I would like to add: A blog model which would 
 - The code was validated using PEP8 online check, and had several errors to do with whitespace, however when i have debugged these, I have encountered more errors. For example in the PEP8 validator it asks for a new line at the end of file, when I add one in, I get an error saying trailing whitespace, and I'm unsure why this is. For some reason I cannot upload a media file in here of the code, as I get an error saying media type unrecognised, which is unusual as its saved as a jpg format same as css.
 
 
+### Browser Compatibility
+
+This site has been tested on the following browsers, and appears to be working well:
+
+    FireFox
+    Safari
+    Microsoft Edge
+
+
+#### Devices Tested On
+
+This site has been tested on: laptop 15", iPad 8th gen, iPhone SE (2016) and iPhone SE (2020).
+
+
+## Deployment
+
+
+
+    This site was deployed using Heroku using the following steps:
+
+        Create a proc.file in your files, and connect to the app.py file.
+
+        Create a requirements.txt file.
+
+        Create an account on heroku.com
+
+        Create a new application and give it a name. NOTE: This name must be new, and one not already in use.
+
+        In the application dashboard, go to the deploy section and connect your application to your chosen GitHub repo, by selecting your repo's name.
+
+        Select the branch to enable automatic deploys, (as was done with this project). Alternatively you can set it to deploy manually.
+
+        Set key/value pairs for the following keys:IP, MONGO_DBNAME, MONGO_URI, PORT, SECRET_KEY
+
+        Return to your dashboard and click deploy.
+
+        Once dployed, click open app.
+
  
