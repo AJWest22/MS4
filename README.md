@@ -513,6 +513,21 @@ This project has several features I would like to add: A blog model which would 
 
     - Return to your dashboard and click deploy.
 
-    - Once dployed, click open app.
+    - Once deployed, click open app.
+
+
+## Credits
+
+### Icons
+
+  - All icons can be found here: [here](https://fontawesome.com/)
+
+### Imagery
+
+ - The homepage image can be found on [Pixabay](https://pixabay.com/) [here](https://pixabay.com/photos/game-console-sony-video-games-6603120/)
+
+
+
+
 
  
