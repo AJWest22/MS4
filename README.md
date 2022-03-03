@@ -272,6 +272,10 @@ The images that are stored on AWS are the videogame images that are used to adve
 </details>
 
 
+## Crispy Forms
+
+Crispy Forms is used to create the forms and form fields. The basic template used for the forms is similar throughout the site, and can be found on the checkout template, and creating an account for example. Required fields include asking for a user's: name, email address, phone number, country, postal code, city or town, the user's address, and phone number and card number. 
+
 ## **Code Features**
 
 There are several code features used to give the site functionality, these include: a navbar, forms, and dropdown menus.
@@ -449,7 +453,7 @@ There are several bugs to mention:
 
 ## **Features to be Added**
 
-This project has several features I would like to add: A blog model which would allow superusers to make blogposts on new products coming to the store (such as games or consoles), trends in the gaming industry, new games to be released, etc. I would aso like to finish the review model so that users can add and edit, and delete reviews on products. Due to time constraints and not enough tutor support, working models weren't possible to be added in time.
+This project has several features I would like to add: A blog model which would allow superusers to make blogposts on new products coming to the store (such as games or consoles), trends in the gaming industry, new games to be released, etc. I would aso like to finish the review model so that users can add and edit, and delete reviews on products. Due to not enough tutor support, working models weren't possible to be added at this time.
 
 
 ## **Testing**
