@@ -539,3 +539,5 @@ This project has several features I would like to add: A blog model which would 
 
 
 ### Crispy Forms
+
+Most forms are made using crispy forms which is installed using: pip3 install django-crispy-forms, and then added to the installed apps in settings.py then set to BootStrap 4.
