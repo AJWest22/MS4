@@ -22,7 +22,7 @@ def reviews(request):
     return render(request, template, context)
 
 @login_required
-def add_review(request, product_id):
+def add_review(request):
     """ Adds reviews """
 
     if not request.user.is_authenticated:
@@ -34,8 +34,6 @@ def add_review(request, product_id):
         if form.is_valid():
             review = form.save()
             review.user = request.user
-            product = Product.objects.get(pk=product_id)
-            review.product = product
             review.save()
             messages.success(request, "Your review has" +
                              "been submitted for this game")
