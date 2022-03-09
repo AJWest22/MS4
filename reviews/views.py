@@ -22,13 +22,17 @@ def reviews(request):
     return render(request, template, context)
 
 @login_required
-def add_review(request, product_id=None):
+def add_review(request, product_id):
     """ Adds reviews """
+
+    if not request.user.is_authenticated:
+        messages.error(request, 'Sorry only registered users can do that.')
+        return redirect(reverse('home'))
 
     if request.method == 'POST' and request.user.is_authenticated:
         form = ReviewForm(request.POST)
         if form.is_valid():
-            review = form.save(commit=False)
+            review = form.save()
             review.user = request.user
             product = Product.objects.get(pk=product_id)
             review.product = product
