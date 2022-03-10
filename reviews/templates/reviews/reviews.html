@@ -28,46 +28,46 @@
             <div class="product-container col-10 offset-1">
                 <div class="row mt-1 mb-2">
                     {% for review in reviews %}
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                        <div class="card h-100 border-0">
-                            {% if review.product.image %}
-                            <a href="{% url 'product_detail' product.id %}">
-                                <img class="card-img-top img-fluid" src="{{ review.product.image.url }}" alt="{{ review.product.name }}">
-                            </a>
-                            {% else %}
-                            <a href="{% url 'product_detail' product.id %}">
-                                <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
-                            </a>
-                            {% endif %}
-                            <div class="card-body pb-0">
-                                <p class="mb-0">{{ review.title }}</p>
-                            </div>
-                            <div class="card-body pb-0">
-                                <p class="mb-0">Posted: {{ review.created }}</p>
-                            </div>
-                            <div class="card-body pb-0">
-                                <p class="mb-0">Updated: {{ review.updated}}</p>
-                            </div>
-                            <div class="card-footer bg-white pt-0 border-0 text-left">
-                                <div class="row">
-                                    <div class="card-body pb-0">
-                                        <p class="mb-0">Reviewed by: {{ review.user }}</p>
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                            <div class="card h-100 border-0">
+                                {% if review.product.image %}
+                                <a href="{% url 'product_detail' product.id %}">
+                                    <img class="card-img-top img-fluid" src="{{ review.product.image.url }}" alt="{{ review.product.name }}">
+                                </a>
+                                {% else %}
+                                <a href="{% url 'product_detail' product.id %}">
+                                    <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                                </a>
+                                {% endif %}
+                                <div class="card-body pb-0">
+                                    <p class="mb-0">{{ review.title }}</p>
+                                </div>
+                                <div class="card-body pb-0">
+                                    <p class="mb-0">Posted: {{ review.created }}</p>
+                                </div>
+                                <div class="card-body pb-0">
+                                    <p class="mb-0">Updated: {{ review.updated}}</p>
+                                </div>
+                                <div class="card-footer bg-white pt-0 border-0 text-left">
+                                    <div class="row">
+                                        <div class="card-body pb-0">
+                                            <p class="mb-0">Reviewed by: {{ review.user }}</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            {% if request.user.is_superuser %}
-                            <div class="row">
-                                <div class="col">
-                                    <a href="{% url 'edit_review' review.id %}"
-                                        >Edit</a>
+                                {% if request.user.is_superuser %}
+                                <div class="row">
+                                    <div class="col">
+                                        <a href="{% url 'edit_review' review.id %}"
+                                            >Edit</a>
 
-                                    <a href="{% url 'delete_review' review.id %}"
-                                        class="text-danger">Delete</a>
+                                        <a href="{% url 'delete_review' review.id %}"
+                                            class="text-danger">Delete</a>
+                                    </div>
                                 </div>
+                                {% endif %}
                             </div>
-                            {% endif %}
                         </div>
-                    </div>
                     {% endfor %}
                 </div>
             </div>

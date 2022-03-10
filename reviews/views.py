@@ -40,9 +40,40 @@ def add_review(request):
         else:
             messages.error(request, 'Sorry, we couldn''t' +
                            'submit you review right now')
+    
+    else:
+        form = ReviewForm()
 
     template = 'reviews/add_review.html'
     context = {
         'form': form,
     }
+    return render(request, template, context)
+
+@login_required
+def edit_review(request, review_id):
+    """ Edits a review of a product """
+    if not request.user.is_authenticated:
+        messages.error(request, 'Sorry, only the reviewer can edit a review.')
+        return redirect(reverse('reviews'))
+
+    review = get_object_or_404(Review, pk=review_id)
+    if request.method == 'POST':
+        form = ReviewForm(request.POST, instance=review)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Your review has been updated!')
+            return redirect(reverse('edit_review', args=[review.id]))
+        else:
+            messages.error(request, 'Your review failed to update. Please check the form is filled out correctly.')
+    else:
+        form = ReviewForm(instance=review)
+        messages.info(request, f'You are editing {review.name}')
+
+    template = 'reviews/edit_review.html'
+    context = {
+        'form': form,
+        'review': review,
+    }
+
     return render(request, template, context)
