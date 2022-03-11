@@ -46,7 +46,7 @@
                                     <p class="mb-0">Posted: {{ review.created }}</p>
                                 </div>
                                 <div class="card-body pb-0">
-                                    <p class="mb-0">Updated: {{ review.updated}}</p>
+                                    <p class="mb-0">Updated: {{ review.updated }}</p>
                                 </div>
                                 <div class="card-footer bg-white pt-0 border-0 text-left">
                                     <div class="row">
@@ -58,9 +58,6 @@
                                 {% if request.user.is_superuser %}
                                 <div class="row">
                                     <div class="col">
-                                        <a href="{% url 'edit_review' review.id %}"
-                                            >Edit</a>
-
                                         <a href="{% url 'delete_review' review.id %}"
                                             class="text-danger">Delete</a>
                                     </div>
