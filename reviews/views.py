@@ -39,8 +39,7 @@ def add_review(request):
                              "been submitted for this game")
         else:
             messages.error(request, 'Sorry, we couldn''t' +
-                           'submit you review right now')
-    
+                           'submit you review right now')    
     else:
         form = ReviewForm()
 
