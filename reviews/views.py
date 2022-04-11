@@ -37,6 +37,7 @@ def add_review(request):
             review.save()
             messages.success(request, "Your review has" +
                              "been submitted for this game")
+            return redirect('reviews')
         else:
             messages.error(request, 'Sorry, we couldn''t' +
                            'submit you review right now')    
