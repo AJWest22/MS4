@@ -89,4 +89,5 @@ def delete_review(request, review_id):
     else:
         messages.error(request, 'Sorry, we could not' +
                        'delete you review right now')
+
     return redirect(reverse('reviews'))
