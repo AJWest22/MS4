@@ -76,3 +76,17 @@ def edit_review(request, review_id):
     }
 
     return render(request, template, context)
+
+@login_required
+def delete_review(request, review_id):
+    """ Remove reviews of the products """
+
+    review = get_object_or_404(Review, pk=review_id)
+    if request.user.is_superuser or review.username == request.user:
+        review.delete()
+        messages.success(request, "Review has been successfully deleted"
+                         )
+    else:
+        messages.error(request, 'Sorry, we could not' +
+                       'delete you review right now')
+    return redirect(reverse('reviews_total'))
