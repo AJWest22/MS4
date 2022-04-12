@@ -59,10 +59,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                {% if request.user.is_superuser %}
+                                {% if request.user.is_authenticated %}
                                 <div class="row">
                                     <div class="col">
-                                        <a href="{% url 'update_reviews' review.id %}"
+                                        <a href="{% url 'edit_reviews' review.id %}"
                                             class="text-black">Edit</a>
                                         <a href="{% url 'delete_review' review.id %}"
                                             class="text-danger">Delete</a>
