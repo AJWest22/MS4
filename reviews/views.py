@@ -68,7 +68,7 @@ def edit_review(request, review_id):
             messages.error(request, 'Your review failed to update. Please check the form is filled out correctly.')
     else:
         form = ReviewForm(instance=review)
-        messages.info(request, f'You are editing {review.name}')
+        messages.info(request, f'You are editing {review.id}')
 
     template = 'reviews/edit_review.html'
     context = {
