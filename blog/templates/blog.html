@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="overlay"></div>
+    <div class="container-fluid products-background">
+        <div class="row">
+            <div class="col text-center mt-3">
+                <h2 class="oswald-font text-white">Blog Posts</h2>
+                <hr class="w-50 mb-1">
+                {% if posts %}
+                Number of posts: {{ postss|length }}
+                {% else %}
+                No blog posts yet.
+                {% endif %}
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="product-container col-10 offset-1">
+                <div class="row mt-1 mb-2">
+                    {% for post in posts %}
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                            <div class="card h-100 border-0">
+                                {% if posts.image %}
+                                <a href="{% url 'post_image' posts.id %}">
+                                    <img class="card-img-top img-fluid" src="{{ post.image.url }}" alt="{{ post.name }}">
+                                </a>
+                                {% else %}
+                                <a href="{% url 'post_image' post.id %}">
+                                    <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                                </a>
+                                {% endif %}
+                                <div class="card-body pb-0">
+                                    <p class="mb-0">{{ post.title }}</p>
+                                </div>
+                                <div class="col">
+                                    <p class="lead mb-0 text-left font-weight-bold">
+                                        {{ post.post }}</p>
+                                </div>
+                                <div class="card-body pb-0">
+                                    <p class="mb-0">Posted: {{ post.created }}</p>
+                                </div>
+                                <div class="card-body pb-0">
+                                    <p class="mb-0">Updated: {{ post.updated }}</p>
+                                </div>
+                                <div class="card-footer bg-white pt-0 border-0 text-left">
+                                    <div class="row">
+                                        <div class="card-body pb-0">
+                                            <p class="mb-0">Posted by: {{ post.user }}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                {% if request.user.is_superuser %}
+                                <div class="row">
+                                    <div class="col">
+                                        <a href="{% url 'edit_review' review.id %}"
+                                            class="text-black">Edit</a>
+                                        <a href="{% url 'delete_review' review.id %}"
+                                            class="text-danger">Delete</a>
+                                    </div>
+                                </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
