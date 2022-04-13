@@ -79,7 +79,7 @@ def edit_post(request, post_id):
 
 
 @login_required
-def delete_post(request, review_id):
+def delete_post(request, post_id):
     """ Deletes blog posts """
 
     post = get_object_or_404(Post, pk=post_id)
