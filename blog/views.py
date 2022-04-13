@@ -7,7 +7,7 @@ from .models import Blog
 from .forms import BlogForm
 
 
-""" Gets all reviews """
+""" Gets all blog posts """
 def posts(request):
 
     posts = Blog.objects.all()
