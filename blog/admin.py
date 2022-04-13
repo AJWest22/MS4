@@ -1,15 +1,15 @@
 from django.contrib import admin
-from .models import Blog
+from .models import Post
 
 
-class BlogAdmin(admin.ModelAdmin):
+class PostAdmin(admin.ModelAdmin):
     list_display = (
         'user',
         'created',
         'updated',
         'title',
-        'posts',
+        'post',
     )
 
 
-admin.site.register(Blog, BlogAdmin)
+admin.site.register(Post, PostAdmin)
