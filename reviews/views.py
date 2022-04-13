@@ -78,6 +78,7 @@ def edit_review(request, review_id):
 
     return render(request, template, context)
 
+
 @login_required
 def delete_review(request, review_id):
     """ Remove reviews of the products """
