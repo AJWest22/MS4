@@ -51,7 +51,7 @@ def add_post(request):
 
 @login_required
 def edit_post(request, post_id):
-    """ Edits a review of a product """
+    """ Edits a blog post """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only site admin can edit a review.')
         return redirect(reverse('posts'))
