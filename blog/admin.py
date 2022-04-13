@@ -8,7 +8,7 @@ class BlogAdmin(admin.ModelAdmin):
         'created',
         'updated',
         'title',
-        'blog',
+        'posts',
     )
 
 

@@ -62,9 +62,9 @@
                                 {% if request.user.is_superuser %}
                                 <div class="row">
                                     <div class="col">
-                                        <a href="{% url 'edit_review' review.id %}"
+                                        <a href="{% url 'edit_post' post.id %}"
                                             class="text-black">Edit</a>
-                                        <a href="{% url 'delete_review' review.id %}"
+                                        <a href="{% url 'delete_post' post.id %}"
                                             class="text-danger">Delete</a>
                                     </div>
                                 </div>
