@@ -47,3 +47,32 @@ def add_post(request):
         'form': form,
     }
     return render(request, template, context)
+
+
+@login_required
+def edit_post(request, post_id):
+    """ Edits a review of a product """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only site admin can edit a review.')
+        return redirect(reverse('posts'))
+
+    post = get_object_or_404(Post, pk=post_id)
+    if request.method == 'POST':
+        form = PostForm(request.POST, instance=post)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Your blog post has been updated!')
+            return redirect('posts')
+        else:
+            messages.error(request, 'Your post failed to update. Please check the form is filled out correctly.')
+    else:
+        form = PostForm(instance=post)
+        messages.info(request, f'You are editing {post.id}')
+
+    template = 'blog/edit_blog.html'
+    context = {
+        'form': form,
+        'post': post,
+    }
+
+    return render(request, template, context)
