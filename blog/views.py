@@ -76,3 +76,19 @@ def edit_post(request, post_id):
     }
 
     return render(request, template, context)
+
+
+@login_required
+def delete_post(request, review_id):
+    """ Deletes blog posts """
+
+    post = get_object_or_404(Post, pk=post_id)
+    if request.user.is_superuser:
+        post.delete()
+        messages.success(request, "Post has been successfully deleted"
+                         )
+    else:
+        messages.error(request, 'Sorry, we could not' +
+                       'delete you post right now')
+
+    return redirect(reverse('posts'))
