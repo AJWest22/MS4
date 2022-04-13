@@ -28,7 +28,7 @@ def add_post(request):
         return redirect(reverse('home'))
 
     if request.method == 'POST' and request.user.is_superuser:
-        form = ReviewForm(request.POST)
+        form = PostForm(request.POST)
         if form.is_valid():
             post = form.save()
             post.user = request.user
