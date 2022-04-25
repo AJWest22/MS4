@@ -34,17 +34,20 @@ def add_to_basket(request, item_id):
 def adjust_basket(request, item_id):
     """Adjusts the quantity of a product to a new amount"""
 
+    product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
     basket = request.session.get('basket', {})
 
     if quantity:
         if quantity > 0:
             basket[item_id] = quantity
+            messages.success(request, f'Updated {product.name} quantity to {bag[item_id]}')
     else:
         if quantity > 0:
             basket[item_id] = quantity
         else:
             basket.pop(item_id)
+            messages.success(request, f'Removed {product.name} from your bag')
 
     request.session['basket'] = basket
     return redirect(reverse('view_basket'))
