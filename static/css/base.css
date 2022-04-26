@@ -88,11 +88,12 @@ body {
 
 .oswald-font {
     font-family: Oswald;
-    letter-spacing: 1px;
+    font-size: 50px;
+    text-shadow: 1px 1px black;
 }
 
 .products-background {
-    background-color: #53adcb;
+    background: linear-gradient(-45deg, #0096FF, #53adcb, #0000FF);
 }
 
 .card {
