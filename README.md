@@ -220,7 +220,7 @@ The Oswald font is used as the Header font, and is used with some letter-spacing
 
 ### **Colors**
 
-The site uses a black and white coloring to ceate the modern look. The cdesign style comes from CI's Boutique Ado project. Originaly I was going to add some custom CSS, but ran out of time to add some.
+The site uses a black and white coloring to ceate the modern look. The cdesign style comes from CI's Boutique Ado project. Originaly I was going to use a video for the playstation and xbox products, but struggled to implement it, so it was removed and a blue background was added to the playstation games, and a green color for the Xbox games. This is in keeping with the games manufactures, Sony's colour being blue, and Microsoft's colour being green.
 
 ### **Images** 
 
