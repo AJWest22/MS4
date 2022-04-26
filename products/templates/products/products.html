@@ -58,22 +58,22 @@
                                     <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
                                 </a>
                                 {% endif %}
-                                <div class="card-body pb-0 bg-black">
+                                <div class="card-body pb-0 bg-white">
                                     <p class="mb-0 text-primary">{{ product.name }}</p>
                                 </div>
-                                <div class="card-footer bg-black pt-0 border-0 text-left">
+                                <div class="card-footer bg-white pt-0 border-0 text-left">
                                     <div class="row">
                                         <div class="col">
                                             <p class="lead mb-0 text-left font-weight-bold text-primary">${{ product.price }}</p>
                                             {% if product.category %}
                                             <p class="small mt-1 mb-0 text-primary">
                                                 <a class="text-primary" href="{% url 'products' %}?category={{ product.category.name }}">
-                                                    <i class="fas fa-tag mr-1 text-white"></i>{{ product.category.friendly_name }}
+                                                    <i class="fas fa-tag mr-1 text-black"></i>{{ product.category.friendly_name }}
                                                 </a>
                                             </p>
                                             {% endif %}
                                             {% if product.rating %}
-                                                <small class="text-primary"><i class="fas fa-star mr-1 text-white"></i>{{ product.rating }} / 5</small>
+                                                <small class="text-primary"><i class="fas fa-star mr-1 text-black"></i>{{ product.rating }} / 5</small>
                                             {% else %}
                                                 <small class="text-primary">No Rating</small>
                                             {% endif %}
