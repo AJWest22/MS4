@@ -26,8 +26,16 @@ body {
     color: #53adcb;
 }
 
+.fa-gamepad:hover {
+    color: #0000FF;
+}
+
 .fa-shopping-basket {
     color: #53adcb;
+}
+
+.fa-shopping-basket:hover {
+    color: #0000FF;
 }
 
 .logo-font {
