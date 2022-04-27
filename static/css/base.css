@@ -23,19 +23,22 @@ body {
 }
 
 .fa-gamepad {
-    color: #53adcb;
+    color: black;
 }
 
 .fa-gamepad:hover {
-    color: #0000FF;
+    color: #53adcb;
+    transform: scale(1.8);
 }
 
 .fa-shopping-basket {
-    color: #53adcb;
+    color: black;
 }
 
 .fa-shopping-basket:hover {
-    color: #0000FF;
+    color: #53adcb;
+    transform: scale(1.5);
+
 }
 
 .logo-font {
@@ -46,14 +49,14 @@ body {
     width: fit-content;
 }
 
+.btn-black {
+    background-color: #000;
+}
+
 .shop-now-button {
     background: black;
     color: white;
     min-width: 260px;
-}
-
-.btn-white:hover {
-    background: black;
 }
 
 .btn-outline-black {
