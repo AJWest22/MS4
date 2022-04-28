@@ -30,6 +30,9 @@ body {
 
 .account:hover {
     transform: scale(1.2);
+    background-color: black;
+    color: #53adcb;
+    text-decoration: underline 2px #0047AB;
 }
 
 .fa-gamepad {
@@ -43,6 +46,9 @@ body {
 
 .basket:hover {
     transform: scale(1.2);
+    background-color: black;
+    color: #53adcb;
+    text-decoration: underline 2px #0047AB;
 }
 
 .fa-shopping-basket {
@@ -130,10 +136,6 @@ body {
     font-family: Oswald;
     font-size: 50px;
     text-shadow: 1px 1px black;
-}
-
-.home-button:hover {
-    color: #53adcb;
 }
 
 .products-background {
