@@ -12,6 +12,12 @@ body {
     font-family: "Lato";
 }
 
+.products:hover {
+    transform: scale(1.1);
+    text-decoration: underline 2.5px #53adcb;
+    font-size: 16px;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
