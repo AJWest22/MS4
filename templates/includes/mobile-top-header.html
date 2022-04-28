@@ -1,5 +1,5 @@
 <li class="list-inline-item">
-    <a class="text-black nav-link d-block d-lg-none" href="#" id="mobile-search" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <a class="text-black nav-link d-block d-lg-none" href="#" id="mobile-search" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <div class="text-center">
             <div><i class="fas fa-search fa-lg"></i></div>
             <p class="my-0">Search</p>
@@ -21,7 +21,7 @@
     </div>
 </li>
 <li class="list-inline-item dropdown">
-    <a class="text-primary nav-link d-block d-lg-none" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <a class="text-primary nav-link d-block d-lg-none" href="#" id="user-options" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <div class="text-center account">
             <div><i class="fas fa-gamepad fa-lg"></i></div>
             <p class="my-0">My Account</p>
@@ -30,15 +30,15 @@
     <div class="dropdown-menu border-0" aria-labelledby="user-options">
         {% if request.user.is_authenticated %}
             {% if request.user.is_superuser %}
-                <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
-                <a href="{% url 'add_post' %}" class="dropdown-item">Make a Blog Post</a>
+                <a href="{% url 'add_product' %}" class="dropdown-item menu-link">Product Management</a>
+                <a href="{% url 'add_post' %}" class="dropdown-item menu-link">Make a Blog Post</a>
             {% endif %}
-            <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
-            <a href="{% url 'add_review' %}" class="dropdown-item">Review A Product</a>
-            <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+            <a href="{% url 'profile' %}" class="dropdown-item menu-link">My Profile</a>
+            <a href="{% url 'add_review' %}" class="dropdown-item menu-link">Review A Product</a>
+            <a href="{% url 'account_logout' %}" class="dropdown-item menu-link">Logout</a>
         {% else %}
-            <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
-            <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+            <a href="{% url 'account_signup' %}" class="dropdown-item menu-link">Register</a>
+            <a href="{% url 'account_login' %}" class="dropdown-item menu-link">Login</a>
         {% endif %}
     </div>
 </li>

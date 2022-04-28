@@ -63,6 +63,13 @@ body {
     width: fit-content;
 }
 
+.menu-link:hover {
+    color: #53adcb;
+    text-decoration: underline 2px #008080;
+    font-size: 17px;
+    background-color: black;
+}
+
 .btn-black {
     background-color: #000;
 }
