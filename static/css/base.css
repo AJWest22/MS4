@@ -321,4 +321,10 @@ body {
     body {
         height: calc(100vh - 116px);
     }
+
+    .products:hover {
+        transform: scale(1.0);
+        text-decoration: underline 2.5px #53adcb;
+        font-size: 17px;
+    }
 }
