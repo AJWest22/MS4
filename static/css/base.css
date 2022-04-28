@@ -22,6 +22,11 @@ body {
     color: #53adcb;
 }
 
+.account:hover {
+    transform: scale(1.2);
+
+}
+
 .fa-gamepad {
     color: black;
 }
