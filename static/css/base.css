@@ -24,7 +24,6 @@ body {
 
 .account:hover {
     transform: scale(1.2);
-
 }
 
 .fa-gamepad {
@@ -34,6 +33,10 @@ body {
 .fa-gamepad:hover {
     color: #53adcb;
     transform: scale(1.8);
+}
+
+.basket:hover {
+    transform: scale(1.2);
 }
 
 .fa-shopping-basket {
