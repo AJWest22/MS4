@@ -65,9 +65,10 @@ body {
 
 .menu-link:hover {
     color: #53adcb;
-    text-decoration: underline 2px #008080;
-    font-size: 17px;
+    font-size: 18px;
+    text-decoration: underline 2px #0047AB;
     background-color: black;
+    text-shadow: 1px white;
 }
 
 .btn-black {
@@ -129,6 +130,10 @@ body {
     font-family: Oswald;
     font-size: 50px;
     text-shadow: 1px 1px black;
+}
+
+.home-button:hover {
+    color: #53adcb;
 }
 
 .products-background {
