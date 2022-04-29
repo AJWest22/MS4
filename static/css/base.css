@@ -176,6 +176,26 @@ body {
     color: #53adcb !important;
 }
 
+#return-login-button:hover {
+    color: #53adcb !important;
+}
+
+#change-password-button:hover {
+    color: #53adcb !important;
+}
+
+#back-to-login-button:hover {
+    color: #53adcb !important;
+}
+
+#reset-button:hover {
+    color: #53adcb !important;
+}
+
+#set-password-button:hover {
+    color: #53adcb !important;
+}
+
 .card {
     box-shadow: 2px 1px black;
 }
