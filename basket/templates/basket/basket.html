@@ -12,11 +12,11 @@
 
 {% block content %}
     <div class="overlay"></div>
-    <div class="container mb-2">
+    <div class="container mb-2 color-scheme">
         <div class="row">
             <div class="col">
                 <hr>
-                <h2 class="logo-font mb-4">Shopping Basket</h2>
+                <h2 class="logo-font mb-4 text-white">Shopping Basket</h2>
                 <hr>
             </div>
         </div>
@@ -26,7 +26,7 @@
                 {% if basket_items %}
                     <div class="table-responsive rounded">
                         <table>
-                            <thead class="text-black">
+                            <thead class="text-white">
                                 <tr>
                                     <th scope="col">Product Info</th>
                                     <th scope="col"></th>
@@ -39,15 +39,15 @@
                             {% for item in basket_items %}
                                 <tr>
                                     <td class="p-3 w-25">
-                                        <img class="img-fluid rounded" src="{{ item.product.image.url }}">
+                                        <img class="img-fluid rounded border border-white" src="{{ item.product.image.url }}">
                                     </td>
                                     <td class="py-3">
-                                        <p class="my-0"><strong>{{ item.product.name }}</strong></p>
-                                        <p class="my-0"><strong>Size: </strong>{% if item.product.has_quantities %}{{ item.quantity|upper }}{% else %}N/A{% endif %}</p>
+                                        <p class="my-0 text-white"><strong>{{ item.product.name }}</strong></p>
+                                        <p class="my-0 text-white"><strong>Size: </strong>{% if item.product.has_quantities %}{{ item.quantity|upper }}{% else %}N/A{% endif %}</p>
                                         <p class="my-0 small text-muted">SKU: {{ item.product.sku|upper }}</p>
                                     </td>
                                     <td class="py-3">
-                                        <p class="my-0">${{ item.product.price }}</p>
+                                        <p class="my-0 text-white">${{ item.product.price }}</p>
                                     </td>
                                     <td class="py-3 w-25">
                                         <form class="form update-form" method="POST" action="{% url 'adjust_basket' item.item_id %}">
@@ -58,7 +58,7 @@
                                                         <button class="decrement-qty btn btn-sm btn-black rounded-0" 
                                                             data-item_id="{{ item.item_id }}" id="decrement-qty_{{ item.item_id }}">
                                                             <span>
-                                                                <i class="fas fa-minus fa-sm"></i>
+                                                                <i class="fas fa-minus fa-sm text-white"></i>
                                                             </span>
                                                         </button>
                                                     </div>
@@ -70,26 +70,26 @@
                                                         <button class="increment-qty btn btn-sm btn-black rounded-0"
                                                             data-item_id="{{ item.item_id }}" id="increment-qty_{{ item.item_id }}">
                                                             <span>
-                                                                <i class="fas fa-plus fa-sm"></i>
+                                                                <i class="fas fa-plus fa-sm text-white"></i>
                                                             </span>
                                                         </button>
                                                     </div>
                                                 </div>
                                             </div>
                                         </form>
-                                        <a class="update-link text-info"><small>Update item</small></a>
+                                        <a class="update-link text-info text-white"><small>Update item</small></a>
                                         <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}"><small>Remove an item from the Basket </small></a>
                                     </td>
                                     <td class="py-3">
-                                        <p class="my-0">${{ item.product.price | calc_subtotal:item.quantity }}</p>
+                                        <p class="my-0 text-white">${{ item.product.price | calc_subtotal:item.quantity }}</p>
                                     </td>
                                 </tr>
                             {% endfor %}
                             <tr>
                                 <td colspan="5" class="pt-5 text-right">
-                                    <h6><strong>Bag Total: ${{ total|floatformat:2 }}</strong></h6>
-                                    <h6>Delivery: ${{ delivery|floatformat:2 }}</h6>
-                                    <h4 class="mt-4"><strong>Grand Total: ${{ grand_total|floatformat:2 }}</strong></h4>
+                                    <h6 class="text-white"><strong>Bag Total: ${{ total|floatformat:2 }}</strong></h6>
+                                    <h6 class="text-white">Delivery: ${{ delivery|floatformat:2 }}</h6>
+                                    <h4 class="mt-4 text-white"><strong>Grand Total: ${{ grand_total|floatformat:2 }}</strong></h4>
                                     {% if free_delivery_delta > 0 %}
                                         <p class="mb-1 text-danger">
                                             Your order qualifies for free delivery by spending just <strong>${{ free_delivery_delta }}</strong> more!
@@ -105,8 +105,8 @@
                                         </span>
                                         <span class="text-uppercase">Continue Shopping</span>
                                     </a>
-                                    <a href="{% url 'checkout' %}" class="btn btn-black rounded-0 btn-lg">
-                                        <span class="text-uppercase">Secure Checkout</span>
+                                    <a href="{% url 'checkout' %}" class="btn btn-black rounded-0 btn-lg checkout-button">
+                                        <span class="text-uppercase text-white">Secure Checkout</span>
                                         <span class="icon">
                                             <i class="fas fa-lock"></i>
                                         </span>
@@ -116,7 +116,7 @@
                         </table>>
                     </div>
                 {% else %}
-                    <p class="lead mb-5">Your basket is empty.</p>
+                    <p class="lead mb-5 text-white">Your basket is empty.</p>
                     <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
                         <span class="icon">
                             <i class="fas fa-chevron-left"></i>

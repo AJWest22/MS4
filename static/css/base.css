@@ -12,6 +12,12 @@ body {
     font-family: "Lato";
 }
 
+/* official site background colors found on products and account pages*/
+
+.color-scheme {
+    background: linear-gradient(-45deg, #0096FF, #53adcb, #0000FF);
+}
+
 .products:hover {
     transform: scale(1.1);
     text-decoration: underline 2.5px #53adcb;
@@ -164,12 +170,9 @@ body {
     cursor: pointer;
 }
 
-/* official site background colors found on products and account pages*/
-
-.color-scheme {
-    background: linear-gradient(-45deg, #0096FF, #53adcb, #0000FF);
+.checkout-button:hover {
+    color: black !important;
 }
-
 
 /* bootstrap toasts code from CI Boutique Ado project*/
 
