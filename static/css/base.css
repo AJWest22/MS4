@@ -139,7 +139,7 @@ body {
 }
 
 #return-button {
-    color: #53adcb !important;
+    color: black !important;
 }
 
 #return-button:hover {
@@ -147,6 +147,10 @@ body {
 }
 
 #sign-in-button {
+    color: white;
+}
+
+#sign-in-button:hover {
     color: #53adcb;
 }
 
