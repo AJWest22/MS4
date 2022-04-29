@@ -160,6 +160,14 @@ body {
     color: #53adcb;
 }
 
+#login-button:hover {
+    color: #53adcb !important;
+}
+
+#sign-up-button:hover {
+    color: #53adcb !important;
+}
+
 .card {
     box-shadow: 2px 1px black;
 }
