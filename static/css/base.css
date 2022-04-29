@@ -168,6 +168,14 @@ body {
     color: #53adcb !important;
 }
 
+#cancel-button:hover {
+    color: #53adcb !important;
+}
+
+#logout-button:hover {
+    color: #53adcb !important;
+}
+
 .card {
     box-shadow: 2px 1px black;
 }
