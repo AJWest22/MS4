@@ -1,4 +1,10 @@
 /* All css from CI Boutique Ado */
+
+#update-button:hover {
+    color: #53adcb !important;
+    background-color: #000 !important;
+}
+
 .order-history {
     max-height: 416px; /* height of profile form + submit button */
     overflow-y: auto;
