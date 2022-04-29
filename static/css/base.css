@@ -170,7 +170,15 @@ body {
     cursor: pointer;
 }
 
-.checkout-button:hover {
+.fa-minus:hover {
+    color: black !important;
+}
+
+.fa-plus:hover {
+    color: black !important;
+}
+
+#checkout-button:hover {
     color: black !important;
 }
 
