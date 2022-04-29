@@ -12,7 +12,7 @@ body {
     font-family: "Lato";
 }
 
-/* official site background colors found on products and account pages*/
+/* official site background colors*/
 
 .color-scheme {
     background: linear-gradient(-45deg, #0096FF, #53adcb, #0000FF);
@@ -64,7 +64,6 @@ body {
 .fa-shopping-basket:hover {
     color: #53adcb;
     transform: scale(1.5);
-
 }
 
 .logo-font {
