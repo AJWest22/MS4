@@ -66,6 +66,10 @@ body {
     transform: scale(1.5);
 }
 
+.logo:hover {
+    transform: scale(1.2);
+}
+
 .logo-font {
     text-transform: uppercase;
 }
