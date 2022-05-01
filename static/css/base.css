@@ -70,8 +70,6 @@ body {
 
 .logo {
     font-family: Changa;
-    text-shadow: 2px 1px black;
-    letter-spacing: 2px;
 }
 
 .logo:hover {
