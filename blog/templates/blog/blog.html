@@ -36,22 +36,18 @@
                             <a href="{% url 'post_details' post.id %}">
                                 <div class="card h-100 border-0 border-white post">
                                     <div class="card-body pb-0">
-                                        <p class="mb-0">{{ post.title }}</p>
-                                    </div>
-                                    <div class="col">
-                                        <p class="lead mb-0 text-left font-weight-bold">
-                                            {{ post.post }}</p>
+                                        <h4 class="mb-0 text-black"><strong>{{ post.title }}</strong></h4>
                                     </div>
                                     <div class="card-body pb-0">
-                                        <p class="mb-0">Posted: {{ post.created }}</p>
+                                        <p class="mb-0 text-black"><strong>Posted</strong> {{ post.created }}</p>
                                     </div>
                                     <div class="card-body pb-0">
-                                        <p class="mb-0">Updated: {{ post.updated }}</p>
+                                        <p class="mb-0 text-black"><strong>Updated:</strong> {{ post.updated }}</p>
                                     </div>
                                     <div class="card-footer pt-0 border-0 text-left">
                                         <div class="row">
                                             <div class="card-body pb-0">
-                                                <p class="mb-0 user">Posted by: {{ post.user }}</p>
+                                                <p class="mb-0 user text-black"><strong>Posted by: </strong>{{ post.user }}</p>
                                             </div>
                                         </div>
                                     </div>
