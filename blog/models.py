@@ -11,6 +11,8 @@ class Post(models.Model):
     updated = models.DateField(auto_now=True)
     title = models.CharField(max_length=255)
     post = models.TextField(max_length=500000)
+    image_url = models.URLField(max_length=1024, null=True, blank=True)
+    image = models.ImageField(null=True, blank=True)
 
     def __str__(self):
         return str(self.title)

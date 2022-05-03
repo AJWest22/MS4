@@ -9,6 +9,7 @@ class PostAdmin(admin.ModelAdmin):
         'updated',
         'title',
         'post',
+        'image',
     )
 
 
