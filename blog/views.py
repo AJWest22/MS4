@@ -19,6 +19,18 @@ def posts(request):
     return render(request, 'blog/blog.html', context)
 
 
+def post_details(request, post_id):
+    """ A view to show individual posts """
+
+    post = get_object_or_404(Post, pk=post_id)
+
+    context = {
+        'post': post,
+    }
+
+    return render(request, 'blog/post_details.html', context)
+
+
 @login_required
 def add_post(request):
     """ Adds blog posts """
