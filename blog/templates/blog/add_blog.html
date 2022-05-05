@@ -28,11 +28,16 @@
             <form method="POST" action="{% url 'add_post' %}" class="form mb-2 text-white" enctype="multipart/form-data">
                 {% csrf_token %}
                 {{ form|crispy }}
-                <button class="btn btn-black rounded-0 text-white color-blue">
-                    Post
-                </button>
-                <a href="{% url 'posts' %}" class="btn btn-outline-black rounded-0">Back to Blog Posts</a>
             </form>
+            <a href="{% url 'posts' %}" class="btn btn-outline-black rounded-0">
+                <span class="icon">
+                    <i class="fas fa-chevron-left"></i>
+                </span>
+                <span>Back to Blog Posts</span>
+            </a>
+            <button class="btn btn-black rounded-0 text-white color-blue">
+                Post
+            </button>
         </div>
     </div>
 </div>
