@@ -19,16 +19,16 @@
     <div class="row">
         <div class="col">
             <hr>
-            <h2 class="logo-font mb-4">Edit Reviews</h2>
+            <h2 class="logo-font mb-4 text-white">Edit Reviews</h2>
             <hr>
         </div>
     </div>
     <div class="row">
         <div class="col-12 col-lg-6">
-            <form action="{% url 'edit_review' review.id %}" method="POST" class="form mb-2" enctype="multipart/form-data">
+            <form action="{% url 'edit_review' review.id %}" method="POST" class="form mb-2 text-white" enctype="multipart/form-data">
                 {% csrf_token %}
                 {{ form|crispy }}
-                <button type="submit" class="btn btn-black rounded-0">
+                <button type="submit" class="btn btn-black rounded-0 text-white color-blue">
                     Edit Review
                 </button>
                 <a href="{% url 'reviews' %}" class="btn btn-outline-black rounded-0">Reviews</a>
