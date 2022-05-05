@@ -20,6 +20,7 @@ body {
 
 .color-blue:hover {
     color: #1464F4 !important;
+    background-color: white !important;
 }
 
 .products:hover {

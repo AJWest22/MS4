@@ -18,7 +18,7 @@
   <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
   {% endif %}
   <a id="login-button" class="btn btn-outline-black rounded-0" href="{% url 'account_login' %}">Back to Login</a>
-  <button id="sign-up-button" type="submit">{% trans "Sign Up" %}</button>
+  <button class="text-white color-blue" type="submit">{% trans "Sign Up" %}</button>
 </form>
 
 {% endblock %}
