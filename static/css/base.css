@@ -40,10 +40,8 @@ body {
 }
 
 .account:hover {
-    transform: scale(1.2);
-    background-color: black;
+    transform: scale(1.1);
     color: #53adcb;
-    text-decoration: underline 2px #0047AB;
 }
 
 .fa-gamepad {
@@ -56,10 +54,8 @@ body {
 }
 
 .basket:hover {
-    transform: scale(1.2);
-    background-color: black;
+    transform: scale(1.1);
     color: #53adcb;
-    text-decoration: underline 2px #0047AB;
 }
 
 .fa-shopping-basket {
@@ -84,10 +80,8 @@ body {
 }
 
 .menu-link:hover {
-    color: #53adcb;
+    color: #0096FF;
     font-size: 18px;
-    text-decoration: underline 2px #0047AB;
-    text-shadow: 1px white;
 }
 
 .btn-black {
