@@ -29,8 +29,6 @@
                 {% csrf_token %}
                 {{ form|crispy }}
             </form>
-        </div>
-        <div class="reviews-spacing">
             <a href="{% url 'reviews' %}" class="btn btn-outline-black rounded-0">
                 <span class="icon">
                     <i class="fas fa-chevron-left"></i>
