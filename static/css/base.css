@@ -152,62 +152,6 @@ body {
     text-shadow: 1px 1px black;
 }
 
-#return-button {
-    color: black !important;
-}
-
-#return-button:hover {
-    color: #53adcb !important;
-}
-
-#sign-in-button {
-    color: white;
-}
-
-#sign-in-button:hover {
-    color: #53adcb;
-}
-
-#login-button:hover {
-    color: #53adcb !important;
-}
-
-#sign-up-button:hover {
-    color: #53adcb !important;
-}
-
-#cancel-button:hover {
-    color: #53adcb !important;
-}
-
-#logout-button:hover {
-    color: #53adcb !important;
-}
-
-#return-login-button:hover {
-    color: #53adcb !important;
-}
-
-#change-password-button:hover {
-    color: #53adcb !important;
-}
-
-#back-to-login-button:hover {
-    color: #53adcb !important;
-}
-
-#reset-button:hover {
-    color: #53adcb !important;
-}
-
-#set-password-button:hover {
-    color: #53adcb !important;
-}
-
-#remove-button:hover {
-    color: #53adcb !important;
-}
-
 .card {
     box-shadow: 2px 1px black;
 }
