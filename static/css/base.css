@@ -169,6 +169,10 @@ body {
     color: black !important;
 }
 
+.fa-arrow-up{
+    color: #53adcb;
+}
+
 /* bootstrap toasts code from CI Boutique Ado project*/
 
 .message-container {
