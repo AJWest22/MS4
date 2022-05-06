@@ -64,18 +64,18 @@
                                 <div class="card-footer bg-white pt-0 border-0 text-left">
                                     <div class="row">
                                         <div class="col">
-                                            <p class="lead mb-0 text-left font-weight-bold text-primary">£{{ product.price }}</p>
+                                            <p class="lead mb-0 text-left font-weight-bold text-black">£{{ product.price }}</p>
                                             {% if product.category %}
                                             <p class="small mt-1 mb-0 text-primary">
                                                 <a class="text-primary" href="{% url 'products' %}?category={{ product.category.name }}">
-                                                    <i class="fas fa-tag mr-1 text-black"></i>{{ product.category.friendly_name }}
+                                                    <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
                                                 </a>
                                             </p>
                                             {% endif %}
                                             {% if product.rating %}
-                                                <small class="text-primary"><i class="fas fa-star mr-1 text-black"></i>{{ product.rating }} / 5</small>
+                                                <small><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
                                             {% else %}
-                                                <small class="text-primary">No Rating</small>
+                                                <small class="text-danger">No Rating</small>
                                             {% endif %}
                                             {% if request.user.is_superuser %}
                                                 <small class="ml-3">

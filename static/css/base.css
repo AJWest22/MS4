@@ -169,6 +169,14 @@ body {
     color: black !important;
 }
 
+.fa-tag {
+    color: #53adcb;
+}
+
+.fa-star {
+    color: #FEDE00;
+}
+
 .fa-arrow-up{
     color: #53adcb;
 }
