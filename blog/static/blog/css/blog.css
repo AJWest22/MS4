@@ -7,4 +7,6 @@
 .roboto-font {
     font-family: roboto;
     font-size: 35px;
+    color: #53adcb;
+    text-shadow: 1px 1px white;
 }
