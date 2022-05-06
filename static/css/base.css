@@ -23,7 +23,7 @@ body {
 /* official site colors for background and buttons*/
 
 .color-scheme {
-    background: linear-gradient(-45deg, #0096FF, #53adcb, #0000FF);
+    background: linear-gradient(#0096FF, #53adcb);
 }
 
 .color-blue:hover {
