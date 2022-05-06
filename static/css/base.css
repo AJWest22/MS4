@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 html {
     height: 100%;
@@ -18,7 +17,7 @@ body {
 .koulen-font {
     font-family: koulen;
     font-size: 50px;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     text-shadow: 1px 1px white;
 }
 
