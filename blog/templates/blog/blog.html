@@ -39,10 +39,6 @@
                                     <a href="{% url 'post_details' post.id %}">
                                         <img class="card-img-top img-fluid" src="{{ post.image.url }}" alt="{{ post.id }}">
                                     </a>
-                                    {% else %}
-                                    <a href="{% url 'post_details' post.id %}">
-                                        <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ post.id }}">
-                                    </a>
                                     {% endif %}
                                     <div class="card-body pb-0">
                                         <h4 class="mb-0 roboto-font"><strong>{{ post.title }}</strong></h4>
