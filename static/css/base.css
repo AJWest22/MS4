@@ -148,7 +148,11 @@ body {
 }
 
 .card {
-    box-shadow: 2px 1px black;
+    box-shadow: 2px 1px whitesmoke;
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
 
 .btt-link,

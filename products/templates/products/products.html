@@ -59,7 +59,7 @@
                                 </a>
                                 {% endif %}
                                 <div class="card-body pb-0 bg-white">
-                                    <p class="mb-0 text-primary">{{ product.name }}</p>
+                                    <h5 class="mb-0 text-primary">{{ product.name }}</h5>
                                 </div>
                                 <div class="card-footer bg-white pt-0 border-0 text-left">
                                     <div class="row">
@@ -67,7 +67,7 @@
                                             <p class="lead mb-0 text-left font-weight-bold text-black">£{{ product.price }}</p>
                                             {% if product.category %}
                                             <p class="small mt-1 mb-0 text-primary">
-                                                <a class="text-primary" href="{% url 'products' %}?category={{ product.category.name }}">
+                                                <a class="text-black" href="{% url 'products' %}?category={{ product.category.name }}">
                                                     <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
                                                 </a>
                                             </p>
