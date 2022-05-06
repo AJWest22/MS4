@@ -48,13 +48,22 @@
                                         <h4 class="mb-0 text-black"><strong>{{ post.title }}</strong></h4>
                                     </div>
                                     <div class="card-body pb-0">
+                                        <span class="icon">
+                                            <i class="fas fa-edit"></i>
+                                        </span>
                                         <p class="mb-0 text-black"><strong>Posted:</strong> {{ post.created }}</p>                                        </div>
                                     <div class="card-body pb-0">
-                                         <p class="mb-0 text-black"><strong>Updated:</strong> {{ post.updated }}</p>
+                                        <span>
+                                            <i class="fas fa-check-circle"></i>
+                                        </span>
+                                        <p class="mb-0 text-black"><strong>Updated:</strong> {{ post.updated }}</p>
                                     </div>
                                      <div class="card-footer pt-0 border-0 text-left">
                                         <div class="row">
                                             <div class="card-body pb-0">
+                                                <span class="icon">
+                                                    <i class="fas fa-user-check"></i>
+                                                </span>
                                                 <p class="mb-0 user text-black"><strong>Posted by: </strong>{{ post.user }}</p>
                                             </div>
                                         </div>

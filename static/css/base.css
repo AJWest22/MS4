@@ -189,6 +189,11 @@ body {
 .blog-header {
     text-shadow: 1px 1px grey;
 }
+
+.fa-check-circle {
+    color: #3cd070 !important;
+}
+
 /* bootstrap toasts code from CI Boutique Ado project*/
 
 .message-container {
