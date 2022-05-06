@@ -185,6 +185,9 @@ body {
     color: #53adcb;
 }
 
+.blog-header {
+    text-shadow: 1px 1px grey;
+}
 /* bootstrap toasts code from CI Boutique Ado project*/
 
 .message-container {
