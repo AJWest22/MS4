@@ -60,14 +60,14 @@
  - The source code can be found on GitHub
  - The site is deployed using Heroku
 
- - The purpose of this site is to help people find games they might like to play over a selection of consoles, from the 7th and 8th generations of game consoles.
+ - The purpose of this site is to help people find games they might like to play over a selection of consoles, from the 7th and 8th generations of game consoles. Customers can also leave reviews and read blog posts on: trends in the gaming industry, upcoming games and consoles, and reviews on games and consoles.
 
 
  - There is currently one account made at the moment:
 
      **Username**: easygaming_admin **Password**: E45yG4m1ng
 
-This account is the main admin account of the site, and has also been used to test site functionality, for example: to check order history, add products and reviews etc. All address, payment and order history and data on this account is FAKE. 
+This account is the main admin account of the site, and has also been used to test site functionality, for example: to check order history, add products and reviews etc. All address, payment and order history and data on this account is **FAKE**. 
 
 View site [here](https://easygaming.herokuapp.com/)
 
@@ -79,6 +79,12 @@ View site [here](https://easygaming.herokuapp.com/)
 
  - Users also have the ability to create, edit update and read (CRUD) reviews on products.
 
+ - Users can read blog posts on games, gaming trends, and consoles.
+
+ - Site admin have CRUD functionality on products, so they can add, edit and delete site products, which regular users can't.
+
+ - Site admin also have CRUD functionality on blog posts.
+
 ### **Siteowners Goals**
 
  - Provide a service that enabes people to easily find games over a variety of consoles.
@@ -89,13 +95,15 @@ View site [here](https://easygaming.herokuapp.com/)
 
  - Ensure blog posts are relevent to the site's purpose
 
+ - Ensure reviews and blog posts contain appropriate language
+
  ### **User Stories**
 
  - As a user of this site I want to find a good game from a variety of genres
 
  - As a user of this site I want to be abe to find games from a variety of consoles and different generations
 
- - As a user i want to know if my login was successful or not.
+ - As a user I want to know if my login was successful or not.
 
  - As a user I want a easy to use, simple site.
 
@@ -108,6 +116,8 @@ View site [here](https://easygaming.herokuapp.com/)
  - As a user I want my previous information such as address stored so I don't need to keep adding it
 
  - As a user I want to know my payments were successfull or not
+
+ - As a user I want the ability to read blog posts
 
 
  ### **Siteowner Stories**
@@ -131,6 +141,10 @@ View site [here](https://easygaming.herokuapp.com/)
  - As the owner of this site, I want superusers to have the abiity to create, edit, update and read the blog posts they have made. 
 
  - As the owner, I want all blogposts to be relevent to the site
+
+ - As the owner of this site, I want the ability to create, edit and delete blogs.
+
+ - As the owner of this site, I want the ability to delete reviews if I find them inappropriate
 
 
 
