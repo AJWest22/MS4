@@ -226,14 +226,16 @@ View site [here](https://easygaming.herokuapp.com/)
 
 ## **The Design**
 
-The site was designed to have a more relaxed feel to it, and easy to use. The site uses simpe coloring, fonts and imagery to create and achieve this effect.
+The site was designed to have a more relaxed feel to it while still maintaining a aesthetic look, and ease of use. The site uses: coloring, fonts and imagery to create and achieve this effect.
 
 
 ### **Typography**
 
-The site uses the font Lato to create a relaxed feel and a modern look for the site. It is used on the paragraph text.
+The site uses several fonts to style the site: Lato, Roboto, and Koulen. to create a relaxed feel and a modern look for the site. 
 
-The Oswald font is used as the Header font, and is used with some letter-spacing to create a bold look, which is attention grabbing, while maintaining the modern look of the site.
+The Koulen font is used as the main Header font, and is used with some letter-spacing to create a bold look, which is attention grabbing, while maintaining the modern look of the site. It can be seen on the Products page header, the blog and reviews headers. Originally Oswald was used, but was then updated to Koulen to create a more aesthetic look, and it had a more "game" feel to it than Oswald.
+
+- Lato is used to style the logo, and is also used as the main font for paragraphs of text found around the site. Example being on the log out page, the text asking a user if they want to log out, is styled using Lato. 
 
 
 ### **Colors**
