@@ -150,14 +150,17 @@ View site [here](https://easygaming.herokuapp.com/)
 
 ## **About The Site**
 
- - The site currently has a total of 14 pages. Some are only visible to users who are logged in (profile page for example).
- - Users who are logged in have the option to buy games, while those who aren't logged in cannot.
- - User not logged in can only browse the games. 
+ - The site currently has a total of 31 pages. This includes all account pages, so pages for signing in/out, password reset, and verification pages. Some pages are only visible to users who are logged in (profile page for example).
+
+ - Users who are logged in have the option to buy games, and leave a review of a product, while those who aren't logged in cannot.
+
+ - Users not logged in can only browse the games. 
+
  - The site's purpose is to help people find second hand games they'd like to play from a variety of consoles.
  
-### **Target Audience**
- - The site is primarily aimed and adults/young adults who enjoy games and want to find their next game to play.
 
+### **Target Audience**
+ - The site is primarily aimed and adults/young adults who enjoy games and want to find a new game to play.
 
 
 ## **Code Used**
