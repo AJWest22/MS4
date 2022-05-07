@@ -203,7 +203,7 @@ View site [here](https://easygaming.herokuapp.com/)
 
  ### **Apps Made**
 
- - There are currently 10 apps made for this project. Each app, except the main app, contains a templates folder with at least one html file inside. 
+ - There are currently 8 apps made for this project. Each app, except the main app, contains a templates folder with at least one html file inside. 
 
  - The main app is called EasyGaming and contains the main settings.py file, the env.py file, and the standard asgi.py, wsgi.py, and __init__.py files. It contains no html files.
 
@@ -219,7 +219,9 @@ View site [here](https://easygaming.herokuapp.com/)
 
  - The profiles app contains information on users profiles, and their details such as address and order history. It contains 1 html file used to create the base of a profile page, the standard apps found in a django application, and a forms.py file used my a user to update their profile page. A static css file is used to style it.
 
- - The reviews app is used to add reviews to the site, this app is in development. A static css file is used to style this app.
+ - The reviews app is used to read reviews for games on the site. Users who are logged in can add, delete, edit reviews to the site. A static css file is used to style this app. A form.py file was created to create the form for making and editing reviews. A static css page is used to style this app.
+
+ - The blog app is used so users can read blog posts relating to video games, the gaming industry, and game consoles either upcoming or older. Only site admin's have the ability to make blog posts, and by extension edit or delete them. The blog app uses s static css page to customise the blog app with some app specific features, such as the blog post enlarging on hover.
 
 
 ## **The Design**
