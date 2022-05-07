@@ -21,6 +21,14 @@ body {
     text-shadow: 1px 1px white;
 }
 
+/* official site font and styling for header texts on blog and review apps*/
+.roboto-font {
+    font-family: roboto;
+    font-size: 35px;
+    color: #53adcb;
+    text-shadow: 1px 1px white;
+}
+
 /* official site colors for background and buttons*/
 
 .color-scheme {
