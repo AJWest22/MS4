@@ -183,24 +183,23 @@ View site [here](https://easygaming.herokuapp.com/)
 
  ### **Files Made**
 
- - There were 13 HTML files made in this project, 56 python files, 2 JavaScript files, 2 CSS files, a Procfile for Heroku deployment and a requirements.txt file. 
+ - There were 36 HTML files made in this project, 87 python files, 2 JavaScript files, 4 CSS files, a Procfile for Heroku deployment and a requirements.txt file. 
 
  - Most can be viewed on GitHUb, however an env.py file was created, to connect variables together in the setting.py file in the main app, which contains sensitve information, and has not been pushed to GitHub.
 
- - The HTML files are stored in the templates folder, as they form the basis of the site, and it helps structure and organise 
-   the code. 
+ - The HTML files are stored in the templates folder of each app, as they form the basis of each page on the site, and it helps structure and organise the code used. 
 
- - The static folders contains the JavaScript and CSS files, and is used to help structure the code files, and keep things orderly.
+ - The static folders contains the JavaScript and CSS files. Generally the apps CSS and/or JS are placed in static files of each app, which are used to help oragnise and style each app, unless it is a common styling in which case the apps are styled using the base.css file. An example of this would be, the post:hover class, which is used to enlarge a blog post on the blog page, this feature isn't reflected in any of the other apps, so is contained in the blog app's personal css file in the static folder.
 
  - The app.py file provides the backend code that handles the data of the site. It is used for submitting data to the database and pulling information from the database. 
 
- - urls.py contains urls for the site
+ - urls.py contains urls for the site. Each app has at least one of these as they contain the urls needed for the apps, example: path('<int:post_id>', views.post_details, name='post_details'), is used so when a user clicks on a blog post, it gets the id of a blog post, and then gets the view called post_details and displays it on the post_details page.
 
- - views.py contains the views for the site, which are then add to the urls.py so the views can be reflected onto the frontend of the site
+ - views.py contains the views for the site, which are then add to the urls.py so the views can be reflected onto the frontend of the site. Each app has a views.py file. For apps with CRUD functionality, the views.py file contains views for adding, editing or deleting or displaying the contents of the apps.
 
- - forms.py contains form data and deals with the backend of the forms, pushing them to the database
+ - forms.py contains form data and deals with the backend of the forms, and pushing them to the database. Most of the apps on the site have a forms.py page, bar the basket app. The form.py file contains the form's structure and fields and some styling of the form fields coloring.
 
- - The env.py file that was created contains information regarding the database and has not been pushed to GitHub.
+ - The env.py file that was created contains information regarding the database, deployment, and payment information, so has not been pushed to GitHub.
 
  ### **Apps Made**
 
