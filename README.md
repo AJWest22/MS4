@@ -168,7 +168,7 @@ View site [here](https://easygaming.herokuapp.com/)
  The site is build using:
  - *HTML* to provide the site's structure and features, for example the contact form.
 
- - *CSS* to add style to the site, for example the font of the typography.
+ - *CSS* to add style to the site, for example the font of the typography, and the site's *official* scolor scheme.
 
  - *PYTHON* to add the backend functionality to the site, for example allowing views to be shown on the fontend, and urls to work.
 
@@ -176,7 +176,7 @@ View site [here](https://easygaming.herokuapp.com/)
 
  ### **Frameworks**
 
- - *BootStrap 4* is used to help style the site, and add responsve features to the site. The code used by BootStrap is used to add some style to the site, for example the button classes, in the html templates. It is also used to make the site responsive using columns and rows, for example the <div class="col-12 col-md-6"> in the add_product.html template. 
+ - *BootStrap 5* is used to help style the site, and add responsve features to the site. The code used by BootStrap is used to add some style to the site, for example the button classes, in the html templates. It is also used to make the site responsive using columns and rows, for example the <div class="col-12 col-md-6"> in the add_product.html template. 
 
  - *DJANGO* is a python framework, and is used in this site to help provide backend functionality. It incudes a in-built database and this is used to store games, reviews, order histories and users amongst other things in this project. 
 
