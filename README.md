@@ -237,6 +237,8 @@ The Koulen font is used as the main Header font, and is used with some letter-sp
 
 - Lato is used to style the logo, and is also used as the main font for paragraphs of text found around the site. Example being on the log out page, the text asking a user if they want to log out, is styled using Lato. 
 
+- Roboto is used to style the headers of blog posts and review titles, as well as the files that contain CUD elements of those apps, for example the header on the add review page. 
+
 
 ### **Colors**
 
