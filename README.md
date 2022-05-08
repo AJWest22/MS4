@@ -242,7 +242,9 @@ The Koulen font is used as the main Header font, and is used with some letter-sp
 
 ### **Colors**
 
-The site uses a black and white coloring to ceate the modern look. The cdesign style comes from CI's Boutique Ado project. Originaly I was going to use a video for the Playstation and Xbox products, but struggled to implement it, so it was removed and a blue background was added to the Playstation games, and a reen color for the Xbox games. This is in keeping with the games manufactures, Sony's colour being blue, and Microsoft's colour being green.
+The site uses a blue gradient as the main color scheme of the site. This adds a nice aesthetic, while creating a modern look to the site. The gradient changes as the user scrolls down the page, this creates a change in scenery and relieves a "same-y" feel from the site and stops the user feeling bored just staring at the same background all the way down the page. The blue color style is a reference to Sony's blue on Playstion 4 products. Originally I was going to use a background video with a subtle blue motion on it, to prevent boredom and make the background of the Products page more dynamic, and less plain to look at, as it has the most products and is the longest page to scroll through on the site. However I struggled to implement it, so it was removed and a blue background gradient was added to the site and this then evolved into the site's official color scheme. 
+
+Originally I would have liked to make a different gradient for the different categories of products, so a green gradient for the Xbox games, the current blue gradient for the PlayStation games, and a white/slightly off white gradient for the Wii games. This would be in keeping with each games official colors for the respective consoles. However, again I had problems implementing this, so the blue gradient was chosen as it looked most aesthetically plasing, and evolved to become the site's official colors.
 
 ### **Images** 
 
