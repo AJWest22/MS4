@@ -62,8 +62,11 @@
 
  - The purpose of this site is to help people find games they might like to play over a selection of consoles, from the 7th and 8th generations of game consoles. Customers can also leave reviews and read blog posts on: trends in the gaming industry, upcoming games and consoles, and reviews on games and consoles.
 
+ - There was one **general** user account made to test the create an account functionality.
+      **Username**: CEKI
+      **Password**: Fordyers
 
- - There is currently one account made at the moment:
+ - There is currently one superuser account made at the moment:
 
      **Username**: easygaming_admin **Password**: E45yG4m1ng
 
@@ -246,31 +249,47 @@ The site uses a blue gradient as the main color scheme of the site. This adds a 
 
 Originally I would have liked to make a different gradient for the different categories of products, so a green gradient for the Xbox games, the current blue gradient for the PlayStation games, and a white/slightly off white gradient for the Wii games. This would be in keeping with each games official colors for the respective consoles. However, again I had problems implementing this, so the blue gradient was chosen as it looked most aesthetically plasing, and evolved to become the site's official colors.
 
+
 ### **Images** 
 
 The homepage image of the ps4 controller on this site comes from pixabay. Its used to create a striking, eye catching effect, while setting out immediately the purpose of the site, (a videogame site). A PS5 controller image wasn't available, but would have been preferred as it would have made the site look and feel more modern. 
 
-The video game images are screenshots of the games on Amazon, then cropped so that only the game is shown. The images are of the official covers of the games. 
+The video game images are screenshots of the games on Amazon, then cropped so that only the game is shown. The images are of the official covers of the games. I DO NOT OWN THESE IMAGES. ALL RIGHTS TO THEIR RIGHTFUL OWNERS.
 
-The images are stored on AWS, except the homepage image which couldn't be added for some reason. 
+The images are stored on AWS. 
 
 
 ## **The DataBase**
 
-The DataBase is a in-built function of DJango, and has been structured so there is a section for: categories, products, users, orders etc. 
+The DataBase is a in-built function of DJango, and has been structured so there is a section for: categories, products, users, orders, reviews and blog posts. Examples of how these look are shown below: 
 
 <details><summary>The layout of the DataBase:</summary>
   <img src="/media/database.png">
 </details>
 
+<details><summary>How categories are stored in the database:</summary>
+  <img src="/media/database.png">
+</details>
+
 <details><summary>Example of how the products are stored in the Database:</summary>
-  <img src="/media/database1.png">
+  <img src="/media/categories-db.png">
 </details>
 
 <details><summary>How orders are stored in the DataBase:</summary>
   <img src="/media/database2.png">
 </details>
 
+<details><summary>How users are stored in the DateBase:</summary>
+  <img src="/media/users-db.png">
+</details>
+
+<details><summary>How reviews are stored in the DataBase:</summary>
+  <img src="/media/reviews-db.png">
+</details>
+
+<details><summary>How blog posts are stored the DataBase:</summary>
+  <img src="/media/blog-posts-db.png">
+</details>
 
 
 ## **AWS***
@@ -296,13 +315,18 @@ The images that are stored on AWS are the videogame images that are used to adve
 </details>
 
 
+
 ## Crispy Forms
 
 Crispy Forms is used to create the forms and form fields. The basic template used for the forms is similar throughout the site, and can be found on the checkout template, and creating an account for example. Required fields include asking for a user's: name, email address, phone number, country, postal code, city or town, the user's address, and phone number and card number. 
 
+
+
 ## **Code Features**
 
 There are several code features used to give the site functionality, these include: a navbar, forms, and dropdown menus.
+
+
 ### **NavBar**
 
 - Is used to offer a way of navigating the site. 
@@ -310,6 +334,7 @@ There are several code features used to give the site functionality, these inclu
 - Is a global element, as it appears on all pages.
 
 - Uses if statements to hide certain pages from users that aren't logged in. For example the add review page is hidden from uses that aren't logged into the site. 
+
 
 ### **Forms**
 
@@ -444,7 +469,8 @@ There are several code features used to give the site functionality, these inclu
 
     - Wii is set to default (not sure why this is)
 
-    
+
+
 ## JSON Files
 
 The JSON Files are used to store information on the products and their categories. Information on the products in the JSONS Files includes: SKU number, product name, a description of the item, a price tag, the categoy where it is to be store (each number represents a game console category), a rating, and an image. 
@@ -464,6 +490,7 @@ The JSON Files are used to store information on the products and their categorie
     }
 
 
+
 ## **Bugs**
 
 There are several bugs to mention:
@@ -475,12 +502,15 @@ There are several bugs to mention:
   3. For some reason the default of every dropdown menu when adding or editing a product is "Wii" a placeholder text saying: "category" or "console" would have been preferred. Placeholder text was added, but wasn't showing on the site for some reason.
 
 
+
 ## **Features to be Added**
 
 This project has several features I would like to add: A blog model which would allow superusers to make blogposts on new products coming to the store (such as games or consoles), trends in the gaming industry, new games to be released, etc. I would aso like to finish the review model so that users can add and edit, and delete reviews on products. Due to not enough tutor support, working models weren't possible to be added at this time.
 
 
+
 ## **Testing**
+
 
 ### HTML Validation
    - The code was validated using NU HTML Validator and displayed some errors about the default html5 document layout, and a few missing attributes.
@@ -524,6 +554,7 @@ This project has several features I would like to add: A blog model which would 
 - This site has been tested on: laptop 15", iPad 8th gen, iPhone SE (2016) and iPhone SE (2020).
 
 
+
 ## Deployment
   - This site was deployed using Heroku using the following steps:
 
@@ -546,11 +577,14 @@ This project has several features I would like to add: A blog model which would 
     - Once deployed, click open app.
 
 
+
 ## Credits
+
 
 ### Icons
 
   - All icons can be found here: [here](https://fontawesome.com/)
+
 
 ### Imagery
 
