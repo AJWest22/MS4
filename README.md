@@ -540,11 +540,11 @@ Bootstrap cards are used to display the games on the site. The card header holds
   
   - Form dropdowns
 
-    - Found in the add product and edit product forms
+    - Found in the add product and edit product forms, and the add review and edit review forms
 
     - Make it easier to select the right category when adding or editing a product
 
-    - Wii is set to default (not sure why this is)
+    - Make it easier to select the right product when adding ot editing a review
 
 
 
