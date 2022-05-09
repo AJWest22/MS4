@@ -674,6 +674,10 @@ This site has several feature to be added, I would like to do more with the prof
 
 ## Credits
 
+My friends and family for their support, and for letting me use their devices and for their feedback on the design of the site.
+
+My amazing mentor Tim Nelson for his feedback and support making this project
+
 
 ### Icons
 
@@ -687,7 +691,7 @@ This site has several feature to be added, I would like to do more with the prof
 
 ### JQuery Framework
 
-- Jquery is used for the form submitting, and can be found at the bottom of most of the templates folder to submit the Crispy Forms used. Example Checkout.html.
+- Jquery is used for the form submitting, the toasts and the spinner at the bottom of the checkout page, and can be found at the bottom of most of the templates folder to submit the Crispy Forms used. Example Checkout.html.
 
 
 ### Crispy Forms
