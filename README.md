@@ -294,24 +294,25 @@ The DataBase is a in-built function of DJango, and has been structured so there 
 
 ## **AWS***
 
-The images of this site are stored on AWS, hwever the homepage image wasn't accepted for some reason, hence why it isn't showing on the deployed site, but can be seen on the un-deployed site [here](https://8000-pink-swift-q4x485ok.ws-eu29.gitpod.io/)
-
-An Image of the homepage as seen on the un-deployed site can be seen below:
-
-<details><summary>Homepage on un-deployed site:</summary>
-  <img src="/media/homepage.png">
-</details>
-
-In contrast this is the homepage on the deployed site:
-
-<details><summary>Homepage on deployed site:</summary>
-  <img src="/media/homepage-deployed.png">
-</details>
-
-The images that are stored on AWS are the videogame images that are used to advertise the products of the store. An example of one of those images stored on AWS can be seen below.
+AWS is used to store the images of this site. The images that are stored on AWS are the videogame images that are used to advertise the products of the store. An example of one of those images stored on AWS can be seen below. 
 
 <details><summary>Example of image stored on AWS:</summary>
   <img src="/media/ac.jpg">
+</details>
+
+However one image doesn't display on the deployed version of the site, the Xbox 360 edition of the Fifa World Cup South Africa. It can be seen on the undeployed version of the site but not the deployed, and has been uploaed to AWS.
+
+
+<details><summary>FIFA SA on undeployed site:</summary>
+  <img src="/media/fifa-sa-undeployed.png">
+</details>
+
+<details><summary>FIFA SA on deployed site</summary>:</summary>
+  <img src="/media/fifa-sa-deployed.png">
+</details>
+
+<details><summary>FIFA SA stored on AWS:</summary>
+  <img src="/media/fifa-sa-aws.png">
 </details>
 
 
