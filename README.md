@@ -211,6 +211,7 @@ View site [here](https://easygaming.herokuapp.com/)
 
  - A .gitignore file was created, and contains the env.py file amongst other files, that have not been pushed to GitHub.
 
+
  ### **Apps Made**
 
  - There are currently 8 apps made for this project. Each app, except the main app, contains a templates folder with at least one html file inside. 
@@ -232,6 +233,7 @@ View site [here](https://easygaming.herokuapp.com/)
  - The reviews app is used to read reviews for games on the site. Users who are logged in can add, delete, edit reviews to the site. A static css file is used to style this app. A form.py file was created to create the form for making and editing reviews. A static css page is used to style this app.
 
  - The blog app is used so users can read blog posts relating to video games, the gaming industry, and game consoles either upcoming or older. Only site admin's have the ability to make blog posts, and by extension edit or delete them. The blog app uses s static css page to customise the blog app with some app specific features, such as the blog post enlarging on hover.
+
 
 
 ## **The Design**
@@ -266,6 +268,7 @@ The video game images are screenshots of the games on Amazon, then cropped so th
 The images are stored on AWS. 
 
 
+
 ## **The DataBase**
 
 The DataBase is a in-built function of DJango, and has been structured so there is a section for: categories, products, users, orders, reviews and blog posts. Examples of how these look are shown below: 
@@ -297,6 +300,7 @@ The DataBase is a in-built function of DJango, and has been structured so there 
 <details><summary>How blog posts are stored the DataBase:</summary>
   <img src="/media/blog-posts-db.png">
 </details>
+
 
 
 ## **AWS***
@@ -449,7 +453,9 @@ There are several code features used to give the site functionality, these inclu
 
     - Is used to add a new product to the store
 
-    - Contains a dropdown menu to select the console where the product will be added to
+    - Contains a dropdown menu to select the console where the product will be added to and a dropdown menu asking about the quantity of the product, ie: is it just one in stock or are there more than one in stock.
+
+    - Uses arrow buttons to adjust the rating and price of the product
 
     - Wii is the default
 
