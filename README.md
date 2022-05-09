@@ -325,7 +325,7 @@ Crispy Forms is package that allows users to format forms using bootstrap stylin
 
 ## **Code Features**
 
-There are several code features used to give the site functionality, these include: a navbar, forms, and dropdown menus.
+There are several code features used to give the site functionality, these include: a navbar, forms, cards, and dropdown menus.
 
 
 ### **NavBar**
@@ -447,6 +447,11 @@ There are several code features used to give the site functionality, these inclu
     - Wii is the default
 
     - All fields are required
+
+
+### Cards
+
+Bootstrap cards are used to display the games on the site. The card header holds an image of the game, while the card body contains the title of the game. The card footer contains the price, and rating of the game, and the category of the game. The cards have an added hover effect that enlarges the card when its hovered over. This effect is one I created using the transform and scale css effect.
 
 
 ### **Dropdown Menus**
