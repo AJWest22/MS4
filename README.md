@@ -442,7 +442,7 @@ There are several code features used to give the site functionality, these inclu
 
     - Is used to add a new product to the store
 
-    - Contains a dropdown menu to select the console whee the product wil be added to
+    - Contains a dropdown menu to select the console where the product will be added to
 
     - Wii is the default
 
@@ -527,7 +527,7 @@ Bootstrap cards are used to display the games on the site. The card header holds
 
 ### **Dropdown Menus**
 
- Dropdown menus are used around the site to increase site functionalit, and make it easier for users and siteowners to perform actions. 
+ Dropdown menus are used around the site to increase site functionality, and make it easier for users and siteowners to perform actions. 
 
  - Navbar dopdowns 
 
