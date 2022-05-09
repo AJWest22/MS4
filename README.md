@@ -622,6 +622,7 @@ This site has several feature to be added, I would like to do more with the prof
   FireFox
   Safari
   Microsoft Edge
+  Google Chrome
 
 
 #### Devices Tested On
