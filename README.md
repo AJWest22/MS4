@@ -617,7 +617,7 @@ This site has several feature to be added, I would like to do more with the prof
 
 ### Browser Compatibility
 
-- This site has been tested on the following browsers, and appears to be working well:
+- This site has been tested on the following browsers and is fully functioning:
   FireFox
   Safari
   Microsoft Edge
@@ -627,6 +627,25 @@ This site has several feature to be added, I would like to do more with the prof
 #### Devices Tested On
 
 - This site has been tested on: laptop 15", iPad 8th gen, iPhone SE (2016) and iPhone SE (2020).
+
+<details><summary>Laptop 15inch View</summary>
+  <img src="/media/laptop-view.png">
+</details>
+
+
+<details><summary>iPad 8th Gen View</summary>
+  <img src="/media/ipad-view.PNG">
+</details>
+
+
+<details><summary>iPhone 2020 View</summary>
+  <img src="/media/mobile-view.PNG">
+</details>
+
+
+<details><summary>iPhone 2016 View **same photo as the 2020 model, as they look the same**</summary>
+  <img src="/media/mobile-view.PNG">
+</details>
 
 
 
