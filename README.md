@@ -550,9 +550,9 @@ Bootstrap cards are used to display the games on the site. The card header holds
 
 ## JSON Files
 
-The JSON Files are used to store information on the products and their categories. Information on the products in the JSONS Files includes: SKU number, product name, a description of the item, a price tag, the categoy where it is to be store (each number represents a game console category), a rating, and an image. 
+The JSON Files are used to store information on the products and their categories. Information on the products in the JSONS Files includes: SKU number, product name, a description of the item, a price tag, the category where it is to be store (each number represents a category), a rating, and a product image. 
 
-  Example:
+  Example of how products are stored:
 
  "pk": 1,
     "model": "products.product",
