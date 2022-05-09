@@ -339,7 +339,7 @@ There are several code features used to give the site functionality, these inclu
 
 ### **Forms**
 
-- There are several forms on this site: A login form, a signup form, editing and updating a product, and a      profile form.
+- There are several forms on this site: A login form, a signup form, editing and updating a product, and a profile form, addig reviws and blog posts forms, and editing a review or blog post form, and a checkout form,
 
   - The Login Form:
 
@@ -434,7 +434,7 @@ There are several code features used to give the site functionality, these inclu
 
   - Add Products Form
 
-      <details><summary>Edit Product Form:</summary>
+      <details><summary>Add Product Form:</summary>
         <img src="/media/add-product.png">
       </details>   
 
@@ -447,7 +447,78 @@ There are several code features used to give the site functionality, these inclu
     - Wii is the default
 
     - All fields are required
+  
 
+  - Add Reviews Form
+
+      <details><summary>Add Reviews Form:</summary>
+        <img src="/media/add_review-form.png">
+      </details>   
+
+    - Can only be used by a user that is logged in
+
+    - Is used to add a new review to the store
+
+    - Has a title field for the name of the review
+
+    - Contains a dropdown menu to select the product the review will be about
+
+    - Contains a field where the review can be written, the maximum amount of characters for each review is set to 500 characters.
+
+    - All fields are required
+
+  
+  - Edit Reviews Form
+
+      <details><summary>Edit Review Form:</summary>
+        <img src="/media/edit-review-form.png">
+      </details>   
+
+    - Can only be accessed by a user who left that particular review
+
+    - Is used to edit a review in the store
+
+    - Contains a dropdown menu to select the product the review is being left on
+
+    - The previously selected product is the default
+
+    - Contains a field where the review can be re-written, the maximum amount of characters for each review is set to 500       characters, and the review in its original state is in the review field ready to be edited/re-written
+
+    - All fields are required
+
+
+- Add Blog Posts Form
+
+      <details><summary>Add Blog Posts Form:</summary>
+        <img src="/media/add-blog-post.png">
+      </details>   
+
+    - Can only be accessed by a superuser logged in
+
+    - Is used to add a new blog post to the store
+
+    - Contains a title field for the name of the blog post
+
+    - Contains a post field for the main body of the post, te maximum amount of characters for a blog post is: 500,000
+
+    - Contains an image field where an image for the blog post can be uploaded if wanted
+
+    - All fields are required
+
+  
+  - Edit Blog Posts Form
+
+      <details><summary>Blog Posts Form:</summary>
+        <img src="/media/edit-blog-post-form.png">
+      </details>   
+
+    - Can only be accessed by a superuser logged in
+
+    - Is used to edit a blog post on the store
+
+    - Contains the same fields as the add blog post form, with the original title, post and image ready to be edited/re-written
+
+    - All fields are required
 
 ### Cards
 
