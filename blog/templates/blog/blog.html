@@ -21,9 +21,9 @@
                 <h2 class="koulen-font blog-header text-white">Blog Posts</h2>
                 <hr class="w-50 mb-1">
                 {% if posts %}
-                Number of posts: {{ posts|length }}
+                <span class="text-white">Number of posts: {{ posts|length }}</span>
                 {% else %}
-                No blog posts yet.
+                <span class="text-white">No blog posts yet.</span>
                 {% endif %}
             </div>
         </div>
