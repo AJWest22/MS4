@@ -487,7 +487,7 @@ There are several code features used to give the site functionality, these inclu
     - All fields are required
 
 
-- Add Blog Posts Form
+  - Add Blog Posts Form
 
       <details><summary>Add Blog Posts Form:</summary>
         <img src="/media/add-blog-post.png">
