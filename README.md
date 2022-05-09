@@ -580,7 +580,7 @@ There are several bugs to mention:
 
 ## **Features to be Added**
 
-This project has several features I would like to add: A blog model which would allow superusers to make blogposts on new products coming to the store (such as games or consoles), trends in the gaming industry, new games to be released, etc. I would aso like to finish the review model so that users can add and edit, and delete reviews on products. Due to not enough tutor support, working models weren't possible to be added at this time.
+This site has several feature to be added, I would like to do more with the profile app to give users more personalisation of their profile. So giving them the option to have their own profile picture and their social media accounts.
 
 
 
