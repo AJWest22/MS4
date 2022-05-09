@@ -613,7 +613,6 @@ This site has several feature to be added, I would like to do more with the prof
 
 ### Python Validation
 
-- The code was validated using PEP8 online check, and had several errors to do with whitespace, however when i have debugged these, I have encountered more errors. For example in the PEP8 validator it asks for a new line at the end of file, when I add one in, I get an error saying trailing whitespace, and I'm unsure why this is. For some reason I cannot upload a media file in here of the code, as I get an error saying media type unrecognised, which is unusual as its saved as a jpg format same as css.
 
 
 ### Browser Compatibility
