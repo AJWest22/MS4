@@ -503,9 +503,7 @@ There are several bugs to mention:
 
   1. When updating on GitPod and then pushing to GitHub, sometimes the code added wouldn't be in GitHub, and another push was needed to update it, this is why sometimes there are commits saying something has been added/removed but there is no visible adding or removing of anything, until the next commit. 
 
-  2. When making the reviews model, a piece of code was added that enabled the user to add a review, however there was a bug where it said "view not found", however the view was in the code, and was written correctly. It was impacting the site to the point where when a user logged in, they weren't on the homepage of the site, and couldn't access their account page, they just got the error "view not found", and weren't able to access the site logged in. Due to this impact on the UX, the decision was taken to remove this piece of code, and is one of the reasons why you cannot add a review to the site.
-
-  3. For some reason the default of every dropdown menu when adding or editing a product is "Wii" a placeholder text saying: "category" or "console" would have been preferred. Placeholder text was added, but wasn't showing on the site for some reason.
+  2. One of the products images doesn't load on the deployed ste. Despite having an image sored in the database, and in AWS. This is discussed more in the AWS secton of the README"
 
 
 
