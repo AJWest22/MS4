@@ -300,7 +300,7 @@ AWS is used to store the images of this site. The images that are stored on AWS 
   <img src="/media/ac.jpg">
 </details>
 
-However one image doesn't display on the deployed version of the site, the Xbox 360 edition of the Fifa World Cup South Africa. It can be seen on the undeployed version of the site but not the deployed, and has been uploaed to AWS.
+However one image doesn't display on the deployed version of the site: the Xbox 360 edition of the Fifa World Cup South Africa. It can be seen on the undeployed version of the site but not the deployed, and has been uploaed to AWS.
 
 
 <details><summary>FIFA SA on undeployed site:</summary>
@@ -319,7 +319,7 @@ However one image doesn't display on the deployed version of the site, the Xbox 
 
 ## Crispy Forms
 
-Crispy Forms is used to create the forms and form fields. The basic template used for the forms is similar throughout the site, and can be found on the checkout template, and creating an account for example. Required fields include asking for a user's: name, email address, phone number, country, postal code, city or town, the user's address, and phone number and card number. 
+Crispy Forms is package that allows users to format forms using bootstrap styling. To install it type: pip3 install django-crisy-forms into your terminal. Crispy Forms is used in this project to create and style the forms and form fields. The basic template used for the forms is similar throughout the site, an example can be found on the checkout app when creating an account. Required fields on this form include asking for a user's: name, email address, phone number, country, postal code, city or town, the user's address, and phone number and card number.
 
 
 
