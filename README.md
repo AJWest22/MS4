@@ -74,7 +74,10 @@ This account is the main admin account of the site, and has also been used to te
 
 View site [here](https://easygaming.herokuapp.com/)
 
+
+
 ## **Site Goals**
+
 
 ### **UX Goals**
 
@@ -88,6 +91,7 @@ View site [here](https://easygaming.herokuapp.com/)
 
  - Site admin also have CRUD functionality on blog posts.
 
+
 ### **Siteowners Goals**
 
  - Provide a service that enabes people to easily find games over a variety of consoles.
@@ -100,6 +104,7 @@ View site [here](https://easygaming.herokuapp.com/)
 
  - Ensure reviews and blog posts contain appropriate language
 
+ 
  ### **User Stories**
 
  - As a user of this site I want to find a good game from a variety of genres
@@ -202,7 +207,9 @@ View site [here](https://easygaming.herokuapp.com/)
 
  - forms.py contains form data and deals with the backend of the forms, and pushing them to the database. Most of the apps on the site have a forms.py page, bar the basket app. The form.py file contains the form's structure and fields and some styling of the form fields coloring.
 
- - The env.py file that was created contains information regarding the database, deployment, and payment information, so has not been pushed to GitHub.
+ - The env.py file that was created contains security information regarding the database, deployment, and payment information, so has not been pushed to GitHub.
+
+ - A .gitignore file was created, and contains the env.py file amongst other files, that have not been pushed to GitHub.
 
  ### **Apps Made**
 
