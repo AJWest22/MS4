@@ -40,7 +40,7 @@ def add_post(request):
         return redirect(reverse('home'))
 
     if request.method == 'POST' and request.user.is_superuser:
-        form = PostForm(request.POST)
+        form = PostForm(request.POST, request.FILES)
         if form.is_valid():
             post = form.save()
             post.user = request.user

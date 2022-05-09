@@ -691,7 +691,7 @@ My amazing mentor Tim Nelson for his feedback and support making this project
 
 ### JQuery Framework
 
-- Jquery is used for the form submitting, the toasts and the spinner at the bottom of the checkout page, and can be found at the bottom of most of the templates folder to submit the Crispy Forms used. Example Checkout.html.
+- Jquery is used for the form submitting, the toasts and the spinner at the bottom of the checkout page, and can eithe rbe found at the bottom of the htl files or in the static folders JS folder of the apps. Example the checkout app has JQuery att he bottom of the template, and in the static folder.
 
 
 ### Crispy Forms
