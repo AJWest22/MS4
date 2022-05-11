@@ -131,7 +131,7 @@ body {
 .btn-black:active,
 .btn-black:focus {
     background: white;
-    color: black;
+    color: black !important;
 }
 
 .text-black {
@@ -170,17 +170,20 @@ body {
     cursor: pointer;
 }
 
-.fa-minus:hover {
+/* .fa-minus:hover {
     color: black !important;
-}
+} */
 
+/* 
 .fa-plus:hover {
     color: black !important;
 }
+ */
 
-#checkout-button:hover {
+
+/* #checkout-button:hover {
     color: black !important;
-}
+} */
 
 .fa-tag {
     color: #53adcb;
