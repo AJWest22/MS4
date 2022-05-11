@@ -47,7 +47,7 @@ def add_post(request):
             post.save()
             messages.success(request, "Your post has" +
                              "been submitted for this blog")
-            return redirect('reviews')
+            return redirect('posts')
         else:
             messages.error(request, 'Sorry, we couldn''t' +
                            'submit you post right now')    
