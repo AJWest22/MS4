@@ -599,6 +599,8 @@ This site has several feature to be added, I would like to do more with the prof
 
 ## **Testing**
 
+To test the code in this project, a mixture of external code validators and the in built testing framework of Django was used. For the HTML, CSS and JavaScript, external validators were used to proof read the code and check it, while for the Python code, the Django tetsing framework was used.
+
 
 ### HTML Validation
    - The code was validated using NU HTML Validator and displayed some errors about the default html5 document layout, and a few missing attributes.
@@ -619,15 +621,20 @@ This site has several feature to be added, I would like to do more with the prof
 ### CSS Validation
   - The code was tested using The W3C Jigsaw CSS Validation Service and encountered 4 errors:
 
-  <details><summary>Css Validation</summary>
+    <details><summary>Css Validation</summary>
       <img src="/media/css-validator.jpg">
     </details>
   
 
 ### Python Validation
 
+The Python code was tested using the build in Django testing framework. In order to properly test the code was working, the project was disconnected from the Heroku/Postgres databse so testing could be conducted. The first test was a test function, and can be seen in the below screenshot: 
 
+<details><summary>Original Test Function</summary>
+      <img src="/media/test-function.png">
+</details>
 
+This test passed successfully.
 ### Browser Compatibility
 
 - This site has been tested on the following browsers and is fully functioning:
