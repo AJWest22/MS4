@@ -635,6 +635,8 @@ The Python code was tested using the build in Django testing framework. In order
 </details>
 
 This test passed successfully.
+
+
 ### Browser Compatibility
 
 - This site has been tested on the following browsers and is fully functioning:
