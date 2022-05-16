@@ -533,6 +533,7 @@ There are several code features used to give the site functionality, these inclu
 
     - All fields are required
 
+
 ### Cards
 
 Bootstrap cards are used to display the games on the site. The card header holds an image of the game, while the card body contains the title of the game. The card footer contains the price, and rating of the game, and the category of the game. The cards have an added hover effect that enlarges the card when its hovered over. This effect is one I created using the transform and scale css effect.
@@ -599,8 +600,7 @@ This site has several feature to be added, I would like to do more with the prof
 
 ## **Testing**
 
-To test the code in this project, a mixture of external code validators and the in built testing framework of Django was used. For the HTML, CSS and JavaScript, external validators were used to proof read the code and check it, while for the Python code, the Django tetsing framework was used.
-
+To test the code in this project, a mixture of external code validators and the in built testing framework of Django was used. For the HTML, CSS and JavaScript, external validators were used to proof read the code and check it. The in-built Django tetsing framework was originally going to be used along with PyTest, but due to continuous difficulties using these, the decision was taken to rely on validators and auto testing.
 
 ### HTML Validation
    - The code was validated using NU HTML Validator and displayed some errors about the default html5 document layout, and a few missing attributes.
