@@ -56,6 +56,8 @@ body {
     color: #53adcb;
 }
 
+/* official site colors for site icons*/
+
 .account:hover {
     transform: scale(1.1);
     color: #53adcb;
@@ -82,6 +84,33 @@ body {
 .fa-shopping-basket:hover {
     color: #53adcb;
     transform: scale(1.5);
+}
+
+/* .fa-minus:hover {
+    color: black !important;
+} */
+
+/* 
+.fa-plus:hover {
+    color: black !important;
+}
+ */
+
+
+/* #checkout-button:hover {
+    color: black !important;
+} */
+
+.fa-tag {
+    color: #53adcb;
+}
+
+.fa-star {
+    color: #FEDE00;
+}
+
+.fa-arrow-up{
+    color: #53adcb;
 }
 
 .logo:hover {
@@ -168,33 +197,6 @@ body {
 .update-link,
 .remove-item {
     cursor: pointer;
-}
-
-/* .fa-minus:hover {
-    color: black !important;
-} */
-
-/* 
-.fa-plus:hover {
-    color: black !important;
-}
- */
-
-
-/* #checkout-button:hover {
-    color: black !important;
-} */
-
-.fa-tag {
-    color: #53adcb;
-}
-
-.fa-star {
-    color: #FEDE00;
-}
-
-.fa-arrow-up{
-    color: #53adcb;
 }
 
 .blog-header {
