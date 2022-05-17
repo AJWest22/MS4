@@ -13,7 +13,7 @@
             </div>
         </div>
         {% if grand_total %}
-            <p class="roboto-font bg-white text-black py-1">Your Basket ({{ product_count }})</p>
+            <p class="roboto-font bg-primary text-white py-1">Your Basket ({{ product_count }})</p>
             <div class="basket-notification-wrapper">
                 {% for item in basket_items %}
                     <div class="row">
@@ -22,7 +22,7 @@
                         </div>
                         <div class="col-9">
                             <p class="my-0"><strong>{{ item.product.name }}</strong></p>
-                            <p class="my-0 small text-muted">Qty: {{ item.quantity }}</p>
+                            <p class="my-0 small text-white">Qty: {{ item.quantity }}</p>
                         </div>
                     </div>
                 {% endfor %}
