@@ -7,7 +7,7 @@ class Newsletter(models.Model):
         User, related_name="newsletter", on_delete=models.CASCADE,
         null=True, blank=True)
     email = models.CharField(max_length=255)
-    email_confirmation = models.TextField(max_length=250)
+    email_confirmation = models.CharField(max_length=250)
 
     def __str__(self):
         return str(self.title)

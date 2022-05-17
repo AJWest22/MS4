@@ -19,14 +19,14 @@
         <div class="row">
             <div class="col">
                 <hr>
-                <h2 class="logo-font mb-4 text-white">Sign Up to Our Newsletter</h2>
+                <h2 class="koulen-font mb-4 text-white">Sign Up to Our Newsletter!</h2>
                 <hr>
             </div>
         </div>
         <div class="row">
             <div class="col-12 col-lg-6">
-                <p class="text-white">Sign Up Form:</p>
-                <form class="mt-3" action="{% url 'newsletter' %}" method="POST" id="newsletter-form">
+                <h4 class="text-white">Sign Up Form:</h4>
+                <form class="mt-3 text-white" action="{% url 'newsletter' %}" method="POST" id="newsletter-form">
                     {% csrf_token %}
                     {{ form|crispy }}
                     <button class="btn btn-black rounded-0 text-white text-uppercase float-right">
