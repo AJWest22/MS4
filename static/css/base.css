@@ -136,6 +136,8 @@ body {
     font-size: 18px;
 }
 
+/* official site colors for buttons*/
+
 .btn-black {
     background-color: #000;
 }
@@ -169,6 +171,12 @@ body {
     color: black !important;
 }
 
+.btt-link,
+.update-link,
+.remove-item {
+    cursor: pointer;
+}
+
 .text-black {
     color: black !important;
 }
@@ -191,18 +199,14 @@ body {
 	z-index: -1;
 }
 
+/* official site card styling */
+
 .card {
     box-shadow: 2px 1px whitesmoke;
 }
 
 .card:hover {
     transform: scale(1.1);
-}
-
-.btt-link,
-.update-link,
-.remove-item {
-    cursor: pointer;
 }
 
 .blog-header {
