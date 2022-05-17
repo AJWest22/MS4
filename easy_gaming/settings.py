@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'profiles',
     'reviews',
     'blog',
+    'newsletter',
 
     # Other installed apps
 
