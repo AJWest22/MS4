@@ -542,7 +542,7 @@ There are several code features used to give the site functionality, these inclu
         <img src="/media/newsletter-form.png">
       </details>   
 
-    - Can only be accessed by a user who is logged in
+    - Can be accessed by any user using the site, whether they have an account or not
 
     - Is used to sign up to the monthly newsletter on the store
 
