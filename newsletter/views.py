@@ -26,7 +26,7 @@ def newsletter(request):
     else:
         form = NewsletterForm()
 
-    template = 'reviews/add_review.html'
+    template = 'newsletter/newsletter.html'
     context = {
         'form': form,
     }
