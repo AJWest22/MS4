@@ -535,6 +535,21 @@ There are several code features used to give the site functionality, these inclu
 
     - All fields are required
 
+  
+  - Newsletter Form
+
+      <details><summary>Newsletter Form:</summary>
+        <img src="/media/newsletter-form.png">
+      </details>   
+
+    - Can only be accessed by a user who is logged in
+
+    - Is used to sign up to the monthly newsletter on the store
+
+    - Contains two fields, an email field, and a email confirmation field
+
+    - All fields are required
+
 
 ### Cards
 
