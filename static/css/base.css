@@ -56,7 +56,7 @@ body {
     color: #53adcb;
 }
 
-/* official site colors for site icons*/
+/* official site colors and styling for icons*/
 
 .account:hover {
     transform: scale(1.1);
@@ -112,6 +112,12 @@ body {
 .fa-arrow-up{
     color: #53adcb;
 }
+
+.fa-check-circle {
+    color: #3cd070 !important;
+}
+
+/* official site styling for the logo*/
 
 .logo:hover {
     transform: scale(1.2);
@@ -201,10 +207,6 @@ body {
 
 .blog-header {
     text-shadow: 1px 1px grey;
-}
-
-.fa-check-circle {
-    color: #3cd070 !important;
 }
 
 /* bootstrap toasts code from CI Boutique Ado project*/
