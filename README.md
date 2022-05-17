@@ -234,6 +234,8 @@ View site [here](https://easygaming.herokuapp.com/)
 
  - The blog app is used so users can read blog posts relating to video games, the gaming industry, and game consoles either upcoming or older. Only site admin's have the ability to make blog posts, and by extension edit or delete them. The blog app uses s static css page to customise the blog app with some app specific features, such as the blog post enlarging on hover.
 
+ - A newsletter app which users can sign up and receive a monthly newsletter on new games and consoles coming to the store. Only registered users with the store can access this feature. The styling of this app is inline with the overall styling fo the site, and as yet as no specific app features.
+
 
 
 ## **The Design**
