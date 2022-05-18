@@ -550,6 +550,8 @@ There are several code features used to give the site functionality, these inclu
 
     - All fields are required
 
+    - Was originaly going to be for only users who had an account, before being made universally accessible
+
 
 ### Cards
 
