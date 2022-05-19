@@ -603,12 +603,6 @@ The JSON Files are used to store information on the products and their categorie
 
 ## **Bugs**
 
-There are several bugs to mention:
-
-  1. When updating on GitPod and then pushing to GitHub, sometimes the code added wouldn't be in GitHub, and another push was needed to update it, this is why sometimes there are commits saying something has been added/removed but there is no visible adding or removing of anything, until the next commit. 
-
-  2. One of the products images doesn't load on the deployed site. Despite having an image sored in the database, and in AWS. This is discussed more in the AWS secton of the README". Originally I thought this was fixed as it wasn't displaying on the deployed site either. However, now it is showing on the deployed, but still not on the live site.
-
 
 
 ## **Features to be Added**
