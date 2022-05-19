@@ -615,6 +615,7 @@ This site has several feature to be added, I would like to do more with the prof
 
 To test the code in this project, a mixture of external code validators and the in built testing framework of Django was used. For the HTML, CSS and JavaScript, external validators were used to proof read the code and check it. The in-built Django tetsing framework was originally going to be used along with PyTest, but due to continuous difficulties using these, the decision was taken to rely on validators and auto testing.
 
+
 ### HTML Validation
    - The code was validated using NU HTML Validator and displayed some errors about the default html5 document layout, and a few missing attributes.
 
@@ -731,4 +732,4 @@ My amazing mentor Tim Nelson for his feedback and support making this project
 
 ### Crispy Forms
 
-Most forms are made using crispy forms which is installed using: pip3 install django-crispy-forms, and then added to the installed apps in settings.py then set to BootStrap 4.
+Most forms are made using crispy forms which is installed using: pip3 install django-crispy-forms, and then added to the installed apps in settings.py then set to BootStrap 4 to style the forms and make them mobile responsive.
