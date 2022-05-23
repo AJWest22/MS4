@@ -118,6 +118,11 @@ hr {
 
 /* official site colors for buttons*/
 
+.search:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
+
 .btn-black {
     background-color: #000;
 }
