@@ -526,7 +526,7 @@ There are several code features used to give the site functionality, these inclu
 
       <details><summary>Newsletter Form:</summary>
         <img src="/media/newsletter-form.png">
-      </details>   
+      </details>
 
     - Can be accessed by any user using the site, whether they have an account or not
 
@@ -611,12 +611,36 @@ To test the code in this project, a mixture of external code validators and the 
 ### **User Story Testing**
 
  - As a user of this site I want to find a good game from a variety of genres
+  
+      <details><summary>Displays variety of games to user:</summary>
+        <img src="/media/good-game-story.PNG">
+      </details>   
 
  - As a user of this site I want to be abe to find games from a variety of consoles and different generations
 
- - As a user I want to know if my login was successful or not.
+      <details><summary>Displays different consoles to the User</summary>
+        <img src="/media/console-story.PNG">
+      </details>
+    
+      <details><summary>Shows the different generations of consoles on the store to the User, Wii is from the previous generation of game conesoles to the Xbox One.</summary>
+        <img src="/media/generation-story.PNG">
+      </details>
+
+ - As a user I want to know if my login and logout was successful or not.
+
+      <details><summary>Shows a login was successful:</summary>
+        <img src="/media/user-login-story.PNG">
+      </details>   
+
+      <details><summary>Shows a logout was successfull:</summary>
+        <img src="/media/logout-story.PNG">
+      </details>   
 
  - As a user I want a easy to use, simple site.
+
+      <details><summary>View of Site</summary>
+        <img src="/media/laptop-view.png">
+      </details>   
 
  - As a user I want the ability to add reviews to products
 
@@ -624,11 +648,25 @@ To test the code in this project, a mixture of external code validators and the 
 
  - As a user I want the ability to see my order history
 
- - As a user I want my previous information such as address stored so I don't need to keep adding it
+      <details><summary>Order history on profile:</summary>
+        <img src="/media/profile-story.PNG">
+      </details>   
+
+ - As a user I want tthe option for my previous information such as address stored so I don't need to keep adding it
+
+      <details><summary>Saved info option:</summary>
+        <img src="/media/saved-info-story">
+      </details>   
 
  - As a user I want to know my payments were successfull or not
 
+      <details><summary>Toast to show successfull payment:</summary>
+        <img src="/media/payments-story.PNG">
+      </details>   
+
  - As a user I want the ability to read blog posts
+
+    
 
 
 ### HTML Validation
