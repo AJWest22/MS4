@@ -608,7 +608,9 @@ The JSON Files are used to store information on the products and their categorie
 
 ## **Features to be Added**
 
-This site has several feature to be added, I would like to do more with the profile app to give users more personalisation of their profile. So giving them the option to have their own profile picture and their social media accounts.
+This site has several feature to be added, I would like to do more with the profile app to give users more personalisation of their profile. So giving them the option to have their own profile picture.
+
+I would also like to add a star rating option to the reviews form, which can then be calculated into an average for the products. At the moment the star ratings are ones I have made up.
 
 
 
