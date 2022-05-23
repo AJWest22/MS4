@@ -84,7 +84,7 @@ def delete_review(request, review_id):
     """ Remove reviews of the products """
 
     review = get_object_or_404(Review, pk=review_id)
-    if request.user.is_superuser or review.username == request.user:
+    if request.user.is_superuser or review.user == request.user:
         review.delete()
         messages.success(request, "Review has been successfully deleted"
                          )
