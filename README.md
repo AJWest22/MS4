@@ -666,7 +666,9 @@ To test the code in this project, a mixture of external code validators and the 
 
  - As a user I want the ability to read blog posts
 
-    
+    <details><summary>Read Blog Story:</summary>
+        <img src="/media/read-blog-story.png">
+      </details>   
 
 
 ### HTML Validation
