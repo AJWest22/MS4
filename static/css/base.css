@@ -52,6 +52,7 @@ hr {
 }
 
 /* from Bulma */
+
 .icon {
     align-items: center;
     display: inline-flex;
@@ -96,6 +97,7 @@ hr {
 
 .logo:hover {
     transform: scale(1.2);
+    transition: all 0.2s ease-in-out;
 }
 
 .logo-font {
