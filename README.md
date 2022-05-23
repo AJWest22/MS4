@@ -315,19 +315,6 @@ AWS is used to store the images of this site. The images that are stored on AWS 
 However one image doesn't display on the deployed version of the site: the Xbox 360 edition of the Fifa World Cup South Africa. It can be seen on the undeployed version of the site but not the deployed, and has been uploaed to AWS.
 
 
-<details><summary>FIFA SA on undeployed site:</summary>
-  <img src="/media/fifa-sa-undeployed.png">
-</details>
-
-<details><summary>FIFA SA on deployed site</summary>:</summary>
-  <img src="/media/fifa-sa-deployed.png">
-</details>
-
-<details><summary>FIFA SA stored on AWS:</summary>
-  <img src="/media/fifa-sa-aws.png">
-</details>
-
-
 
 ## Crispy Forms
 
@@ -604,7 +591,9 @@ The JSON Files are used to store information on the products and their categorie
 
 ## **Bugs**
 
+There were several bugs when creating this app:
 
+1. Image didn't display on the deployed site despite being in AWS, and on the Database and showing on the development site.
 
 ## **Features to be Added**
 
