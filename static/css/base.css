@@ -111,6 +111,7 @@ hr {
 .menu-link:hover {
     color: #0096FF;
     font-size: 18px;
+    transition: all 0.2s ease-in-out;
 }
 
 /* official site colors for buttons*/
