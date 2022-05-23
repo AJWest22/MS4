@@ -47,6 +47,7 @@ hr {
 
 .products:hover {
     transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
     text-decoration: underline 2.5px #53adcb;
     font-size: 16px;
 }
@@ -69,6 +70,7 @@ hr {
 .basket:hover,
 .basket:hover i.fas {
     transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
     color: #53adcb;
 }
 
@@ -93,7 +95,7 @@ hr {
     color: #3cd070 !important;
 }
 
-/* official site styling for the logo*/
+/* official site styling for the logo and links*/
 
 .logo:hover {
     transform: scale(1.2);
@@ -177,7 +179,7 @@ hr {
 	z-index: -1;
 }
 
-/* official site card styling */
+/* official site card and blog styling */
 
 .card {
     box-shadow: 2px 1px whitesmoke;
