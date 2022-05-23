@@ -304,7 +304,7 @@ The DataBase is a in-built function of DJango, and has been structured so there 
 
 
 
-## **AWS***
+## **AWS**
 
 AWS is used to store the images of this site. The images that are stored on AWS are the videogame images that are used to advertise the products of the store. An example of one of those images stored on AWS can be seen below. 
 
@@ -644,7 +644,17 @@ To test the code in this project, a mixture of external code validators and the 
 
  - As a user I want the ability to add reviews to products
 
+      <details><summary>Add review form for a user for add a review:</summary>
+        <img src="/media/add-review-story.PNG">
+      </details>
+
  - As a user I want the ability to edit and delete my reviews
+
+      <details><summary>Edit review form for a user for edit a review:</summary>
+        <img src="/media/edit-review-story.PNG">
+      </details>
+
+      
 
  - As a user I want the ability to see my order history
 
@@ -669,6 +679,11 @@ To test the code in this project, a mixture of external code validators and the 
     <details><summary>Read Blog Story:</summary>
         <img src="/media/read-blog-story.png">
       </details>   
+
+
+### **SuperUser Story Testing**
+
+
 
 
 ### HTML Validation
@@ -756,6 +771,7 @@ This test passed successfully.
 
 
 ## Deployment
+
   - This site was deployed using Heroku using the following steps:
 
     - Create a {Procfile](Procfile) in your files, and connect to the app.py file.
