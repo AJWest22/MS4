@@ -678,10 +678,25 @@ This test passed successfully.
 ### Browser Compatibility
 
 - This site has been tested on the following browsers and is fully functioning:
-  FireFox
-  Safari
-  Microsoft Edge
-  Google Chrome
+  FireFox:
+  <details><summary>View of the site on Firefox:</summary>
+    <img src="/media/firefox-view.png">
+  </details>
+
+  Safari:
+  <details><summary>View of the site on Safari:</summary>
+    <img src="/media/ipad-view.PNG">
+  </details>
+
+  Microsoft Edge:
+  <details><summary>View of the site on Edge browser:</summary>
+    <img src="/media/edge-view.png">
+  </details>
+
+  Google Chrome:
+  <details><summary>View of the site on Chrome:</summary>
+    <img src="/media/chrome-view.png">
+  </details>
 
 
 #### Devices Tested On
