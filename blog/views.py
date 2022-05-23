@@ -44,6 +44,7 @@ def add_post(request):
         if form.is_valid():
             post = form.save()
             post.user = request.user
+            post.image = form.cleaned_data["image"]
             post.save()
             messages.success(request, "Your post has" +
                              "been submitted for this blog")

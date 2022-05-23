@@ -64,11 +64,10 @@
 
  - There was one **general** user account made to test the create an account functionality.
       **Username**: CEKI
-      **Password**: Fordyers
 
  - There is currently one superuser account made at the moment:
 
-     **Username**: easygaming_admin **Password**: E45yG4m1ng
+     **Username**: easygaming_admin
 
 This account is the main admin account of the site, and has also been used to test site functionality, for example: to check order history, add products and reviews etc. All address, payment and order history and data on this account is **FAKE**. 
 
@@ -587,17 +586,19 @@ The JSON Files are used to store information on the products and their categorie
 
   Example of how products are stored:
 
- "pk": 1,
-    "model": "products.product",
-    "fields": {
-        "sku": "pp5001340155",
-        "name": "Mario Kart Wii",
-        "description": "Originally released in 2008, Mario Kart Wii has become a classic amongst racing games and Nintendo.",
-        "price": 14.99,
-        "category": 1,
-        "rating": 4.5,
-        "image": "mario-kart.jpg"
-    }
+```json
+"pk": 1,
+  "model": "products.product",
+  "fields": {
+      "sku": "pp5001340155",
+      "name": "Mario Kart Wii",
+      "description": "Originally released in 2008, Mario Kart Wii has become a classic amongst racing games and Nintendo.",
+      "price": 14.99,
+      "category": 1,
+      "rating": 4.5,
+      "image": "mario-kart.jpg"
+  }
+```
 
 
 
@@ -614,6 +615,29 @@ This site has several feature to be added, I would like to do more with the prof
 ## **Testing**
 
 To test the code in this project, a mixture of external code validators and the in built testing framework of Django was used. For the HTML, CSS and JavaScript, external validators were used to proof read the code and check it. The in-built Django tetsing framework was originally going to be used along with PyTest, but due to continuous difficulties using these, the decision was taken to rely on validators and auto testing.
+
+
+### **User Story Testing**
+
+ - As a user of this site I want to find a good game from a variety of genres
+
+ - As a user of this site I want to be abe to find games from a variety of consoles and different generations
+
+ - As a user I want to know if my login was successful or not.
+
+ - As a user I want a easy to use, simple site.
+
+ - As a user I want the ability to add reviews to products
+
+ - As a user I want the ability to edit and delete my reviews
+
+ - As a user I want the ability to see my order history
+
+ - As a user I want my previous information such as address stored so I don't need to keep adding it
+
+ - As a user I want to know my payments were successfull or not
+
+ - As a user I want the ability to read blog posts
 
 
 ### HTML Validation
@@ -688,11 +712,11 @@ This test passed successfully.
 ## Deployment
   - This site was deployed using Heroku using the following steps:
 
-    - Create a proc.file in your files, and connect to the app.py file.
+    - Create a {Procfile](Procfile) in your files, and connect to the app.py file.
 
-    - Create a requirements.txt file.
+    - Create a [requirements.txt](requirements.txt) file.
 
-    - Create an account on heroku.com
+    - Create an account on [heroku.com](https://www.heroku.com)
 
     - Create a new application and give it a name. NOTE: This name must be new, and one not already in use.
 
@@ -700,13 +724,13 @@ This test passed successfully.
 
     - Select the branch to enable automatic deploys, (as was done with this project). Alternatively you can set it to deploy manually.
 
-    - Set key/value pairs for the following keys:IP, PORT, SECRET_KEY
+    <!-- - Set key/value pairs for the following keys:IP, PORT, SECRET_KEY  wrap in backticks and update to django -->
 
     - Return to your dashboard and click deploy.
 
     - Once deployed, click open app.
 
-
+  <!-- Write about how people can get their own AWS and STRIPE keys -->
 
 ## Credits
 

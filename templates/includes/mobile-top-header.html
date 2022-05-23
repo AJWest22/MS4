@@ -23,7 +23,7 @@
 <li class="list-inline-item dropdown">
     <a class="text-primary nav-link d-block d-lg-none" href="#" id="user-options" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <div class="text-center account">
-            <div><i class="fas fa-gamepad fa-lg"></i></div>
+            <i class="fas fa-gamepad fa-lg"></i>
             <p class="my-0">My Account</p>
         </div>
     </a>
@@ -45,7 +45,7 @@
 <li class="list-inline-item">
     <a class="{% if grand_total %}text-primary font-weight-bold{% else %}text-primary{% endif %} nav-link d-block d-lg-none" href="{% url 'view_basket' %}">
         <div class="text-center basket">
-            <div><i class="fas fa-shopping-basket fa-lg"></i></div>
+            <i class="fas fa-shopping-basket fa-lg"></i>
             <p class="my-0">
                 {% if grand_total %}
                     £{{ grand_total|floatformat:2 }}

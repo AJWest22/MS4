@@ -13,6 +13,11 @@ body {
     font-family: "Lato";
 }
 
+hr {
+    height: 10px !important;
+    background-color: white;
+}
+
 /* official site font and styling for header texts*/
 .koulen-font {
     font-family: koulen;
@@ -58,15 +63,20 @@ body {
 
 /* official site colors and styling for icons*/
 
-.account:hover {
+.account:hover,
+.account:hover i.fas,
+.basket:hover,
+.basket:hover i.fas {
     transform: scale(1.1);
     color: #53adcb;
 }
 
-.fa-gamepad {
+.fa-gamepad,
+.fa-shopping-basket {
     color: black;
 }
 
+/* 
 .fa-gamepad:hover {
     color: #53adcb;
     transform: scale(1.8);
@@ -84,7 +94,7 @@ body {
 .fa-shopping-basket:hover {
     color: #53adcb;
     transform: scale(1.5);
-}
+} */
 
 /* .fa-minus:hover {
     color: black !important;
@@ -203,6 +213,7 @@ body {
 
 .card {
     box-shadow: 2px 1px whitesmoke;
+    transition: all 0.2s ease-in-out;
 }
 
 .card:hover {

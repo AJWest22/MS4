@@ -19,7 +19,7 @@
         <div class="row">
             <div class="col text-center mt-3">
                 <h2 class="koulen-font blog-header text-white">Blog Posts</h2>
-                <hr class="w-50 mb-1">
+                <hr class="w-50 mb-1 mx-auto">
                 {% if posts %}
                 <span class="text-white">Number of posts: {{ posts|length }}</span>
                 {% else %}
@@ -32,7 +32,7 @@
             <div class="product-container col-10 offset-1">
                 <div class="row mt-1 mb-2">
                     {% for post in posts %}
-                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-2">
                             <div class="card h-100 border-0 border-white post">
                                 <a href="{% url 'post_details' post.id %}">
                                     {% if post.image %}
