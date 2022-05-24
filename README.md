@@ -54,6 +54,8 @@
     7. [Devices Tested On](#devices-tested-on)
 
 15. [Deployment](#deployment)
+    1. [Heroku](#heroku)
+    2. [Stripe](#stripe)
 
 16. [Credits](#credits)
      1. [Icons](#icons)
@@ -921,6 +923,8 @@ This test passed successfully.
 
 ## Deployment
 
+  ### Heroku
+
   - This site was deployed using Heroku using the following steps:
 
     - Create a {Procfile](Procfile) in your files, and connect to the app.py file.
@@ -942,6 +946,58 @@ This test passed successfully.
     - Once deployed, click open app.
 
   <!-- Write about how people can get their own AWS and STRIPE keys -->
+
+
+  ### STRIPE
+
+  Stripe is used to handle the payments on this site, to use Stripe:
+
+  - Create an account on [Stripe](#https://stripe.com/en-gb)
+
+  - Copy and paste in Stripe JS to the main base.html file on your site
+
+  - Add the ```{% bloak postload.js %} to the bottom of your checkout file
+
+  - Copy and paste the Stripe public key into your checkout app view and add it to the context
+
+      ```
+      {% block postloadjs %}
+      {{ block.super }}
+      {{ stripe_public_key|json_script:"id_stripe_public_key" }}
+      {{ client_secret|json_script:"id_client_secret" }}
+      <script src="{% static 'js/stripe_elements.js' %}"></script>
+      {% endblock %}
+    ```
+
+  - Then create a JS folder on the same level as the checkout app, and within it create a JS file called: 'stripe_elements.js'
+
+  - In 'stripe_elements.js' get the stripe_public_key, and set up Stripe by creating a variable, then create an instance of stripe elements, use that to create a card, then finally mount the card element to the div:
+
+  ```
+
+    var stripePublicKey = $('#id_stripe_public_key').text().slice(1, -1);
+    var clientSecret = $('#id_client_secret').text().slice(1, -1);
+    var stripe = Stripe(stripePublicKey);
+    var elements = stripe.elements();
+    var style = {
+        base: {
+            color: '#000',
+            fontFamily: '"Helvetica Neue", Helvetica, sans-serif',
+            fontSmoothing: 'antialiased',
+            fontSize: '16px',
+            '::placeholder': {
+                color: '#aab7c4'
+            }
+        },
+        invalid: {
+            color: '#dc3545',
+            iconColor: '#dc3545'
+        }
+    };
+    var card = elements.create('card', {style: style});
+    card.mount('#card-element');
+
+  ```
 
 ## Credits
 
