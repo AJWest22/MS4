@@ -188,11 +188,15 @@ During development there were several bugs were mentioning and how they were fix
 
 2. There was a bug in which any user could edit and delete any review, including other user's and superuser's. This was corrected by changing the code from: 
 
-```{% if request.user.is_authenticated %}```
+```
+{% if request.user.is_authenticated %}
+```
 
 to:
 
-```{% if review.user == request.user or request.user.is_superuser %}```
+```
+{% if review.user == request.user or request.user.is_superuser %}
+```
 
 3. The third major bug was to do with making payments on the site: The webhook keys weren't matching from the deployed site on Heroku with the environment variables in GitPod settings.
 
