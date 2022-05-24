@@ -591,9 +591,10 @@ The JSON Files are used to store information on the products and their categorie
 
 ## **Bugs**
 
-There were several bugs when creating this app:
+There are a couple of bugs on this site:
 
-1. Image didn't display on the deployed site despite being in AWS, and on the Database and showing on the development site.
+1. The first is on the blog model, a superuser cannot upload an image to the blog post using the form field for images. Instead to upload an image to a blog post, they have to upload it in the database. I'm not sure why this is, and its something I want to have a play with and correct in time. I believe the issue lies in the widget 'Clearable File Input', I've also used this widget on the images for the adding a product form, and it works well there.
+
 
 ## **Features to be Added**
 
