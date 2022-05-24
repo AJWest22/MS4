@@ -716,13 +716,19 @@ To test the code in this project, a mixture of external code validators and the 
         <img src="/media/add-review-story.PNG">
       </details>
 
+      <details><summary>Add review success:</summary>
+        <img src="/media/add-review.PNG">
+      </details>
+
  - As a user I want the ability to edit and delete my reviews
 
       <details><summary>Edit review form for a user for edit a review:</summary>
         <img src="/media/edit-review-story.PNG">
       </details>
 
-      
+      <details><summary>Delete Review</summary>
+        <img src="/media/delete-review-story.PNG">
+      </details>  
 
  - As a user I want the ability to see my order history
 
@@ -744,14 +750,89 @@ To test the code in this project, a mixture of external code validators and the 
 
  - As a user I want the ability to read blog posts
 
-    <details><summary>Read Blog Story:</summary>
+      <details><summary>Read Blog Story:</summary>
         <img src="/media/read-blog-story.png">
       </details>   
 
 
 ### **SuperUser Story Testing**
 
+  - As the owner of this site, I want to create a easy to use site that serves a purpose.
 
+      <details><summary>View of Site</summary>
+        <img src="/media/laptop-view.png">
+      </details>  
+
+  - As the owner of this site, I want users to know their reviews have been submitted to the database
+
+      <details><summary>Add review form for a user for add a review:</summary>
+        <img src="/media/add-review-story.PNG">
+      </details>    
+
+  - As the owner of this site, I want users to come back to this site.
+
+      <details><summary>View of Site</summary>
+        <img src="/media/laptop-view.png">
+      </details>  
+
+  - As the owner of this site, I want users to be able to have control over their reviews, so edit and delete them as well as the ability to create them.
+
+      <details><summary>Edit review form for a user for edit a review:</summary>
+        <img src="/media/edit-review-story.PNG">
+      </details>
+
+      <details><summary>Delete Review</summary>
+        <img src="/media/delete-review-story.PNG">
+      </details>
+
+  - As the owner of this site I want users login details to be stored safely and securely by encrypting the password on the server.
+
+  - As the owner of this site I want users to know their data is secure.
+
+  - As the owner of this site I want users to know their payment has gone through and it is a secure transaction
+
+      <details><summary>Toast to show successfull payment:</summary>
+        <img src="/media/payments-story.PNG">
+      </details>
+
+  - As the owner of this site I want users to have their previous information stored so they don't have to re-enter things, like their address over again.
+
+      <details><summary>Saved info option:</summary>
+        <img src="/media/saved-info-story">
+      </details>
+
+  - As the owner of this site, I want superusers to have the abiity to create, edit, update and read the blog posts they have made.
+
+      <details><summary>Read Blog Story:</summary>
+        <img src="/media/read-blog-story.png">
+      </details>   
+
+
+  - As the owner, I want all blogposts to be relevent to the site
+
+      <details><summary>Relevant Blogs:</summary>
+        <img src="/media/read-blog-story.png">
+      </details>
+
+  - As the owner of this site, I want the ability to create, edit and delete blogs.
+
+      <details><summary>Add Blog Post:</summary>
+        <img src="/media/add-blog-post.PNG">
+      </details>
+
+      <details><summary>Edit Blog Post:</summary>
+        <img src="/media/edit-blog-post.PNG">
+      </details>
+
+      <details><summary>Delete Blog Post Story:</summary>
+        <img src="/media/delete-blog-post.PNG">
+      </details>
+
+  - As the owner of this site, I want the ability to delete reviews if I find them inappropriate
+
+      <details><summary>Delete Inappropriate Review Story:</summary>
+        <img src="/media/delete-review-story.PNG">
+      </details>
 
 
 ### HTML Validation
