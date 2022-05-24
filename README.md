@@ -927,7 +927,7 @@ This test passed successfully.
 
   - This site was deployed using Heroku using the following steps:
 
-    - Create a {Procfile](Procfile) in your files, and connect to the app.py file.
+    - Create a [Procfile](Procfile) in your files, and connect to the app.py file.
 
     - Create a [requirements.txt](requirements.txt) file.
 
@@ -956,7 +956,7 @@ This test passed successfully.
 
   - Copy and paste in Stripe JS to the main base.html file on your site
 
-  - Add the ```{% bloak postload.js %} to the bottom of your checkout file
+  - Add the `{% bloak postload.js %}` to the bottom of your checkout file
 
   - Copy and paste the Stripe public key into your checkout app view and add it to the context
 
