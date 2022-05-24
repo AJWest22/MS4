@@ -180,7 +180,21 @@ View site [here](https://easygaming.herokuapp.com/)
 The following is a brief overview of the development of the site, including the development of the code used, and bugs solved. Any bugs that have been solved have been recorded in the [bugs](#bugs) section of this README. This overview is divided into 5 sections: [Development Bugs](#development-bugs) [HTML Development](#html-development), [CSS Development](#css-development), [Python Development](#python-development), [JQUERY Development](#jquery-development).
 
 
-### Development Bugs 
+### Development Bugs
+
+During development there were several bugs were mentioning and how they were fixed:
+
+1. An image didn't load on the deployed site, but did load on the development site. This was amended by renaming it in the gitpod terminal and then re-uploading it in the databse, and then re-deploying the site.
+
+2. There was a bug in which any user could edit and delete any review, including other user's and superuser's. This was corrected by changing the code from: 
+
+```{% if request.user.is_authenticated %}```
+
+to:
+
+```{% if review.user == request.user or request.user.is_superuser %}```
+
+3. The third major bug was to do with making payments on the site: The webhook keys weren't matching from the deployed site on Heroku with the environment variables in GitPod settings.
 
 ## **Code Used**
 
