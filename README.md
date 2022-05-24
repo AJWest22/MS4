@@ -224,6 +224,14 @@ To develop the styling and design of the site, CSS Bootstrap classes are used ar
 I also created some custom classes for this classes, to style some text elements, examples include the: ```koulen-font``` class, and the ```Roboto Font``` class. These can be found around the site.
 
 
+### Python Development
+
+
+### JQUERY Development
+
+JQUERY is used for making dropdown menus, sorting products, and for the spainner that shows up when a user makes a payment on the site. The JQUERY is imported by CDN from JQUEY.com, BootStrap JQUERY and from Stripe. 
+
+
 
 ## **Code Used**
 
