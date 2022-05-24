@@ -13,31 +13,33 @@
 3. [About The Site](#about-the-site)
     1. [Target Audience](#target-audience)
 
-4. [Code Used](#code-used)
+4. [Development of Site](#development-of-site)
+
+5. [Code Used](#code-used)
     1. [Frameworks](#frameworks)
     2. [Files Made](#files-made)
     3. [Apps Made](#apps-made)
 
-5. [Design](#design)
+6. [Design](#design)
     1. [Typography](#typography)
     2. [Colors](#colors)
     3. [Images](#images)
 
-6. [The DataBase](#the-database)
+7. [The DataBase](#the-database)
 
-7. [AWS](#aws)
+8. [AWS](#aws)
 
-8. [Crispy Forms](#crispy-forms)
+9. [Crispy Forms](#crispy-forms)
 
-9. [Code Features](#code-features)
+10. [Code Features](#code-features)
 
-10. [JSON Files](#json-files)
+11. [JSON Files](#json-files)
 
-11. [Bugs](#bugs)
+12. [Bugs](#bugs)
 
-12. [Features to be Added](#features-to-be-added)
+13. [Features to be Added](#features-to-be-added)
 
-13. [Testing](#testing)
+14. [Testing](#testing)
     1. [User Story Testing](#user-story-testing)
     2. [Superuser Story Testing](#superuser-story-testing)
     3. [HTML Validation](#html-validation)
@@ -46,9 +48,9 @@
     6. [Browser Compatibility](#browser-compatibility)
     7. [Devices Tested On](#devices-tested-on)
 
-14. [Deployment](#deployment)
+15. [Deployment](#deployment)
 
-15. [Credits](#credits)
+16. [Credits](#credits)
      1. [Icons](#icons)
      2. [Imagery](#imagery)
      3. [JQuery Framework](#jquery-framework)
@@ -170,6 +172,13 @@ View site [here](https://easygaming.herokuapp.com/)
 
 ### **Target Audience**
  - The site is primarily aimed and adults/young adults who enjoy games and want to find a new game to play.
+
+
+
+## **Development of Site**
+
+
+
 
 
 ## **Code Used**
