@@ -226,6 +226,10 @@ I also created some custom classes for this classes, to style some text elements
 
 ### Python Development
 
+Most of the Python used for this site is written using DJANGO, a fullstack framework that also includes server development. DJANGO handles the building and submitting of forms, using forms.py, the urls for the site in urls.py, and is responsible for displaying the CRUD functionality onto the front end of the site using views in the views.py file. Models.py holds the data for that app, and contains things like form fields.
+
+DJANGO was a bit of a challenge to get to grips with in terms of memorising the individual steps needed to get an app working, for example remembering to add the newly created app to the main settings.py file in the main app, and the url in the main urls.py file. 
+
 
 ### JQUERY Development
 
