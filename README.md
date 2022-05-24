@@ -954,50 +954,31 @@ This test passed successfully.
 
   - Create an account on [Stripe](#https://stripe.com/en-gb)
 
-  - Copy and paste in Stripe JS to the main base.html file on your site
+  - On your stripe dashbaord copy the Stripe public key and paste it into your checkout app view.
 
-  - Add the `{% bloak postload.js %}` to the bottom of your checkout file
+  - In your workspace import Stripe using the command: pip3 install stripe
 
-  - Copy and paste the Stripe public key into your checkout app view and add it to the context
+  - Create an env.py file
 
-      ```
-      {% block postloadjs %}
-      {{ block.super }}
-      {{ stripe_public_key|json_script:"id_stripe_public_key" }}
-      {{ client_secret|json_script:"id_client_secret" }}
-      <script src="{% static 'js/stripe_elements.js' %}"></script>
-      {% endblock %}
-    ```
+  - In your env.py file add the variables: STRIPE_PUBLIC_KEY, STRIPE_SECRET_KEY, and STRIPE_WH_SECRET
 
-  - Then create a JS folder on the same level as the checkout app, and within it create a JS file called: 'stripe_elements.js'
+  - For the STRIPE_PUBLIC_KEY add the public key value found on your dashboard
 
-  - In 'stripe_elements.js' get the stripe_public_key, and set up Stripe by creating a variable, then create an instance of stripe elements, use that to create a card, then finally mount the card element to the div:
+  - For the STRIPE_SECRET_KEY, go to [Random Key Gen](#https://randomkeygen.com/) and select a password, copy and paste that into your STRIPE_SECRET_KEY variable.
 
-  ```
+  - For the STRIPE_WH_SECRET copyt the key and paste it into the variable's value
 
-    var stripePublicKey = $('#id_stripe_public_key').text().slice(1, -1);
-    var clientSecret = $('#id_client_secret').text().slice(1, -1);
-    var stripe = Stripe(stripePublicKey);
-    var elements = stripe.elements();
-    var style = {
-        base: {
-            color: '#000',
-            fontFamily: '"Helvetica Neue", Helvetica, sans-serif',
-            fontSmoothing: 'antialiased',
-            fontSize: '16px',
-            '::placeholder': {
-                color: '#aab7c4'
-            }
-        },
-        invalid: {
-            color: '#dc3545',
-            iconColor: '#dc3545'
-        }
-    };
-    var card = elements.create('card', {style: style});
-    card.mount('#card-element');
+  - Go over to your Heroku app and in the Config Vars section add the above variables, ensuring they match.
 
-  ```
+  - In the settings.py file in the main app, add the same variables above.
+
+  - On Stripe go to developers, and look for 'webhooks'
+
+  - Select 'add end point'
+
+  - Paste the URL of your site,, and click 'receive all events', then click 'add end point'
+
+
 
 ## Credits
 
