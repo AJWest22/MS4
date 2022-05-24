@@ -14,6 +14,11 @@
     1. [Target Audience](#target-audience)
 
 4. [Development of Site](#development-of-site)
+      1. [Development Bugs](#development-bugs)
+      2. [HTML Development](#html-development)
+      3. [CSS Development](#css-development)
+      4. [Python Development](#python-development)
+      5. [JQUERY Development](#jquery-development)
 
 5. [Code Used](#code-used)
     1. [Frameworks](#frameworks)
