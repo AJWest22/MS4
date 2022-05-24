@@ -215,6 +215,14 @@ Within each app, HTML files are used to structure the app, and create the skelet
 
 ### CSS Development
 
+To hold the CSS of the site static folders are used to hold the css files. The base.css files hold the css for the site. Each app, except the basket app, has a static folder, and by extension, a base.css file. The base.css file in the indivicual apps holds osme of the unique styling needed for each app. Unless the style is a universal style in which case, it can be found in the main base.css file, in the static folder, in the main files directory.
+
+To develop the styling and design of the site, CSS Bootstrap classes are used around the site to develop it, and style elements of the site. Common CSS BootStrap classes used include: ``` font-weight-bold ```, to make the text and header text bold where required. 
+
+``` mx-auto ``` is used to make elements fully extend across the screen. Examples include ``` <hr> ``` and the clickable icon at the foot of the 'All Products' page.
+
+I also created some custom classes for this classes, to style some text elements, examples include the: ```koulen-font``` class, and the ```Roboto Font``` class. These can be found around the site.
+
 
 
 ## **Code Used**
