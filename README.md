@@ -205,6 +205,18 @@ to:
 
 3. The third major bug was to do with making payments on the site: The webhook keys weren't matching from the deployed site on Heroku with the environment variables in GitPod settings.
 
+
+### HTML Development
+
+The HTML files form the base structure of the site. A base.html template is used to contain the navbars for computer and mobile, and other sections that needed to appear on all pages. There are several base.html files, used for elements that need to appear on all pages. There is a  base.html in the allauth folder, forms the base of the allauth forms for signing up, logging in/out and handing email verificatons and changing email addresses. A 3rd base.html is used to create the format for any toast messages that appear on the site when a user triggers them.
+
+Within each app, HTML files are used to structure the app, and create the skeleton of it. Example of these include the profile.html file, where despite the app not having any CRUD functionality, the html file is used to structure the app, and display a user's profile information onto the site. For apps with CRUD functionality, there are files for adding, editing and deleting products, reviews, and blogs. These files structure those respective apps, while holding the right Crispy Form and displaying it for the user to fill in and submit.
+
+
+### CSS Development
+
+
+
 ## **Code Used**
 
  The site is build using:
