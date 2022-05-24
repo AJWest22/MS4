@@ -557,8 +557,8 @@ There are several code features used to give the site functionality, these inclu
 
   - Add Blog Posts Form
 
-      <details><summary>Add Blog Posts Form:</summary>
-        <img src="/media/add-blog-post.png">
+      <details><summary>Add Blog Post:</summary>
+        <img src="/media/add-blog-post.PNG">
       </details>   
 
     - Can only be accessed by a superuser logged in
