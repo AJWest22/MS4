@@ -177,10 +177,10 @@ View site [here](https://easygaming.herokuapp.com/)
 
 ## **Development of Site**
 
-The following is a brief overview of the development of the site, including the development of the code used, and bugs solved. Any bugs that have been solved have been recorded in the [bugs](#bugs) section of this README. This overview is divided into 4 sections: [HTML Development](#html-development), [CSS Development](#css-development), [Python Development](#python-development), [JQUERY Development](#jquery-development).
+The following is a brief overview of the development of the site, including the development of the code used, and bugs solved. Any bugs that have been solved have been recorded in the [bugs](#bugs) section of this README. This overview is divided into 5 sections: [Development Bugs](#development-bugs) [HTML Development](#html-development), [CSS Development](#css-development), [Python Development](#python-development), [JQUERY Development](#jquery-development).
 
 
-### Bugs 
+### Development Bugs 
 
 ## **Code Used**
 
