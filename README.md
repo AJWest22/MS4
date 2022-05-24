@@ -38,11 +38,13 @@
 12. [Features to be Added](#features-to-be-added)
 
 13. [Testing](#testing)
-    1. [HTML Validation](#html-validation)
-    2. [CSS Validation](#css-validation)
-    3. [Python Validation](#python-validation)
-    4. [Browser Compatibility](#browser-compatibility)
-    5. [Devices Tested On](#devices-tested-on)
+    1. [User Story Testing](#user-story-testing)
+    2. [Superuser Story Testing](#superuser-story-testing)
+    3. [HTML Validation](#html-validation)
+    4. [CSS Validation](#css-validation)
+    5. [Python Validation](#python-validation)
+    6. [Browser Compatibility](#browser-compatibility)
+    7. [Devices Tested On](#devices-tested-on)
 
 14. [Deployment](#deployment)
 
