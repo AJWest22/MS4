@@ -242,8 +242,23 @@ JQUERY is used for making dropdown menus, sorting products, and for the spainner
 
 ### CRUD Development
 
+This site has several apps and some installations that use CRUD functionality. Some of the apps and installations only display CRUD functionality for users who have an account and are logged in, all the apps and installations that use CRUD are accessible for superusers/site owners. The apps that use CRUD are: 
 
+  - **allauth** AllAuth is responsible for the ability for users to create, login and log out of their accounts. It is available for all users who have and don't have an account and superusers.
 
+  - **Profile App** the profile app gives users the ability to update and change things within their profile, such as their address. This is available to only users who have an account and superusers
+
+  - **Basket App** The basket app gives users the ability to update, remove, and read items in their basket. The CRUD functionality is available to anyone using the site, regardless if they have an account or not, however anyone who clicks on the basket and has nothing in it, is requested to continue shopping, and then returned to the products page.
+
+  - **Checkout App** Uses CRUD as it gives users to update/delete their address information. The checkout App is only accessible to users with an account, and superusers.
+
+  - **Blog App** The Blog app only offers CRUD functionality to both users and superusrs, but the extend of the CRUD functionality depends on the type of account being used. General users who either have an account, or don't have an account are only able to read the blog posts and cannot edit or delete them. Superusers, however, can Create, Read, Update, and Delete blog posts as they see fit.
+
+  - **Reviews App** The Reviews App offers full CRUD functionality to both users with accounts and superusers. Both these groups can create, read, update, and delete their reviews, while users who don't have accounts can only read them.
+
+  - **Products App** The products app, like the blog app, only offers full CRUD ability to superusers. This means, that while users who have/don't have accounts can look at the products, they cannot edit or delete the products, only superusers can do that.
+
+  
 
 ## **Code Used**
 
