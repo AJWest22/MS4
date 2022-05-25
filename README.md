@@ -1055,7 +1055,13 @@ This test passed successfully.
         ```
     - Give the Policy a name, and click create Policy, then add it to the use group
 
-    
+    - Navigate to Users and click 'new user'
+
+    - Add the user to your user group
+
+    - Select 'Programmatic Access' for the access type
+
+    - The user is now created and should have the the correct user group and policy
 
 ## Credits
 
