@@ -117,14 +117,12 @@
                                             </span>
                                         </a>
                                     {% else %}
-                                        <div>
-                                            <span class="text-white">You must have an account in order to use the checkout!
-                                                Click <a href="{% url 'account_login' %}" class="font-weight-bold text-white">
-                                                    here
-                                                </a>
-                                                to create an account.
-                                            </span>
-                                        </div>
+                                        <span class="text-white checkout-login">You must have an account in order to use the checkout!
+                                            Click <a href="{% url 'account_login' %}" class="font-weight-bold text-white">
+                                                here
+                                            </a>
+                                            to create an account.
+                                        </span>
                                     {% endif %}
                                 </td>
                             </tr>
