@@ -56,7 +56,7 @@
 15. [Deployment](#deployment)
     1. [Heroku](#heroku)
     2. [Stripe](#stripe)
-    3. [AWS](#aws)
+    3. [AWS Deployment](#aws-deployment)
 
 16. [Credits](#credits)
      1. [Icons](#icons)
@@ -980,7 +980,7 @@ This test passed successfully.
   - Paste the URL of your site,, and click 'receive all events', then click 'add end point'
 
 
-  ### AWS
+  ### AWS Deployment
 
     - Create an account at aws.amazon.com
 
@@ -1040,6 +1040,8 @@ This test passed successfully.
     - Give the policy a name and click "Create Policy"
 
     - Add the newly created policy to the user group 
+
+
 
 ## Credits
 
