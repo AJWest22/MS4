@@ -244,7 +244,7 @@ JQUERY is used for making dropdown menus, sorting products, and for the spainner
 
 This site has several apps and some installations that use CRUD functionality. Some of the apps and installations only display CRUD functionality for users who have an account and are logged in, all the apps and installations that use CRUD are accessible for superusers/site owners. The apps that use CRUD are: 
 
-  - **allauth** AllAuth is responsible for the ability for users to create, login and log out of their accounts. It is available for all users who have and don't have an account and superusers.
+  - **AllAuth** AllAuth is responsible for the ability for users to create, login and log out of their accounts. It is available for all users who have and don't have an account and superusers.
 
   - **Profile App** the profile app gives users the ability to update and change things within their profile, such as their address. This is available to only users who have an account and superusers
 
