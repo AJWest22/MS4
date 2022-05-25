@@ -743,8 +743,8 @@ To test the code in this project, a mixture of external code validators and the 
 
  - As a user I want tthe option for my previous information such as address stored so I don't need to keep adding it
 
-      <details><summary>Saved info option:</summary>
-        <img src="/media/saved-info-story">
+      <details><summary>Saved info in Profile:</summary>
+        <img src="/media/profile-story.PNG">
       </details>   
 
  - As a user I want to know my payments were successfull or not
@@ -803,7 +803,7 @@ To test the code in this project, a mixture of external code validators and the 
   - As the owner of this site I want users to have their previous information stored so they don't have to re-enter things, like their address over again.
 
       <details><summary>Saved info option:</summary>
-        <img src="/media/saved-info-story">
+        <img src="/media/profile-story.PNG">
       </details>
 
   - As the owner of this site, I want superusers to have the abiity to create, edit, update and read the blog posts they have made.
@@ -839,6 +839,11 @@ To test the code in this project, a mixture of external code validators and the 
         <img src="/media/delete-review-story.PNG">
       </details>
 
+  - - As the owner of this site, I want the ability to edit reviews if I find them inappropriate/have bad spelling
+
+      <details><summary>Edit Inappropriate Review Story:</summary>
+        <img src="/media/edit-review-story.PNG">
+      </details>
 
 ### HTML Validation
    - The code was validated using NU HTML Validator and displayed some errors about the default html5 document layout, and a few missing attributes.
