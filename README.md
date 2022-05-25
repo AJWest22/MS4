@@ -56,6 +56,7 @@
 15. [Deployment](#deployment)
     1. [Heroku](#heroku)
     2. [Stripe](#stripe)
+    3. [AWS](#aws)
 
 16. [Credits](#credits)
      1. [Icons](#icons)
@@ -978,6 +979,8 @@ This test passed successfully.
 
   - Paste the URL of your site,, and click 'receive all events', then click 'add end point'
 
+
+  ### AWS
 
 
 ## Credits
