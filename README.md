@@ -987,70 +987,70 @@ This test passed successfully.
 
   ### AWS Deployment
 
-    - Create an account at [AWS](#https://aws.amazon.com/)
+  - Create an account at [AWS](#https://aws.amazon.com/)
 
-    - Open the S3 application and create an S3 bucket named the same as your project/app
+  - Open the S3 application and create an S3 bucket named the same as your project/app
 
-    - Uncheck the "Block All Public Access" setting
+  - Uncheck the "Block All Public Access" setting
 
-    - In Properties, go to 'Static Website Hosting' and click edit
+  - In Properties, go to 'Static Website Hosting' and click edit
 
-    - Enable the setting and and set the index and error.html values
+  - Enable the setting and and set the index and error.html values
 
-    - Back in permissions, click edit on 'CORS configuration and add:
+  - Back in permissions, click edit on 'CORS configuration and add:
 
-        ```
-          [
-            {
-              "AllowedHeaders":[
-                "Authorisation"
-              ],
-              "AllowedMethods":[
-                "GET"
-              ],
-              "AllowedOrigins":[
-                "*"
-              ],
-              "ExposedHeaders":[]
-            }
-          ]
-        ```
-    - In Permissions click edit on the bucket policy and generate and set the below configuration:
+      ```
+        [
+          {
+            "AllowedHeaders":[
+              "Authorisation"
+            ],
+            "AllowedMethods":[
+              "GET"
+            ],
+            "AllowedOrigins":[
+               "*"
+            ],
+            "ExposedHeaders":[]
+          }
+        ]
+      ```
+  - In Permissions click edit on the bucket policy and generate and set the below configuration:
         
-        ``` 
-            {
-              "Version": "2012-10-17",
-              "Id": "Policy1641548102148",
-              "Statement": [
-                  {
-                    "Sid": "Stmt1641548086079",
-                    "Effect": "Allow",
-                    "Principal": "*",
-                    "Action": "s3:GetObject",
-                    "Resource": "arn:aws:s3:::name-of-your-app/*"
-                  }
-                ]
-            }
-        ```
-    - Still in permissions, click 'edit' on the Access control list (ACL)
+      ``` 
+          {
+            "Version": "2012-10-17",
+            "Id": "Policy1641548102148",
+            "Statement": [
+                {
+                  "Sid": "Stmt1641548086079",
+                  "Effect": "Allow",
+                  "Principal": "*",
+                  "Action": "s3:GetObject",
+                  "Resource": "arn:aws:s3:::name-of-your-app/*"
+                }
+              ]
+          }
+      ```
+  - Still in permissions, click 'edit' on the Access control list (ACL)
 
-    - Click Read access for the Bucket ACL for Everyone(Public Access)
+  - Click Read access for the Bucket ACL for Everyone(Public Access)
 
-    - The bucket is created, the next step is to open the IAM application to set up access
+  - The bucket is created, the next step is to open the IAM application to set up access
 
-    **The Bucket has now been created, the next step is the open the IAM application:**
+  **The Bucket has now been created, the next step is the open the IAM application:**
 
-    - Create a new user group, the same name as your project/app
+  - Create a new user group, the same name as your project/app
 
-    - Add the AmazonS3FullAccess Policy to the group
+  - Add the AmazonS3FullAccess Policy to the group
 
-    - Navigate to Policies and click 'Create New policy'
+  - Navigate to Policies and click 'Create New policy'
 
-    - Click 'Imprort Managed Policy
+  - Click 'Imprort Managed Policy
 
-    - Select AmazonS3FullAccess, then click 'Import'
+  - Select AmazonS3FullAccess, then click 'Import'
 
-    - Go to the JSON editor and add the following:
+  - Go to the JSON editor and add the following:
 
         ```
           "Resource": [
@@ -1058,15 +1058,15 @@ This test passed successfully.
             "arn:aws:s3:::name-of-project/*"
           ]
         ```
-    - Give the Policy a name, and click create Policy, then add it to the use group
+  - Give the Policy a name, and click create Policy, then add it to the use group
 
-    - Navigate to Users and click 'new user'
+  - Navigate to Users and click 'new user'
 
-    - Add the user to your user group
+  - Add the user to your user group
 
-    - Select 'Programmatic Access' for the access type
+  - Select 'Programmatic Access' for the access type
 
-    - The user is now created and should have the the correct user group and policy
+  - The user is now created and should have the the correct user group and policy
 
 
 ## Credits
