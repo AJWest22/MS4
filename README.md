@@ -408,7 +408,7 @@ There are several code features used to give the site functionality, these inclu
 
 ### **Forms**
 
-- There are several forms on this site: A login form, a signup form, editing and updating a product, and a profile form, addig reviws and blog posts forms, and editing a review or blog post form, and a checkout form,
+- There are several forms on this site: A login form, a signup form, editing and updating a product, and a profile form, addig reviws and blog posts forms, and editing a review or blog post form, and a checkout form. All forms have a CSRF token, to ensure the data is secure and all fields are required for the forms before submitting to ensure form validation.
 
   - The Login Form:
 
