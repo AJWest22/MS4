@@ -276,7 +276,7 @@ JQUERY is used for making dropdown menus, sorting products, and for the spainner
 
  - **forms.py** contains form data and deals with the backend of the forms, and pushing them to the database. Most of the apps on the site have a forms.py page, bar the basket app. The form.py file contains the form's structure and fields and some styling of the form fields coloring.
 
- - The **env.py** file that was created contains security information regarding the database, deployment, and payment information, so has not been pushed to GitHub.
+ - The **env.py** file that was created contains security information regarding the database, deployment, and payment information, so has not been pushed to GitHub. It contains the variables: AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, DATABASE_URL, DEBUG, EMAIL_HOST_PASS, EMAIL_HOST_USER, SECRET_KEY, STRIPE_PUBLIC_KEY, STRIPE_SECRET_KEY, STRIPE_WH_SECRET, USE_AWS, which provide site functionality for AWS, Stripe Payments, and email verification.
 
  - To better illustrate the contents of the env.py file, a **env_sample.py** file has been created which contains the variables needed for this project, but NOT the values of these variables.
 
@@ -947,8 +947,6 @@ This test passed successfully.
     - Return to your dashboard and click deploy.
 
     - Once deployed, click open app.
-
-  <!-- Write about how people can get their own AWS and STRIPE keys -->
 
 
   ### STRIPE
