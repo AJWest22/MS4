@@ -27,12 +27,18 @@ hr {
     text-shadow: 1px 1px white;
 }
 
-/* official site font and styling for header texts on blog and review apps*/
+/* official site font and styling for header texts on blog, reviews, and checkout apps*/
 .roboto-font {
     font-family: roboto;
     font-size: 35px;
     color: #53adcb;
     text-shadow: 1px 1px white;
+}
+
+.checkout-login {
+    font-family: open-sans;
+    font-size: 20px;
+    margin-left: 1em;
 }
 
 /* official site colors for background and buttons*/
