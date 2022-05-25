@@ -19,6 +19,7 @@
       3. [CSS Development](#css-development)
       4. [Python Development](#python-development)
       5. [JQUERY Development](#jquery-development)
+      6. [CRUD Development](#crud-development)
 
 5. [Code Used](#code-used)
     1. [Frameworks](#frameworks)
@@ -237,6 +238,10 @@ DJANGO was a bit of a challenge to get to grips with in terms of memorising the 
 ### JQUERY Development
 
 JQUERY is used for making dropdown menus, sorting products, and for the spainner that shows up when a user makes a payment on the site. The JQUERY is imported by CDN from JQUEY.com, BootStrap JQUERY and from Stripe. 
+
+
+### CRUD Development
+
 
 
 
