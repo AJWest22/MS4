@@ -10,6 +10,7 @@
     <hr>
 {% if user.emailaddress_set.all %}
 <p class="text-white">{% trans 'The following e-mail addresses are associated with your account:' %}</p>
+<span class="logo-font mb-4 text-white">{{ request.user.email }}</span>
 
 <form action="{% url 'account_email' %}" class="email_list" method="post">
 {% csrf_token %}
