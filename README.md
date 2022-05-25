@@ -601,8 +601,8 @@ There are several code features used to give the site functionality, these inclu
   
   - Edit Blog Posts Form
 
-      <details><summary>Blog Posts Form:</summary>
-        <img src="/media/edit-blog-post-form.png">
+      <details><summary>Edit Blog Posts Form:</summary>
+        <img src="/media/edit-blog-post.PNG">
       </details>   
 
     - Can only be accessed by a superuser logged in
