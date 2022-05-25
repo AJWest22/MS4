@@ -982,6 +982,64 @@ This test passed successfully.
 
   ### AWS
 
+    - Create an account at aws.amazon.com
+
+    - Open the S3 application and create an S3 bucket named the same as your project/application
+
+    - Uncheck the "Block All Public access setting"
+
+    - In Properties, go to "Static Website Hosting" and click edit
+
+    - Enable the setting, and set the index.html and the error.html values
+
+    - In Permissions, click edit on the CORS configuration and set the below configuration 
+
+    - In the permissions section, click edit on the bucket policy and generate and set the below configuration
+
+        ``` 
+            {
+              "Version": "2012-10-17",
+              "Id": "Policy1641548102148",
+              "Statement": [
+                  {
+                    "Sid": "Stmt1641548086079",
+                    "Effect": "Allow",
+                    "Principal": "*",
+                    "Action": "s3:GetObject",
+                    "Resource": "arn:aws:s3:::name-of-your-app/*"
+                  }
+                ]
+            }
+        ```
+
+    - Still in permissions, click edit on the Access control list(ACL)
+
+    - Set to Read access for the Bucket ACL for Everyone(Public Access)
+
+
+    **Now the bucket has been created, the next step is to open the IAM application:**
+
+
+    - Create a new user group with the name of your app/project
+
+    - Add the "AmazonS3FullAccess" policy permission for the user group 
+
+    - Navigate to "Policies" and then click "Create New Policy"
+
+    - Click "Import Managed Policy" and then click "AmazonS3FullAccess", then select 'Import'.
+
+    - In the JSON editor, update the policy "Resource" to: 
+
+        ```
+          "Resource": [
+            "arn:aws:s3:::name-of-project",
+            "arn:aws:s3:::name-of-project/*"
+          ]
+        ```
+
+    - Give the policy a name and click "Create Policy"
+
+    - Add the newly created policy to the user group 
 
 ## Credits
 
