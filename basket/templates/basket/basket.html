@@ -109,12 +109,23 @@
                                         </span>
                                         <span class="text-uppercase">Continue Shopping</span>
                                     </a>
-                                    <a href="{% url 'checkout' %}" class="btn btn-black rounded-0 btn-lg text-white">
-                                        <span class="text-uppercase">Secure Checkout</span>
-                                        <span class="icon">
-                                            <i class="fas fa-lock"></i>
-                                        </span>
-                                    </a>
+                                    {% if request.user.is_authenticated or request.user.is_superuser %}
+                                        <a href="{% url 'checkout' %}" class="btn btn-black rounded-0 btn-lg text-white">
+                                            <span class="text-uppercase">Secure Checkout</span>
+                                            <span class="icon">
+                                                <i class="fas fa-lock"></i>
+                                            </span>
+                                        </a>
+                                    {% else %}
+                                        <div>
+                                            <span class="text-white">You must have an account in order to use the checkout!
+                                                Click <a href="{% url 'account_login' %}" class="font-weight-bold text-white">
+                                                    here
+                                                </a>
+                                                to create an account.
+                                            </span>
+                                        </div>
+                                    {% endif %}
                                 </td>
                             </tr>
                         </table>
