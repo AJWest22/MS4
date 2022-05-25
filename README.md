@@ -982,20 +982,36 @@ This test passed successfully.
 
   ### AWS Deployment
 
-    - Create an account at aws.amazon.com
+    - Create an account at [AWS](#https://aws.amazon.com/)
 
-    - Open the S3 application and create an S3 bucket named the same as your project/application
+    - Open the S3 application and create an S3 bucket named the same as your project/app
 
-    - Uncheck the "Block All Public access setting"
+    - Uncheck the "Block All Public Access" setting
 
-    - In Properties, go to "Static Website Hosting" and click edit
+    - In Properties, go to 'Static Website Hosting' and click edit
 
-    - Enable the setting, and set the index.html and the error.html values
+    - Enable the setting and and set the index and error.html values
 
-    - In Permissions, click edit on the CORS configuration and set the below configuration 
+    - Back in permissions, click edit on 'CORS configuration and add:
 
-    - In the permissions section, click edit on the bucket policy and generate and set the below configuration
-
+        ```
+          [
+            {
+              "AllowedHeaders":[
+                "Authorisation"
+              ],
+              "AllowedMethods":[
+                "GET"
+              ],
+              "AllowedOrigins":[
+                "*"
+              ],
+              "ExposedHeaders":[]
+            }
+          ]
+        ```
+    - In Permissions click edit on the bucket policy and generate and set the below configuration:
+        
         ``` 
             {
               "Version": "2012-10-17",
@@ -1011,24 +1027,25 @@ This test passed successfully.
                 ]
             }
         ```
+    - Still in permissions, click 'edit' on the Access control list (ACL)
 
-    - Still in permissions, click edit on the Access control list(ACL)
+    - Click Read access for the Bucket ACL for Everyone(Public Access)
 
-    - Set to Read access for the Bucket ACL for Everyone(Public Access)
+    - The bucket is created, the next step is to open the IAM application to set up access
 
+    **The Bucket has now been created, the next step is the open the IAM application:**
 
-    **Now the bucket has been created, the next step is to open the IAM application:**
+    - Create a new user group, the same name as your project/app
 
+    - Add the AmazonS3FullAccess Policy to the group
 
-    - Create a new user group with the name of your app/project
+    - Navigate to Policies and click 'Create New policy'
 
-    - Add the "AmazonS3FullAccess" policy permission for the user group 
+    - Click 'Imprort Managed Policy
 
-    - Navigate to "Policies" and then click "Create New Policy"
+    - Select AmazonS3FullAccess, then click 'Import'
 
-    - Click "Import Managed Policy" and then click "AmazonS3FullAccess", then select 'Import'.
-
-    - In the JSON editor, update the policy "Resource" to: 
+    - Go to the JSON editor and add the following:
 
         ```
           "Resource": [
@@ -1036,12 +1053,9 @@ This test passed successfully.
             "arn:aws:s3:::name-of-project/*"
           ]
         ```
+    - Give the Policy a name, and click create Policy, then add it to the use group
 
-    - Give the policy a name and click "Create Policy"
-
-    - Add the newly created policy to the user group 
-
-
+    
 
 ## Credits
 
