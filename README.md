@@ -1052,12 +1052,12 @@ This test passed successfully.
 
   - Go to the JSON editor and add the following:
 
-        ```
-          "Resource": [
-            "arn:aws:s3:::name-of-project",
-            "arn:aws:s3:::name-of-project/*"
-          ]
-        ```
+      ```
+        "Resource": [
+          "arn:aws:s3:::name-of-project",
+          "arn:aws:s3:::name-of-project/*"
+        ]
+      ```
   - Give the Policy a name, and click create Policy, then add it to the use group
 
   - Navigate to Users and click 'new user'
