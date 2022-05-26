@@ -902,11 +902,19 @@ To test the code in this project, a mixture of external code validators and the 
 
 ### Python Validation
 
-The Python code was tested using the build in Django testing framework. In order to properly test the code was working, the project was disconnected from the Heroku/Postgres databse so testing could be conducted. The first test was a test function, and can be seen in the below screenshot: 
+The Python code was tested using the online validator PEP8. As there are multiple apps, each app was tested individually.
 
-<details><summary>Original Test Function. Click to expand image:</summary>
-      <img src="/media/test-function.png">
-</details>
+- **Basket App Results**
+
+    <details><summary>The Basket App views.py file testing results. Click to expand image:</summary>
+          <img src="/media/basket-views.png">
+    </details>
+
+    <details><summary>The Basket App .py file testing results. Click to expand image:</summary>
+          <img src="/media/basket-context.png">
+    </details>
+
+
 
 This test passed successfully.
 
