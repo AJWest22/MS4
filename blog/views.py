@@ -51,7 +51,7 @@ def add_post(request):
             return redirect('posts')
         else:
             messages.error(request, 'Sorry, we couldn''t' +
-                           'submit you post right now')    
+                           'submit you post right now')
     else:
         form = PostForm()
 

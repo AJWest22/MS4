@@ -910,15 +910,30 @@ The Python code was tested using the online validator PEP8. As there are multipl
           <img src="/media/basket-views.png">
     </details>
 
-    <details><summary>The Basket App .py file testing results. Click to expand image:</summary>
+    <details><summary>The Basket App contexts.py file testing results. Click to expand image:</summary>
           <img src="/media/basket-context.png">
     </details>
 
+  **Blog App Testing**
+
+    <details><summary>The Blog App admin.py file testing results. Click to expand image:</summary>
+          <img src="/media/blog-admin.png">
+    </details>
+
+    <details><summary>The Blog App forms.py file testing results. Click to expand image:</summary>
+          <img src="/media/blog-forms.py.png">
+    </details>
+
+    <details><summary>The Blog App models.py file testing results. Click to expand image:</summary>
+          <img src="/media/blog-models.png">
+    </details>
+
+    <details><summary>The Blog App views.py file testing results. Click to expand image:</summary>
+          <img src="/media/blog-views.png">
+    </details>
 
 
-This test passed successfully.
-
-
+  **Checkout App**
 ### Browser Compatibility
 
 - This site has been tested on the following browsers and is fully functioning:
