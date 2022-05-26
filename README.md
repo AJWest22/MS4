@@ -985,7 +985,25 @@ The Python code was tested using the online validator PEP8. As there are multipl
 
     **Products App**
 
-    
+    <details><summary>The Products App admin.py file testing results. Click to expand image:</summary>
+          <img src="/media/product-admin.png">
+    </details>
+
+    <details><summary>The Products App forms.py file testing results. Click to expand image:</summary>
+          <img src="/media/product-form.png">
+    </details>
+
+    <details><summary>The Products App model.py file testing results. Click to expand image:</summary>
+          <img src="/media/product-model.png">
+    </details>
+
+    <details><summary>The Products App views.py file testing results. Click to expand image:</summary>
+          <img src="/media/product-view.png">
+    </details>
+
+    <details><summary>The Products App widgets.py file testing results. Click to expand image:</summary>
+          <img src="/media/product-widget.png">
+    </details>
 
 ### Browser Compatibility
 
