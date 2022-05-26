@@ -1005,6 +1005,23 @@ The Python code was tested using the online validator PEP8. As there are multipl
           <img src="/media/product-widget.png">
     </details>
 
+
+  **Profile App**
+
+    <details><summary>The Profile App forms.py file testing results. Click to expand image:</summary>
+          <img src="/media/profile-forms.py.png">
+    </details>
+
+    <details><summary>The Profile App models.py file testing results. Click to expand image:</summary>
+          <img src="/media/profile-model.png">
+    </details>
+
+    <details><summary>The Profile App views.py file testing results. Click to expand image:</summary>
+          <img src="/media/profile-views.png">
+    </details>
+
+
+
 ### Browser Compatibility
 
 - This site has been tested on the following browsers and is fully functioning:
