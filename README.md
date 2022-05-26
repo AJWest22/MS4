@@ -880,7 +880,27 @@ To test the code in this project, a mixture of external code validators and the 
 
   - As the owner of this site, I want the ability to add, edit and delete products from the store
 
+      <details><summary>Add product to site story. Click to expand image:</summary>
+        <img src="/media/add-product.PNG">
+      </details>
 
+      <details><summary>Edit product to site story. Click to expand image:</summary>
+        <img src="/media/edit-delete-product.PNG">
+      </details>
+
+      <details><summary>Edit product on site story. Click to expand image:</summary>
+        <img src="/media/edit-product.PNG">
+      </details>
+
+      <details><summary>Delete product to site story. Click to expand image:</summary>
+        <img src="/media/edit-delete-product.PNG">
+      </details>
+
+      <details><summary>Delete product from site story. Click to expand image:</summary>
+        <img src="/media/delete-product.PNG">
+      </details>
+
+      
 ### HTML Validation
    - The code was validated using NU HTML Validator and displayed some errors about the default html5 document layout, and a few missing attributes.
 
