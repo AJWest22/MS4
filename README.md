@@ -1109,12 +1109,16 @@ My amazing mentor Tim Nelson for his feedback and support making this project
 
  - The homepage image can be found on [Pixabay](https://pixabay.com/) [here](https://pixabay.com/photos/game-console-sony-video-games-6603120/)
 
+ - The noimage available image, was found on Google. I do not own this image.
+
+ - The video game images themselves, are screenshots of the games on Amazon, then trimmed so they contain only the image of the game itself. I do not own the cover art of these games.
+
 
 ### JQuery Framework
 
-- Jquery is used for the form submitting, the toasts and the spinner at the bottom of the checkout page, and can eithe rbe found at the bottom of the htl files or in the static folders JS folder of the apps. Example the checkout app has JQuery att he bottom of the template, and in the static folder.
+- [Jquery](#https://releases.jquery.com/) is used for the form submitting, the toasts and the spinner at the bottom of the checkout page, and can eithe rbe found at the bottom of the htl files or in the static folders JS folder of the apps. Example the checkout app has JQuery att he bottom of the template, and in the static folder.
 
 
 ### Crispy Forms
 
-Most forms are made using crispy forms which is installed using: pip3 install django-crispy-forms, and then added to the installed apps in settings.py then set to BootStrap 4 to style the forms and make them mobile responsive.
+Most forms are made using [Crispy Forms](#https://pypi.org/project/django-crispy-forms/) which is installed using: pip3 install django-crispy-forms, and then added to the installed apps in settings.py then set to BootStrap 4 to style the forms and make them mobile responsive.
