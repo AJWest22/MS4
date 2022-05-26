@@ -35,17 +35,19 @@
 
 8. [AWS](#aws)
 
-9. [Crispy Forms](#crispy-forms)
+9. [Stripe](#stripe)
 
-10. [Code Features](#code-features)
+10. [Crispy Forms](#crispy-forms)
 
-11. [JSON Files](#json-files)
+11. [Code Features](#code-features)
 
-12. [Bugs](#bugs)
+12. [JSON Files](#json-files)
 
-13. [Features to be Added](#features-to-be-added)
+13. [Bugs](#bugs)
 
-14. [Testing](#testing)
+14. [Features to be Added](#features-to-be-added)
+
+15. [Testing](#testing)
     1. [User Story Testing](#user-story-testing)
     2. [Superuser Story Testing](#superuser-story-testing)
     3. [HTML Validation](#html-validation)
@@ -54,12 +56,12 @@
     6. [Browser Compatibility](#browser-compatibility)
     7. [Devices Tested On](#devices-tested-on)
 
-15. [Deployment](#deployment)
+16. [Deployment](#deployment)
     1. [Heroku](#heroku)
     2. [Stripe](#stripe)
     3. [AWS Deployment](#aws-deployment)
 
-16. [Credits](#credits)
+17. [Credits](#credits)
      1. [Icons](#icons)
      2. [Imagery](#imagery)
      3. [JQuery Framework](#jquery-framework)
