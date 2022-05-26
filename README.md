@@ -1065,7 +1065,7 @@ The Python code was tested using the online validator PEP8. As there are multipl
     </details>
 
 
-### JQUERY Validation
+  ### JQUERY Validation
 
   As multiple apps use JQUERY, they have been tested individually to keep things neater and more organised.
 
