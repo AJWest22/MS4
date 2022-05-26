@@ -1021,6 +1021,24 @@ The Python code was tested using the online validator PEP8. As there are multipl
     </details>
 
 
+  **Reviews APP**
+
+    <details><summary>The Reviews App admin.py file testing results. Click to expand image:</summary>
+          <img src="/media/reviews-admin.png">
+    </details>
+
+    <details><summary>The Reviews App forms.py file testing results. Click to expand image:</summary>
+          <img src="/media/reviews-form.png">
+    </details>
+
+    <details><summary>The Reviews App models.py file testing results. Click to expand image:</summary>
+          <img src="/media/reviews-model.png">
+    </details>
+
+    <details><summary>The Reviews App views.py file testing results. Click to expand image:</summary>
+          <img src="/media/reviews-views.png">
+    </details>
+
 
 ### Browser Compatibility
 

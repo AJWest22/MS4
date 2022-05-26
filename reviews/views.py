@@ -9,6 +9,8 @@ from .forms import ReviewForm
 
 
 """ Gets all reviews """
+
+
 def reviews(request):
 
     reviews = Review.objects.all()
@@ -20,6 +22,7 @@ def reviews(request):
     }
 
     return render(request, template, context)
+
 
 @login_required
 def add_review(request):
@@ -40,7 +43,7 @@ def add_review(request):
             return redirect('reviews')
         else:
             messages.error(request, 'Sorry, we couldn''t' +
-                           'submit you review right now')    
+                           'submit you review right now')
     else:
         form = ReviewForm()
 
@@ -49,6 +52,7 @@ def add_review(request):
         'form': form,
     }
     return render(request, template, context)
+
 
 @login_required
 def edit_review(request, review_id):
