@@ -967,6 +967,26 @@ The Python code was tested using the online validator PEP8. As there are multipl
           <img src="/media/checkout-webhooks.png">
     </details>
 
+
+    **Newsletter App**
+
+    <details><summary>The Newsletter App forms.py file testing results. Click to expand image:</summary>
+          <img src="/media/newsletter-forms.png">
+    </details>
+
+    <details><summary>The Newsletter App model.py file testing results. Click to expand image:</summary>
+          <img src="/media/newsletter-models.png">
+    </details>
+
+    <details><summary>The Newsletter App views.py file testing results. Click to expand image:</summary>
+          <img src="/media/newsletter-views.png">
+    </details>
+
+
+    **Products App**
+
+    
+
 ### Browser Compatibility
 
 - This site has been tested on the following browsers and is fully functioning:
