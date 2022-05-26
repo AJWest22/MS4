@@ -58,8 +58,8 @@
 
 16. [Deployment](#deployment)
     1. [Heroku](#heroku)
-    2. [Stripe](#stripe)
-    3. [AWS Deployment](#aws-deployment)
+    2. [AWS Deployment](#aws-deployment)
+    3. [Stripe](#stripe)
 
 17. [Credits](#credits)
      1. [Icons](#icons)
@@ -402,7 +402,7 @@ The DataBase is a in-built function of DJango, and has been structured so there 
 
 ## **AWS**
 
-Amazon Web Services,[AWS](#https://aws.amazon.com/), is used to store the images of this site. The images that are stored on AWS are the videogame images that are used to advertise the products of the store. An example of one of those images stored on AWS can be seen below. 
+Amazon Web Services,[AWS](https://aws.amazon.com/), is used to store the images of this site. The images that are stored on AWS are the videogame images that are used to advertise the products of the store. An example of one of those images stored on AWS can be seen below. 
 
 <details><summary>Click to expand image: Example of image stored on AWS</summary>
   <img src="/media/ac.jpg">
@@ -412,7 +412,7 @@ Amazon Web Services,[AWS](#https://aws.amazon.com/), is used to store the images
 
 ## Stripe
 
-I used [Stripe](#https://stripe.com/en-gb) to handle the online payments on this site. The variables for the stripe functionality are stored in an env.py file. The variables stored in the env.py file are: 'STRIPE_SECRET_KEY', 'STRIPE_WH_SECRET', and 'STRIPE_PUBLIC_KEY'. The currency used for the site is set to gdp, originally it was usd.
+[Stripe](https://stripe.com/en-gb) is used to handle the online payments on this site. The variables for the stripe functionality are stored in an env.py file. The variables stored in the env.py file are: 'STRIPE_SECRET_KEY', 'STRIPE_WH_SECRET', and 'STRIPE_PUBLIC_KEY'. The currency used for the site is set to gdp, originally it was usd.
 
 
 
