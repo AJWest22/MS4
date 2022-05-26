@@ -1083,7 +1083,7 @@ The Python code was tested using the online validator PEP8. As there are multipl
       <img src="/media/profile-jquery.png">
     </details>
 
-    
+
 ### Browser Compatibility
 
 - This site has been tested on the following browsers and is fully functioning:
@@ -1294,7 +1294,9 @@ My amazing mentor Tim Nelson for his feedback and support making this project
 
 ### JQuery Framework
 
-- [Jquery](#https://releases.jquery.com/) is used for the form submitting, the toasts and the spinner at the bottom of the checkout page, and can eithe rbe found at the bottom of the htl files or in the static folders JS folder of the apps. Example the checkout app has JQuery att he bottom of the template, and in the static folder.
+- [Jquery](#https://releases.jquery.com/) is used for the form submitting, the toasts and the spinner at the bottom of the checkout page, and can eithe rbe found at the bottom of the htl files or in the static folders JS folder of the apps. Example the checkout app has JQuery att he bottom of the template, and in the static folder. 
+
+Some of the JQUERY comes from third parties, like BootStrap and Stripe, to provide funcitonality for the spinner, and the toasta, and for stripe payments to come through.
 
 
 ### Crispy Forms
