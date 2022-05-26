@@ -58,8 +58,8 @@
 
 16. [Deployment](#deployment)
     1. [Heroku](#heroku)
-    2. [AWS Deployment](#aws-deployment)
-    3. [Stripe](#stripe)
+    2. [Stripe](#stripe)
+    3. [AWS Deployment](#aws-deployment)
 
 17. [Credits](#credits)
      1. [Icons](#icons)
