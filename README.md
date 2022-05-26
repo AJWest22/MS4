@@ -995,11 +995,11 @@ The Python code was tested using the online validator PEP8. As there are multipl
     </details>
 
     <details><summary>The Products App model.py file testing results. Click to expand image:</summary>
-          <img src="/media/product-model.png">
+          <img src="/media/products-model.png">
     </details>
 
     <details><summary>The Products App views.py file testing results. Click to expand image:</summary>
-          <img src="/media/product-view.png">
+          <img src="/media/product-views.png">
     </details>
 
     <details><summary>The Products App widgets.py file testing results. Click to expand image:</summary>
