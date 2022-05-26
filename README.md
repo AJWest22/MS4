@@ -209,6 +209,8 @@ to:
 
 3. The third major bug was to do with making payments on the site: The webhook keys weren't matching from the deployed site on Heroku with the environment variables in GitPod settings.
 
+4. The fourth bug to be fixed during development, was that any user could buy something from the store, regardless if they had an account or not, this was ammended by wrapping the secure checkout button in an if statement, and removing it and replacing it with a message asking the user to login first.
+
 
 ### HTML Development
 
