@@ -961,7 +961,7 @@ The Python code was tested using the online validator PEP8. As there are multipl
     </details>
 
     <details><summary>The Checkout App webhookhandler.py file testing results. Click to expand image:</summary>
-          <img src="/media/checkout-webhokhandler.png">
+          <img src="/media/checkout-webhookhandler.png">
     </details>
 
     <details><summary>The Checkout App webhooks.py file testing results. Click to expand image:</summary>
