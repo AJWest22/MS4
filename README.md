@@ -868,20 +868,20 @@ To test the code in this project, a mixture of external code validators and the 
       <details><summary>Edit Inappropriate Review Story. Click to expand image:</summary>
         <img src="/media/edit-review-story.PNG">
       </details>
-      
+
 
 ### HTML Validation
    - The code was validated using NU HTML Validator and displayed some errors about the default html5 document layout, and a few missing attributes.
 
-      <details><summary>HTML Validation</summary>
+      <details><summary>HTML Validation. Click to expand image:</summary>
         <img src="/media/html-validatior1.png">
       </details>
 
-      <details><summary>HTML Validation</summary>
+      <details><summary>HTML Validation. Click to expand image:</summary>
         <img src="/media/html-validator2.png">
       </details>
 
-      <details><summary>HTML Validation</summary>
+      <details><summary>HTML Validation. Click to expand image:</summary>
         <img src="/media/html-validator3.png">
       </details>
   
@@ -889,7 +889,7 @@ To test the code in this project, a mixture of external code validators and the 
 ### CSS Validation
   - The code was tested using The W3C Jigsaw CSS Validation Service and encountered 4 errors:
 
-    <details><summary>Css Validation</summary>
+    <details><summary>Css Validation. Click to expand image:</summary>
       <img src="/media/css-validator.jpg">
     </details>
   
@@ -898,7 +898,7 @@ To test the code in this project, a mixture of external code validators and the 
 
 The Python code was tested using the build in Django testing framework. In order to properly test the code was working, the project was disconnected from the Heroku/Postgres databse so testing could be conducted. The first test was a test function, and can be seen in the below screenshot: 
 
-<details><summary>Original Test Function</summary>
+<details><summary>Original Test Function. Click to expand image:</summary>
       <img src="/media/test-function.png">
 </details>
 
@@ -909,22 +909,22 @@ This test passed successfully.
 
 - This site has been tested on the following browsers and is fully functioning:
   FireFox:
-  <details><summary>View of the site on Firefox:</summary>
+  <details><summary>Click to expand image. View of the site on Firefox:</summary>
     <img src="/media/firefox-view.png">
   </details>
 
   Safari:
-  <details><summary>View of the site on Safari:</summary>
+  <details><summary>Click to expand image. View of the site on Safari:</summary>
     <img src="/media/ipad-view.PNG">
   </details>
 
   Microsoft Edge:
-  <details><summary>View of the site on Edge browser:</summary>
+  <details><summary>Click to expand image. View of the site on Edge browser:</summary>
     <img src="/media/edge-view.png">
   </details>
 
   Google Chrome:
-  <details><summary>View of the site on Chrome:</summary>
+  <details><summary>Click to expand image. View of the site on Chrome:</summary>
     <img src="/media/chrome-view.png">
   </details>
 
@@ -933,22 +933,22 @@ This test passed successfully.
 
 - This site has been tested on: laptop 15", iPad 8th gen, iPhone SE (2016) and iPhone SE (2020).
 
-<details><summary>Laptop 15inch View</summary>
+<details><summary>Click to expand image. Laptop 15inch View</summary>
   <img src="/media/laptop-view.png">
 </details>
 
 
-<details><summary>iPad 8th Gen View</summary>
+<details><summary>Click to expand image. iPad 8th Gen View</summary>
   <img src="/media/ipad-view.PNG">
 </details>
 
 
-<details><summary>iPhone 2020 View</summary>
+<details><summary>Click to expand image. iPhone 2020 View</summary>
   <img src="/media/mobile-view.PNG">
 </details>
 
 
-<details><summary>iPhone 2016 View **same photo as the 2020 model, as they look the same**</summary>
+<details><summary>Click to expand image. iPhone 2016 View **same photo as the 2020 model, as they look the same**</summary>
   <img src="/media/mobile-view.PNG">
 </details>
 
@@ -971,8 +971,6 @@ This test passed successfully.
     - In the application dashboard, go to the deploy section and connect your application to your chosen GitHub repo, by      selecting your repo's name.
 
     - Select the branch to enable automatic deploys, (as was done with this project). Alternatively you can set it to deploy manually.
-
-    <!-- - Set key/value pairs for the following keys:IP, PORT, SECRET_KEY  wrap in backticks and update to django -->
 
     - Return to your dashboard and click deploy.
 
