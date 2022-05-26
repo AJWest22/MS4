@@ -368,31 +368,31 @@ The images are stored on AWS.
 
 The DataBase is a in-built function of DJango, and has been structured so there is a section for: categories, products, users, orders, reviews and blog posts. Examples of how these look are shown below: 
 
-<details><summary>The layout of the DataBase:</summary>
+<details><summary>Click to expand image: The layout of the DataBase</summary>
   <img src="/media/database.png">
 </details>
 
-<details><summary>How categories are stored in the database:</summary>
+<details><summary>Click to expand image: How categories are stored in the database</summary>
   <img src="/media/database.png">
 </details>
 
-<details><summary>Example of how the products are stored in the Database:</summary>
+<details><summary>Click to expand image: Example of how the products are stored in the Database</summary>
   <img src="/media/categories-db.png">
 </details>
 
-<details><summary>How orders are stored in the DataBase:</summary>
+<details><summary>Click to expand image: How orders are stored in the DataBase</summary>
   <img src="/media/database2.png">
 </details>
 
-<details><summary>How users are stored in the DateBase:</summary>
+<details><summary>Click to expand image: How users are stored in the DateBase</summary>
   <img src="/media/users-db.png">
 </details>
 
-<details><summary>How reviews are stored in the DataBase:</summary>
+<details><summary>Click to expand image: How reviews are stored in the DataBase</summary>
   <img src="/media/reviews-db.png">
 </details>
 
-<details><summary>How blog posts are stored the DataBase:</summary>
+<details><summary>Click to expand image: How blog posts are stored the DataBase</summary>
   <img src="/media/blog-posts-db.png">
 </details>
 
@@ -402,7 +402,7 @@ The DataBase is a in-built function of DJango, and has been structured so there 
 
 AWS is used to store the images of this site. The images that are stored on AWS are the videogame images that are used to advertise the products of the store. An example of one of those images stored on AWS can be seen below. 
 
-<details><summary>Example of image stored on AWS:</summary>
+<details><summary>Click to expand image: Example of image stored on AWS</summary>
   <img src="/media/ac.jpg">
 </details>
 
@@ -436,7 +436,7 @@ There are several code features used to give the site functionality, these inclu
 
   - The Login Form:
 
-      <details><summary>Login Form:</summary>
+      <details><summary>Click to expand image: Login Form</summary>
         <img src="/media/login-form.png">
       </details>
 
@@ -455,7 +455,7 @@ There are several code features used to give the site functionality, these inclu
 
   - The Registration Form:
 
-      <details><summary>Signup Form:</summary>
+      <details><summary>Click to expand image: Signup Form</summary>
         <img src="/media/signup-form.png">
       </details>
 
@@ -472,7 +472,7 @@ There are several code features used to give the site functionality, these inclu
 
   - Checkout Form:
 
-    <details><summary>Checkout Form:</summary>
+    <details><summary>Click to expand image: Checkout Form</summary>
       <img src="/media/checkout-form.png">
     </details>
 
@@ -495,7 +495,7 @@ There are several code features used to give the site functionality, these inclu
 
   - Profile Form
 
-      <details><summary>Profile Form:</summary>
+      <details><summary>Click to expand image: Profile Form</summary>
         <img src="/media/profile-form.png">
       </details>
 
@@ -508,7 +508,7 @@ There are several code features used to give the site functionality, these inclu
 
   - Edit Products Form
 
-      <details><summary>Edit Product Form:</summary>
+      <details><summary>Click to expand image: Edit Product Form</summary>
         <img src="/media/edit-product.png">
       </details>
 
@@ -527,7 +527,7 @@ There are several code features used to give the site functionality, these inclu
 
   - Add Products Form
 
-      <details><summary>Add Product Form:</summary>
+      <details><summary>Click to expand image: Add Product Form</summary>
         <img src="/media/add-product.png">
       </details>   
 
@@ -546,7 +546,7 @@ There are several code features used to give the site functionality, these inclu
 
   - Add Reviews Form
 
-      <details><summary>Add Reviews Form:</summary>
+      <details><summary>Click to expand image: Add Reviews Form</summary>
         <img src="/media/add_review-form.png">
       </details>   
 
@@ -565,7 +565,7 @@ There are several code features used to give the site functionality, these inclu
   
   - Edit Reviews Form
 
-      <details><summary>Edit Review Form:</summary>
+      <details><summary>Click to expand image: Edit Review Form</summary>
         <img src="/media/edit-review-form.png">
       </details>   
 
@@ -584,7 +584,7 @@ There are several code features used to give the site functionality, these inclu
 
   - Add Blog Posts Form
 
-      <details><summary>Add Blog Post:</summary>
+      <details><summary>Click to expand image: Add Blog Post</summary>
         <img src="/media/add-blog-post.PNG">
       </details>   
 
@@ -603,7 +603,7 @@ There are several code features used to give the site functionality, these inclu
   
   - Edit Blog Posts Form
 
-      <details><summary>Edit Blog Posts Form:</summary>
+      <details><summary>Click to expand image: Edit Blog Posts Form</summary>
         <img src="/media/edit-blog-post.PNG">
       </details>   
 
@@ -618,7 +618,7 @@ There are several code features used to give the site functionality, these inclu
   
   - Newsletter Form
 
-      <details><summary>Newsletter Form:</summary>
+      <details><summary>Click to expand image: Newsletter Form</summary>
         <img src="/media/newsletter-form.png">
       </details>
 
@@ -709,77 +709,77 @@ To test the code in this project, a mixture of external code validators and the 
 
  - As a user of this site I want to find a good game from a variety of genres
   
-      <details><summary>Displays variety of games to user:</summary>
+      <details><summary>Click to expand image: Displays variety of games to user</summary>
         <img src="/media/good-game-story.PNG">
       </details>   
 
  - As a user of this site I want to be abe to find games from a variety of consoles and different generations
 
-      <details><summary>Displays different consoles to the User</summary>
+      <details><summary>Click to expand image: Displays different consoles to the User</summary>
         <img src="/media/console-story.PNG">
       </details>
     
-      <details><summary>Shows the different generations of consoles on the store to the User, Wii is from the previous generation of game conesoles to the Xbox One.</summary>
+      <details><summary>Click to expand image: Shows the different generations of consoles on the store to the User, Wii is from the previous generation of game conesoles to the Xbox One.</summary>
         <img src="/media/generation-story.PNG">
       </details>
 
  - As a user I want to know if my login and logout was successful or not.
 
-      <details><summary>Shows a login was successful:</summary>
+      <details><summary>Click to expand image: Shows a login was successful</summary>
         <img src="/media/user-login-story.PNG">
       </details>   
 
-      <details><summary>Shows a logout was successfull:</summary>
+      <details><summary>Click to expand image: Shows a logout was successfull</summary>
         <img src="/media/logout-story.PNG">
       </details>   
 
  - As a user I want a easy to use, simple site.
 
-      <details><summary>View of Site</summary>
+      <details><summary>View of Site. Click to expand image:</summary>
         <img src="/media/laptop-view.png">
       </details>   
 
  - As a user I want the ability to add reviews to products
 
-      <details><summary>Add review form for a user for add a review:</summary>
+      <details><summary>Add review form for a user for add a review. Click to expand image:</summary>
         <img src="/media/add-review-story.PNG">
       </details>
 
-      <details><summary>Add review success:</summary>
+      <details><summary>Add review success. Click to expand image:</summary>
         <img src="/media/add-review.PNG">
       </details>
 
  - As a user I want the ability to edit and delete my reviews
 
-      <details><summary>Edit review form for a user for edit a review:</summary>
+      <details><summary>Edit review form for a user for edit a review. Click to expand image:</summary>
         <img src="/media/edit-review-story.PNG">
       </details>
 
-      <details><summary>Delete Review</summary>
+      <details><summary>Delete Review. Click to expand image:</summary>
         <img src="/media/delete-review-story.PNG">
       </details>  
 
  - As a user I want the ability to see my order history
 
-      <details><summary>Order history on profile:</summary>
+      <details><summary>Order history on profile. Click to expand image:</summary>
         <img src="/media/profile-story.PNG">
       </details>   
 
  - As a user I want tthe option for my previous information such as address stored so I don't need to keep adding it
 
-      <details><summary>Saved info in Profile:</summary>
+      <details><summary>Saved info in Profile. Click to expand image:</summary>
         <img src="/media/profile-story.PNG">
       </details>   
 
  - As a user I want to know my payments were successfull or not
 
-      <details><summary>Toast to show successfull payment:</summary>
+      <details><summary>Toast to show successfull payment. Click to expand image:</summary>
         <img src="/media/payments-story.PNG">
       </details>   
 
  - As a user I want the ability to read blog posts
 
-      <details><summary>Read Blog Story:</summary>
+      <details><summary>Read Blog Story. Click to expand image:</summary>
         <img src="/media/read-blog-story.png">
       </details>   
 
@@ -788,29 +788,29 @@ To test the code in this project, a mixture of external code validators and the 
 
   - As the owner of this site, I want to create a easy to use site that serves a purpose.
 
-      <details><summary>View of Site</summary>
+      <details><summary>View of Site. Click to expand image:</summary>
         <img src="/media/laptop-view.png">
       </details>  
 
   - As the owner of this site, I want users to know their reviews have been submitted to the database
 
-      <details><summary>Add review form for a user for add a review:</summary>
+      <details><summary>Add review form for a user for add a review. Click to expand image:</summary>
         <img src="/media/add-review-story.PNG">
       </details>    
 
   - As the owner of this site, I want users to come back to this site.
 
-      <details><summary>View of Site</summary>
+      <details><summary>View of Site. Click to expand image:</summary>
         <img src="/media/laptop-view.png">
       </details>  
 
   - As the owner of this site, I want users to be able to have control over their reviews, so edit and delete them as well as the ability to create them.
 
-      <details><summary>Edit review form for a user for edit a review:</summary>
+      <details><summary>Edit review form for a user for edit a review. Click to expand image:</summary>
         <img src="/media/edit-review-story.PNG">
       </details>
 
-      <details><summary>Delete Review</summary>
+      <details><summary>Delete Review.Click to expand image:</summary>
         <img src="/media/delete-review-story.PNG">
       </details>
 
@@ -820,54 +820,55 @@ To test the code in this project, a mixture of external code validators and the 
 
   - As the owner of this site I want users to know their payment has gone through and it is a secure transaction
 
-      <details><summary>Toast to show successfull payment:</summary>
+      <details><summary>Toast to show successfull payment. Click to expand image:</summary>
         <img src="/media/payments-story.PNG">
       </details>
 
   - As the owner of this site I want users to have their previous information stored so they don't have to re-enter things, like their address over again.
 
-      <details><summary>Saved info option:</summary>
+      <details><summary>Saved info option. Click to expand image:</summary>
         <img src="/media/profile-story.PNG">
       </details>
 
   - As the owner of this site, I want superusers to have the abiity to create, edit, update and read the blog posts they have made.
 
-      <details><summary>Read Blog Story:</summary>
+      <details><summary>Read Blog Story. Click to expand image:</summary>
         <img src="/media/read-blog-story.png">
       </details>   
 
 
   - As the owner, I want all blogposts to be relevent to the site
 
-      <details><summary>Relevant Blogs:</summary>
+      <details><summary>Relevant Blogs. Click to expand image:</summary>
         <img src="/media/read-blog-story.png">
       </details>
 
   - As the owner of this site, I want the ability to create, edit and delete blogs.
 
-      <details><summary>Add Blog Post:</summary>
+      <details><summary>Add Blog Post. Click to expand image:</summary>
         <img src="/media/add-blog-post.PNG">
       </details>
 
-      <details><summary>Edit Blog Post:</summary>
+      <details><summary>Edit Blog Post. Click to expand image:</summary>
         <img src="/media/edit-blog-post.PNG">
       </details>
 
-      <details><summary>Delete Blog Post Story:</summary>
+      <details><summary>Delete Blog Post Story. Click to expand image:</summary>
         <img src="/media/delete-blog-post.PNG">
       </details>
 
   - As the owner of this site, I want the ability to delete reviews if I find them inappropriate
 
-      <details><summary>Delete Inappropriate Review Story:</summary>
+      <details><summary>Delete Inappropriate Review Story. Click to expand image:</summary>
         <img src="/media/delete-review-story.PNG">
       </details>
 
   - - As the owner of this site, I want the ability to edit reviews if I find them inappropriate/have bad spelling
 
-      <details><summary>Edit Inappropriate Review Story:</summary>
+      <details><summary>Edit Inappropriate Review Story. Click to expand image:</summary>
         <img src="/media/edit-review-story.PNG">
       </details>
+      
 
 ### HTML Validation
    - The code was validated using NU HTML Validator and displayed some errors about the default html5 document layout, and a few missing attributes.
