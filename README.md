@@ -53,8 +53,9 @@
     3. [HTML Validation](#html-validation)
     4. [CSS Validation](#css-validation)
     5. [Python Validation](#python-validation)
-    6. [Browser Compatibility](#browser-compatibility)
-    7. [Devices Tested On](#devices-tested-on)
+    6. [JQUERY Validation](#jquery-validation)
+    7. [Browser Compatibility](#browser-compatibility)
+    8. [Devices Tested On](#devices-tested-on)
 
 16. [Deployment](#deployment)
     1. [Heroku](#heroku)
@@ -1038,6 +1039,9 @@ The Python code was tested using the online validator PEP8. As there are multipl
     <details><summary>The Reviews App views.py file testing results. Click to expand image:</summary>
           <img src="/media/reviews-views.png">
     </details>
+
+
+### JQUERY Validation
 
 
 ### Browser Compatibility
