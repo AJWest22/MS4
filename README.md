@@ -169,6 +169,8 @@ View site [here](https://easygaming.herokuapp.com/)
 
  - As the owner of this site, I want the ability to delete reviews if I find them inappropriate
 
+ - As the owner of this site I want the ability to add, edit, and delete products from the store
+
 
 
 ## **About The Site**
@@ -875,6 +877,8 @@ To test the code in this project, a mixture of external code validators and the 
       <details><summary>Edit Inappropriate Review Story. Click to expand image:</summary>
         <img src="/media/edit-review-story.PNG">
       </details>
+
+  - As the owner of this site, I want the ability to add, edit and delete products from the store
 
 
 ### HTML Validation
