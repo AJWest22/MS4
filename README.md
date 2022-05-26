@@ -900,7 +900,7 @@ To test the code in this project, a mixture of external code validators and the 
         <img src="/media/delete-product.PNG">
       </details>
 
-      
+
 ### HTML Validation
    - The code was validated using NU HTML Validator and displayed some errors about the default html5 document layout, and a few missing attributes.
 
@@ -1067,7 +1067,23 @@ The Python code was tested using the online validator PEP8. As there are multipl
 
 ### JQUERY Validation
 
+  As multiple apps use JQUERY, they have been tested individually to keep things neater and more organised.
 
+
+  **Checkout App**
+
+    <details><summary>Checkout App JQUERY Validation. Click to expand image:</summary>
+      <img src="/media/checkout-jquery.png">
+    </details>
+
+
+  **Profile App**
+
+    <details><summary>Profile App JQUERY Validation. Click to expand image:</summary>
+      <img src="/media/profile-jquery.png">
+    </details>
+
+    
 ### Browser Compatibility
 
 - This site has been tested on the following browsers and is fully functioning:
