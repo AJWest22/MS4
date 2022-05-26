@@ -415,7 +415,7 @@ Amazon Web Services,[AWS](https://aws.amazon.com/), is used to store the images 
 
 ## Stripe
 
-[Stripe](https://stripe.com/en-gb) is used to handle the online payments on this site. The variables for the stripe functionality are stored in an env.py file. The variables stored in the env.py file are: 'STRIPE_SECRET_KEY', 'STRIPE_WH_SECRET', and 'STRIPE_PUBLIC_KEY'. The currency used for the site is set to gdp, originally it was usd.
+[Stripe](https://stripe.com/en-gb) is used to handle the online payments on this site. The variables for the stripe functionality are stored in an env.py file. The variables stored in the env.py file are: 'STRIPE_SECRET_KEY', 'STRIPE_WH_SECRET', and 'STRIPE_PUBLIC_KEY'. The currency used for the site is set to gdp, originally it was set to usd.
 
 
 
