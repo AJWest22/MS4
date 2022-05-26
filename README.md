@@ -410,6 +410,11 @@ AWS is used to store the images of this site. The images that are stored on AWS 
 
 
 
+## Stripe
+[Stripe](#https://stripe.com/en-gb) Is used to handle the online payments on this site. The variables for the stripe functionality are stored in an env.py file. The variables stored in the env.py file are: 'STRIPE_SECRET_KEY', 'STRIPE_WH_SECRET', and 'STRIPE_PUBLIC_KEY'.
+
+
+
 ## Crispy Forms
 
 Crispy Forms is package that allows users to format forms using bootstrap styling. To install it type: pip3 install django-crisy-forms into your terminal. Crispy Forms is used in this project to create and style the forms and form fields. The basic template used for the forms is similar throughout the site, an example can be found on the checkout app when creating an account. Required fields on this form include asking for a user's: name, email address, phone number, country, postal code, city or town, the user's address, and phone number and card number.
