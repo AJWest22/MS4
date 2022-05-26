@@ -8,12 +8,13 @@ from products.models import Product
 import json
 import time
 
+
 class StripeWH_Handler:
     """Handles Stripe webhooks"""
 
     def __init__(self, request):
         self.request = request
-    
+
     def _send_confirmation_email(self, order):
         """Sends user a confirmation email"""
         cust_email = order.email
@@ -23,13 +24,13 @@ class StripeWH_Handler:
         body = render_to_string(
             'checkouts/confirmation_emails/confirmation_email_body.txt',
             {'order': order, 'contact_email': settings.DEFAULT_FROM_EMAIL})
-        
+
         send_mail(
             subject,
             body,
             settings.DEFAULT_FROM_EMAIL,
             [cust_email]
-        )        
+        )
 
     def handle_event(self, event):
         """
@@ -38,7 +39,7 @@ class StripeWH_Handler:
         return HttpResponse(
             content=f'Webhook received: {event["type"]}',
             status=200)
-        
+
     def handle_payment_intent_succeeded(self, event):
         """
         Handles the payment_intent.succeeded webhook from Stripe
@@ -144,7 +145,7 @@ class StripeWH_Handler:
         return HttpResponse(
             content=f'Webhook received: {event["type"]} | SUCCESS: Created order in webhook',
             status=200)
-    
+
     def handle_payment_intent_payment_failed(self, event):
         """
         Handles the payment_intent.payment_failed webhook from Stripe

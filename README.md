@@ -934,6 +934,39 @@ The Python code was tested using the online validator PEP8. As there are multipl
 
 
   **Checkout App**
+
+    <details><summary>The Checkout App admin.py file testing results. Click to expand image:</summary>
+          <img src="/media/checkout-admin.png">
+    </details>
+
+    <details><summary>The Checkout App apps.py file testing results. Click to expand image:</summary>
+          <img src="/media/checkout-apps.png">
+    </details>
+
+    <details><summary>The Checkout App forms.py file testing results. Click to expand image:</summary>
+          <img src="/media/checkout-forms.py.png">
+    </details>
+
+    <details><summary>The Checkout App models.py file testing results. Click to expand image:</summary>
+          <img src="/media/checkout-models.png">
+    </details>
+
+    <details><summary>The Checkout App signals.py file testing results. Click to expand image:</summary>
+          <img src="/media/checkout-signals.png">
+    </details>
+
+    <details><summary>The Checkout App views.py file testing results. Click to expand image:</summary>
+          <img src="/media/checkout-views.png">
+    </details>
+
+    <details><summary>The Checkout App webhookhandler.py file testing results. Click to expand image:</summary>
+          <img src="/media/checkout-webhokhandler.png">
+    </details>
+
+    <details><summary>The Checkout App webhooks.py file testing results. Click to expand image:</summary>
+          <img src="/media/checkout-webhooks.png">
+    </details>
+
 ### Browser Compatibility
 
 - This site has been tested on the following browsers and is fully functioning:

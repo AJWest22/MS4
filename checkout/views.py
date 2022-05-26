@@ -83,7 +83,7 @@ def checkout(request):
                     )
                     order.delete()
                     return redirect(reverse('view_basket'))
-                
+
             # saves data to users profile
             request.session['save_info'] = 'save-info' in request.POST
             return redirect(reverse('checkout_complete', args=[order.order_number]))
@@ -95,7 +95,7 @@ def checkout(request):
         if not basket:
             messages.error(request, "There's nothing in your basket at the moment")
             return redirect(reverse('products'))
-   
+
         current_basket = basket_contents(request)
         total = current_basket['grand_total']
         stripe_total = round(total * 100)
@@ -148,7 +148,7 @@ def checkout_complete(request, order_number):
     messages.success(request, f'Order successfully placed! \
         Your order number is {order_number}. A confirmation \
         email will be sent to {order.email}.')
-    
+
     if request.user.is_authenticated:
         profile = UserProfile.objects.get(user=request.user)
         # Attaches a user's profile to the order

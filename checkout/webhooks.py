@@ -9,6 +9,7 @@ import stripe
 
 """Code from CI"""
 
+
 @require_POST
 @csrf_exempt
 def webhook(request):

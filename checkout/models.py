@@ -35,7 +35,7 @@ class Order(models.Model):
         Generates a unique order number using UUID
         """
         return uuid.uuid4().hex.upper()
-              
+
     def update_total(self):
         """
         Update grand total each time an item is added,

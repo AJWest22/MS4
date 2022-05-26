@@ -8,6 +8,8 @@ from .forms import PostForm
 
 
 """ Gets all blog posts """
+
+
 def posts(request):
 
     posts = Post.objects.all()
