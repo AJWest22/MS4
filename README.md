@@ -406,8 +406,6 @@ AWS is used to store the images of this site. The images that are stored on AWS 
   <img src="/media/ac.jpg">
 </details>
 
-However one image doesn't display on the deployed version of the site: the Xbox 360 edition of the Fifa World Cup South Africa. It can be seen on the undeployed version of the site but not the deployed, and has been uploaed to AWS.
-
 
 
 ## Crispy Forms
