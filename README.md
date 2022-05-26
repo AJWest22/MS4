@@ -709,6 +709,8 @@ I would also like to add a star rating option to the reviews form, which can the
 
 At some point I would like to make the if statement wrapped around the secure checkout button on the basket.html file a bit neater. Currently it is a very basic way to stop customers without accounts being able to checkout. So at some point I would like to have a message display when someone without an accuont clicks on the secure checkout button that asks them to make an account first, instead of only having the button display when someone is logged in.
 
+
+
 ## **Testing**
 
 To test the code in this project, a mixture of external code validators and the in built testing framework of Django was used. For the HTML, CSS and JavaScript, external validators were used to proof read the code and check it. The in-built Django tetsing framework was originally going to be used along with PyTest, but due to continuous difficulties using these, the decision was taken to rely on validators and auto testing.

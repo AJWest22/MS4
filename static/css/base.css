@@ -39,6 +39,7 @@ hr {
     font-family: open-sans;
     font-size: 20px;
     margin-left: 1em;
+    text-shadow: 1px 0px black;
 }
 
 /* official site colors for background and buttons*/
@@ -100,6 +101,10 @@ hr {
 
 .fa-check-circle {
     color: #3cd070 !important;
+}
+
+.fa-sign-in {
+    color: #53adcb;
 }
 
 /* official site styling for the logo and links*/
