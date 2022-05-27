@@ -707,7 +707,7 @@ This site has several feature to be added, I would like to do more with the prof
 
 I would also like to add a star rating option to the reviews form, which can then be calculated into an average for the products. At the moment the star ratings are ones I have made up.
 
-At some point I would like to make the if statement wrapped around the secure checkout button on the basket.html file a bit neater. Currently it is a very basic way to stop customers without accounts being able to checkout. So at some point I would like to have a message display when someone without an accuont clicks on the secure checkout button that asks them to make an account first, instead of only having the button display when someone is logged in.
+At some point I would like to make emails actually be sent to a customer when they purchase something. Currently they get a toast pop up saying an email isn't sent, but no email is actually sent with the order, so this is something I would like to address.
 
 
 
