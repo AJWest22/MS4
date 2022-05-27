@@ -54,10 +54,9 @@
                             {% for order in orders %}
                                 <tr class="text-white">
                                     <td>
-                                        <a class="text-white" href="{% url 'order_history' order.order_number %}"
-                                        title="{{ order.order_number }}">
-                                            {{ order.order_number|truncatechars:6 }}
-                                        </a>
+                                        <span class="text-white">
+                                            {{ order.order_number }}
+                                        </span>
                                     </td>
                                     <td>{{ order.date }}</td>
                                     <td>
