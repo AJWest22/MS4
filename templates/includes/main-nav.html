@@ -34,49 +34,34 @@
             </div>
         </li>
 
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-primary products" href="#" id="wii-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-primary products" href="{% url 'products' %}?category=wii" id="wii-link" aria-haspopup="true" aria-expanded="false">
                 Wii
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="wii-link">
-                <a href="{% url 'products' %}?category=wii" class="dropdown-item menu-link">Wii</a>
-            </div>
         </li>
 
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-primary products" href="#" id="specials-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-primary products" href="{% url 'products' %}?category=special-offers" id="specials-link" aria-haspopup="true" aria-expanded="false">
                 Special Offers
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="wii-link">
-                <a href="{% url 'products' %}?category=special-offers" class="dropdown-item menu-link">Special Offers</a>
-            </div>
         </li>
 
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-primary products" href="#" id="reviews-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-primary products" href="{% url 'reviews' %}" id="reviews-link" aria-haspopup="true" aria-expanded="false">
                 Reviews
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="reviews-link">
-                <a href="{% url 'reviews' %}" class="dropdown-item menu-link">Reviews</a>
-            </div>
         </li>
 
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-primary products" href="#" id="blog-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-primary products" href="{% url 'posts' %}" id="blog-link" aria-haspopup="true" aria-expanded="false">
                 Blog
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="blog-link">
-                <a href="{% url 'posts' %}" class="dropdown-item menu-link">Blog</a>
-            </div>
         </li>
 
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-primary products" href="#" id="newsletter-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-primary products" href="{% url 'newsletter' %}" id="newsletter-link" aria-haspopup="true" aria-expanded="false">
                 Newsletter
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="newsletter-link">
-                <a href="{% url 'newsletter' %}" class="dropdown-item menu-link">Sign up to Our Newsletter</a>
-            </div>
         </li>
     </ul>
 </div>
