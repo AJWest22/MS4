@@ -194,12 +194,12 @@ hr {
 
 /* official site card and blog styling */
 
-.card {
+.card-styling {
     box-shadow: 2px 1px whitesmoke;
     transition: all 0.2s ease-in-out;
 }
 
-.card:hover {
+.card-styling:hover {
     transform: scale(1.1);
 }
 
