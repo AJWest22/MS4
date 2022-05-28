@@ -27,7 +27,7 @@ hr {
     text-shadow: 1px 1px white;
 }
 
-/* official site font and styling for header texts on blog, reviews, and checkout apps*/
+/* official site font and styling for header and paragraph texts on blog, reviews, and checkout apps*/
 .roboto-font {
     font-family: roboto;
     font-size: 35px;
@@ -40,6 +40,10 @@ hr {
     font-size: 20px;
     margin-left: 1em;
     text-shadow: 1px 0px black;
+}
+
+.post-info {
+    font-size: 16px;
 }
 
 /* official site colors for background and buttons*/
