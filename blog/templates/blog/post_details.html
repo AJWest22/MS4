@@ -14,7 +14,7 @@
     <div class="container-fluid color-scheme">
         <div class="row">
             <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
-                <div class="image-container my-5">
+                <div class="image-container blog-image my-5">
                     {% if post.image %}
                         <a href="{% url 'post_details' post.id %}">
                             <img class="card-img-top img-fluid" src="{{ post.image.url }}" alt="{{ post.id }}">
@@ -35,11 +35,11 @@
                     <p class="lead mb-2 post-info text-left text-white font-weight-bold user">Posted by: {{ post.user }}</p>
                     {% if request.user.is_superuser %}
                         <div class="row">
-                            <div class="col">
+                            <div class="col mt-2">
                                 <a href="{% url 'edit_post' post.id %}"
-                                    class="text-black">Edit</a>
+                                    class="text-white">Edit</a>
                                 <a href="{% url 'delete_post' post.id %}"
-                                    class="text-danger">Delete</a>
+                                    class="text-white">Delete</a>
                             </div>
                         </div>
                     {% endif %}

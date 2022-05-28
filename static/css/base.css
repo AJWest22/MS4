@@ -46,6 +46,12 @@ hr {
     font-size: 16px;
 }
 
+/* blog images styling */
+
+.blog-image {
+    filter: drop-shadow(1px 1px 4px black);
+}
+
 /* official site colors for background and buttons*/
 
 .color-scheme {
