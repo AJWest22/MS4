@@ -42,6 +42,11 @@ hr {
     text-shadow: 1px 0px black;
 }
 
+.open-sans-font {
+    font-family: open-sans;
+    font-size: 15px;
+}
+
 .post-info {
     font-size: 16px;
 }
