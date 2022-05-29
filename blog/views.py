@@ -79,7 +79,8 @@ def edit_post(request, post_id):
             messages.success(request, 'Your blog post has been updated!')
             return redirect('posts')
         else:
-            messages.error(request, 'Your post failed to update. Please check the form is filled out correctly.')
+            messages.error(request, 'Your post failed to update. (
+                Please check the form is filled out correctly.'))
     else:
         form = PostForm(instance=post)
         messages.info(request, f'You are editing {post.id}')
