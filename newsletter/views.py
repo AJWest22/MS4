@@ -13,7 +13,10 @@ def newsletter(request):
         if form.is_valid():
             newsletter = form.save()
             newsletter.save()
-            messages.success(request, "You have successfully signed up to our monthly newsletter")
+            messages.success(
+                request, "You have successfully signed up \
+                    to our monthly newsletter"
+            )
             return redirect('home')
         else:
             messages.error(request, 'Sorry, we couldn''t' +

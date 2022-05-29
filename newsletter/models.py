@@ -9,7 +9,9 @@ class Newsletter(models.Model):
         null=True, blank=True)
     email = models.CharField(max_length=255)
     email_confirmation = models.CharField(max_length=250)
-    categories = models.ForeignKey('products.Category', null=True, blank=True, on_delete=models.SET_NULL)
+    categories = models.ForeignKey(
+        'products.Category', null=True, blank=True, on_delete=models.SET_NULL
+    )
 
     def __str__(self):
         return self.name
