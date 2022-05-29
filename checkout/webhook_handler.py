@@ -103,9 +103,9 @@ class StripeWH_Handler:
         if order_exists:
             self._send_confirmation_email(order)
             return HttpResponse(
-                content=f'Webhook received: {event["type"]} | (
-                    SUCCESS: Verified order is now in database',)
-                    status=200)
+                content=f'Webhook received: {event["type"]} | \
+                    SUCCESS: Verified order is now in database',
+                status=200)
         else:
             order = None
             try:
