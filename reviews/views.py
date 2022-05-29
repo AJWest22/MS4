@@ -69,7 +69,10 @@ def edit_review(request, review_id):
             messages.success(request, 'Your review has been updated!')
             return redirect('reviews')
         else:
-            messages.error(request, 'Your review failed to update. Please check the form is filled out correctly.')
+            messages.error(
+                request, 'Your review failed to update. \
+                Please check the form is filled out correctly.'
+            )
     else:
         form = ReviewForm(instance=review)
         messages.info(request, f'You are editing {review.id}')
