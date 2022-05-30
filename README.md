@@ -706,7 +706,7 @@ There are a couple of bugs on this site:
 
 2. Emails take bewteen 10-20 seconds usually to display in a inbox. If creating an account using a tempmail address, and it has not shown after 10 seconds, wait a further 10 seconds and it should arrive.
 
-3. On occassion toasts aren't always dismissed, I'm not sure why this is, but if it doesn't close first time, try clicking again and this normally closes it. Toasts automatically are dismissed themselves, and will go away once other parts of the site are accessed/clicked on.
+3. On occassion error toasts aren't always dismissed, I'm not sure why this is, but if it doesn't close first time, try clicking again and this normally closes it. Toasts automatically are dismissed themselves, and will go away once other parts of the site are accessed/clicked on.
 
 
 
