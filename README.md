@@ -216,6 +216,9 @@ to:
 
 4. The fourth bug to be fixed during development, was that any user could buy something from the store, regardless if they had an account or not, this was ammended by wrapping the secure checkout button in an if statement, and removing it and replacing it with a message asking the user to login first.
 
+5. There was a bug with Stripe this was corrected by creating a second endpoint for the deployed site and setting a new Webhook secret key in Heroku.
+
+6. There was a bug with sending emails, this was corrected by removing a unneeded variable called "DEVELOPMENT from the config variables in Heroku.
 
 ### HTML Development
 
@@ -696,9 +699,9 @@ The JSON Files are used to store information on the products and their categorie
 
 There are a couple of bugs on this site:
 
-1. The first is on the blog model, a superuser cannot upload an image to the blog post using the form field for images. Instead to upload an image to a blog post, they have to upload it in the database. I'm not sure why this is, and its something I want to have a play with and correct in time. I believe the issue lies in the widget 'Clearable File Input', I've also used this widget on the images for the adding a product form, and it works well there. 
+1. The first is on the blog model, if a superuser uploads an image to the blog post using the form field for images it won't display on the blog post. To display an uplaoded image on a blog post, they have to upload it in the database as well. The image wil also not display on the deployed site if it is not first stored in AWS. In order to add an image to a blog post, users have to create the blog post on the undeployed site first by writing the post, uploading the image to the blog post, then adding the post to the database, then add the image used to AWS, then deploy it, and it will show.
 
-2. On the deployed site, an image to the blog will not display if it is not first stored in AWS. In order to add an image to a blog post, users have to create it on the undeployed site first, add the image used to AWS, then deploy it, and it will show.
+2. Emails take bewteen 10-20 seconds usually to display in a inbox. If creating an account using a tempmail address, and it has not shown after 10 seconds, wait a further 10 seconds and it should arrive.
 
 
 ## **Features to be Added**
