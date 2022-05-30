@@ -1084,6 +1084,8 @@ The Python code was tested using the online validator PEP8. As there are multipl
       <img src="/media/checkout-jquery.png">
     </details>
 
+    It should be noted that the Stripe bug shown in the JQUERY bug is because the code used comes from a third party (Stripe), and is used by Stripe to call itself. This is the only bug the JQUERY vailidator had an issue with, and is only caused due to the JQUERY being taken from Stripe and not being vanilla JQUERY.
+
 
   **Profile App**
 
@@ -1091,7 +1093,7 @@ The Python code was tested using the online validator PEP8. As there are multipl
       <img src="/media/profile-jquery.png">
     </details>
 
-  It must be noted that the Stripe bug shown in the JQUERY bug is because the code used comes from Stripe, and is targeting Stripe itself. This is the only bug the JQUERY vailidator had an issue with, and is only caused due to the JQUERY being taken from a third party and not being vanilla JQUERY.
+  
 
   
 ### Browser Compatibility
