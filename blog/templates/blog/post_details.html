@@ -30,7 +30,7 @@
                 <div class="post-details-container mb-5 mt-md-5">
                     <h2 class="mb-5 text-white roboto-font post-title">{{ post.title }}</h2>
                     <p class="lead mb-4 open-sans text-left text-white">{{ post.post }}</p>
-                    <p class="lead mb-2 post-info text-left text-white font-weight-bolder">Posted: {{ post.created }}</p>
+                    <p class="lead mb-3 post-info text-left text-white font-weight-bolder">Posted: {{ post.created }}</p>
                     <p class="lead mb-2 post-info text-left text-white font-weight-bolder">Updated: {{ post.updated }}</p>
                     <p class="lead mb-2 post-info text-left text-white font-weight-bolder user">Posted by: {{ post.user }}</p>
                     {% if request.user.is_superuser %}
