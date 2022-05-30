@@ -71,17 +71,20 @@
 
 
 ## **Overview**
+
  - This site was created for MS4 submission for Code Institute.
  - The site's name is Easy Gaming.
  - The source code can be found on GitHub
  - The site is deployed using Heroku
 
- - The purpose of this site is to help people find games they might like to play over a selection of consoles, from the 7th and 8th generations of game consoles. Customers can also leave reviews and read blog posts on: trends in the gaming industry, upcoming games and consoles, and reviews on games and consoles.
+ - The purpose of this site is to help people find games they might like to play from a selection of consoles, from the 7th and 8th generations of game consoles. Customers can read blog posts on: trends in the gaming industry, upcoming games and consoles, and sign up to a newsletter on any offers and news on games from the consoles available and any special offers the store might have. Users also have the ability to make reviews on games they've brought.
 
- - There was one **general** user account made to test the create an account functionality.
+ - There are two **general** user account made to test the create an account functionality, and the reviews, profiles, checkout, basket, newsletter and blog apps:
+
       **Username**: CEKI
+                    Belmont
 
- - There is currently one superuser account made at the moment:
+ - There is currently one superuser account made at the moment to test the account funcitonality, reviews, profiles, checkout and basket, newsletter and blog apps functionality:
 
      **Username**: easygaming_admin
 
